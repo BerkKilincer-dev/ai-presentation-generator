@@ -1,0 +1,3392 @@
+{
+  "name": "main",
+  "model": "gemini-3.1-flash-lite",
+  "fallbacks": true,
+  "images": true,
+  "date": "2026-11-05T21:34:14",
+  "cases": [
+    {
+      "topic": "Yapay zekânın eğitimdeki rolü",
+      "audience": "Öğretmenler",
+      "tone": "Eğitici",
+      "slide_count": 6,
+      "success": true,
+      "checks": {
+        "Slayt sayısı istenenle aynı": true,
+        "Madde sayıları düzene uygun": true,
+        "Maddelerin %90'ı en fazla 16 kelime": true,
+        "Kart maddeleri en fazla 12 kelime": true,
+        "Slayt başlıkları en fazla 9 kelime": true,
+        "Seçilen düzenler uygulanabilir": true,
+        "En fazla 1 vurgu slaytı": true,
+        "Art arda aynı düzen yok": true,
+        "Notlar en az 2 cümle ve 25 kelime": true,
+        "Tam 3 önemli çıkarım": true,
+        "İçerik Türkçe": true
+      },
+      "quality": 1.0,
+      "title": "Eğitimde Yapay Zeka Dönemi",
+      "layouts": [
+        "image",
+        "cards",
+        "comparison",
+        "image",
+        "highlight",
+        "cards"
+      ],
+      "presentation": {
+        "title": "Eğitimde Yapay Zeka Dönemi",
+        "subtitle": "Yapay zeka araçlarını verimli bir öğretim asistanına dönüştürün.",
+        "image_query": "teacher using tablet classroom",
+        "slides": [
+          {
+            "title": "Yapay Zeka Bir Rakip Değil",
+            "layout": "image",
+            "bullets": [
+              "Yapay zeka, öğretmenlerin idari yükünü azaltan dijital bir asistan olarak görev yapar.",
+              "Tekrarlayan görevleri üstlenerek öğretmenlere öğrencilerle daha fazla vakit geçirme imkanı sağlar.",
+              "Bilgi aktarımındaki rutin süreçleri otomatikleştirerek öğretmenin yaratıcı rehberlik rolünü güçlendirir."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "teacher working laptop",
+            "notes": "Birçoğunuzun zihninde yapay zekanın yerinizi alıp almayacağına dair endişeler olabilir. Ancak yapay zeka, bir öğretmenin sahip olduğu duygusal zekayı, empatiyi ve ilham verme yetisini ikame edemez. Biz bu araçları sadece angarya işleri devretmek için kullanacağız. Şimdi, bu teknolojinin sınıf içindeki operasyonel yükünüzü nasıl hafiflettiğine daha yakından bakalım."
+          },
+          {
+            "title": "Kişiselleştirilmiş Öğrenme Deneyimi Sağlamak",
+            "layout": "cards",
+            "bullets": [
+              "Farklı hızlarda öğrenen öğrenciler için özel içerikler oluşturur.",
+              "Öğrencinin zorlandığı konularda ek alıştırma ve özetler sunar.",
+              "Eksik kazanımları tespit edip anında bireysel geri bildirim sağlar."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "student tablet learning",
+            "notes": "Her öğrencinin öğrenme hızı birbirinden farklıdır. Yapay zeka destekli platformlar, sınıftaki her bireyin seviyesine göre içerikleri anlık olarak uyarlayabilir. Bir öğrenci matematikte zorlanıyorsa ona daha basit örnekler sunarken, ileri düzeydeki öğrenciyi zorlayacak ek materyalleri otomatik hazırlar. Bu sayede kimse geride kalmaz veya sıkılmaz."
+          },
+          {
+            "title": "Sınav ve Ödev Yükünü Azaltmak",
+            "layout": "comparison",
+            "bullets": [],
+            "columns": [
+              {
+                "title": "Geleneksel Yöntemler",
+                "bullets": [
+                  "Saatler süren kağıt okuma süreci",
+                  "Sınırlı ve gecikmeli geri bildirim",
+                  "Manuel veri girişi zorunluluğu"
+                ]
+              },
+              {
+                "title": "Yapay Zeka Destekli",
+                "bullets": [
+                  "Saniyeler içinde otomatik puanlama",
+                  "Anlık detaylı öğrenci analizi",
+                  "Hata odaklı hızlı raporlama"
+                ]
+              }
+            ],
+            "highlight": "",
+            "image_query": "grading papers automated",
+            "notes": "Sınav kağıtlarını okumak, bir öğretmenin en çok zamanını alan ve en yorucu işlerden biridir. Yapay zeka, çoktan seçmeli veya açık uçlu sorularda saniyeler içinde değerlendirme yapabilir. Size sadece bu verileri gözden geçirip öğrencinin gelişimi üzerine odaklanmak kalır. Böylece hafta sonlarınızı evrak işleriyle değil, öğrencilerinizin gelişimini planlayarak geçirebilirsiniz."
+          },
+          {
+            "title": "Yaratıcı Ders Materyali Hazırlama",
+            "layout": "image",
+            "bullets": [
+              "Metin tabanlı içeriklerden saniyeler içinde görsel sunumlar ve infografikler üretir.",
+              "Karmaşık konuları basitleştiren eğlenceli testler ve oyunlaştırılmış sorular hazırlar.",
+              "Ders planlarını farklı müfredat gereksinimlerine göre dakikalar içinde yeniden düzenler."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "creative lesson plan",
+            "notes": "Ders materyali hazırlarken saatlerce görsel veya soru aradığınızı biliyorum. Yapay zeka araçları, sadece bir konu başlığı vererek size profesyonel sunum taslakları veya test soruları üretebilir. Bu araçlar, derslerinizi daha canlı kılmak için gerekli olan yaratıcı süreci hızlandırır. Böylece materyal hazırlama aşamasından çok, materyali sunma kısmına odaklanabilirsiniz."
+          },
+          {
+            "title": "Dijital Okuryazarlık ve Etik Sınırlar",
+            "layout": "highlight",
+            "bullets": [],
+            "columns": [],
+            "highlight": "Öğrencilere teknolojiyi kullanmayı değil, onu eleştirel bir süzgeçten geçirmeyi öğretmeliyiz.",
+            "image_query": "students discussing ethics",
+            "notes": "Teknolojiyi kullanırken en büyük sorumluluğumuz, öğrencilerimize bu araçların nasıl doğru kullanılacağını göstermektir. Yapay zekanın ürettiği bilgilerin her zaman doğru olmayabileceğini onlara anlatmalıyız. Bilgi kirliliğini ayırt etmeleri ve etik sınırlar içinde kalmaları için onları yönlendirmek, yeni nesil eğitimin temel taşıdır."
+          },
+          {
+            "title": "Geleceğin Sınıfında Öğretmenlik",
+            "layout": "cards",
+            "bullets": [
+              "Teknik işleri yapay zeka yönetir.",
+              "Öğretmen ilham veren rehberdir.",
+              "İnsan etkileşimi merkeze alınır."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "teacher guiding students",
+            "notes": "Geleceğin sınıfında öğretmen, bilgiyi aktaran değil, öğrenme sürecini yöneten bir mentor haline dönüşüyor. Yapay zeka teknik detayları hallederken, sizin rolünüz öğrencilerin merakını canlı tutmak ve onlara rehberlik etmek olacak. Teknoloji ile insan dokunuşunu birleştirdiğimizde, gerçek bir eğitim devrimi başlayacaktır."
+          }
+        ],
+        "takeaways": [
+          "Yapay zeka bir yardımcıdır, öğretmenin yerini alamaz.",
+          "Otomasyon araçları ile idari yükünüzü ciddi oranda azaltabilirsiniz.",
+          "Öğrencilere teknolojiyi etik ve eleştirel kullanmayı öğretmek temel önceliğimizdir."
+        ]
+      },
+      "photos_found": 4,
+      "photo_places": 4,
+      "timings": {
+        "plan": 2.49,
+        "content": 5.86,
+        "images": 2.27,
+        "pptx": 0.19
+      },
+      "seconds": 10.81,
+      "models_used": [
+        "gemini-3.1-flash-lite"
+      ],
+      "input_tokens": 1546,
+      "output_tokens": 1878,
+      "cost_usd": 0.003203
+    },
+    {
+      "topic": "Yenilenebilir enerji kaynakları",
+      "audience": "Genel izleyici",
+      "tone": "Profesyonel",
+      "slide_count": 6,
+      "success": true,
+      "checks": {
+        "Slayt sayısı istenenle aynı": true,
+        "Madde sayıları düzene uygun": true,
+        "Maddelerin %90'ı en fazla 16 kelime": true,
+        "Kart maddeleri en fazla 12 kelime": true,
+        "Slayt başlıkları en fazla 9 kelime": true,
+        "Seçilen düzenler uygulanabilir": true,
+        "En fazla 1 vurgu slaytı": true,
+        "Art arda aynı düzen yok": true,
+        "Notlar en az 2 cümle ve 25 kelime": true,
+        "Tam 3 önemli çıkarım": true,
+        "İçerik Türkçe": true
+      },
+      "quality": 1.0,
+      "title": "Sürdürülebilir Gelecek: Yenilenebilir Enerji",
+      "layouts": [
+        "image",
+        "cards",
+        "comparison",
+        "image",
+        "highlight",
+        "cards"
+      ],
+      "presentation": {
+        "title": "Sürdürülebilir Gelecek: Yenilenebilir Enerji",
+        "subtitle": "Küresel enerji dönüşümünü stratejik bir fırsata dönüştürmek.",
+        "image_query": "solar panels wind turbines",
+        "slides": [
+          {
+            "title": "Enerji Arzında Paradigma Değişimi",
+            "layout": "image",
+            "bullets": [
+              "Fosil yakıtların karbon emisyonu, küresel ısınmayı tetikleyerek iklim felaketlerinin sıklığını artırmaktadır.",
+              "Artan karbon vergileri, fosil yakıtlara dayalı üretim yapan endüstrilerin operasyonel maliyetlerini yükseltmektedir.",
+              "Küresel enerji piyasası, arz güvenliği ve çevresel sürdürülebilirlik hedefleriyle köklü bir dönüşüm yaşamaktadır."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "coal power plant smog",
+            "notes": "Dünya genelinde enerji üretimi artık sadece teknik bir konu değil, aynı zamanda ekonomik bir zorunluluk haline geldi. Fosil yakıtların yarattığı çevresel tahribat, şirketler için hem yasal hem de mali bir yük oluşturuyor. Bu dönüşümün nedenlerini anladığımızda, yenilenebilir kaynakların neden tek mantıklı seçenek olduğunu görebiliriz. Şimdi bu kaynakların başında gelen güneş enerjisine bakalım."
+          },
+          {
+            "title": "Güneş Enerjisinin Verimlilik Potansiyeli",
+            "layout": "cards",
+            "bullets": [
+              "Fotovoltaik panel maliyetleri son on yılda %80 oranında düştü.",
+              "Şebeke ölçekli güneş santralleri, kömür santrallerinden daha düşük maliyet sunuyor.",
+              "Modüler kurulum imkanı, kurulum sürelerini ve yatırım risklerini minimize ediyor."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "solar farm field",
+            "notes": "Güneş enerjisi artık pahalı bir alternatif değil, en uygun maliyetli enerji kaynağıdır. Teknolojik gelişmeler sayesinde panellerin verimliliği her geçen yıl artıyor. Şirketler artık kendi enerjilerini üreterek uzun vadeli maliyetlerini sabitleyebiliyorlar. Sadece güneş değil, rüzgarın da enerji portföyündeki yeri oldukça kritik."
+          },
+          {
+            "title": "Rüzgar Enerjisi ile Kesintisiz Üretim",
+            "layout": "comparison",
+            "bullets": [],
+            "columns": [
+              {
+                "title": "Kara Üstü Rüzgar",
+                "bullets": [
+                  "Düşük kurulum ve bakım maliyeti",
+                  "Hızlı ve kolay devreye alma",
+                  "Yerel şebekelere doğrudan erişim"
+                ]
+              },
+              {
+                "title": "Deniz Üstü Rüzgar",
+                "bullets": [
+                  "Daha yüksek ve sürekli rüzgar",
+                  "Büyük ölçekli enerji üretimi",
+                  "Yerleşim merkezlerine yakın konumlandırma"
+                ]
+              }
+            ],
+            "highlight": "",
+            "image_query": "offshore wind turbines",
+            "notes": "Rüzgar enerjisi, sistemin baz yük kapasitesini destekleyen en güçlü yenilenebilir kaynaktır. Kara üstü projeler hızlı sonuç verirken, deniz üstü projeler çok daha yüksek verimlilik sunuyor. İki yöntem birleştiğinde enerji üretiminde süreklilik artıyor. Ancak bu enerjiyi depolayabilmek, şebekenin stabilitesi için hayati önem taşıyor."
+          },
+          {
+            "title": "Enerji Depolama ve Şebeke Esnekliği",
+            "layout": "image",
+            "bullets": [
+              "Lityum-iyon bataryalar, güneş ve rüzgardan gelen fazla enerjiyi pik saatlerde kullanıma sunar.",
+              "Akıllı şebeke sistemleri, enerji arzı ve talebi arasındaki dengesizliği saniyeler içinde yönetebilir.",
+              "Depolama teknolojileri, yenilenebilir enerjinin kesintili doğasını ortadan kaldırarak güvenilirliği artırmaktadır."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "industrial battery storage",
+            "notes": "Üretilen enerjinin doğru zamanda kullanılması, şebeke yönetiminin anahtarıdır. Batarya teknolojilerindeki maliyet düşüşü, artık yenilenebilir enerjinin 7/24 baz yük sağlayabileceği anlamına geliyor. Bu esneklik, sanayi tesislerinin enerjide dışa bağımlılığını tamamen bitirebilir. Şimdi ise bu enerjinin sanayideki en zorlu kullanım alanına geçelim."
+          },
+          {
+            "title": "Yeşil Hidrojenin Sanayideki Rolü",
+            "layout": "highlight",
+            "bullets": [],
+            "columns": [],
+            "highlight": "Yeşil hidrojen, çelik ve kimya gibi ağır sanayi kollarında sıfır emisyonlu üretimin anahtarıdır.",
+            "image_query": "green hydrogen plant",
+            "notes": "Elektrifikasyonun mümkün olmadığı ağır sanayi süreçlerinde yeşil hidrojen tek çözüm olarak öne çıkıyor. Yenilenebilir enerjiyle üretilen bu hidrojen, fosil yakıtlı yüksek ısılı işlemleri tamamen değiştirebilir. Bu teknoloji, ağır sanayinin gelecekteki rekabet gücünü belirleyecek. Tüm bu yatırımların finansal tarafını ise son slaytımızda konuşacağız."
+          },
+          {
+            "title": "Sürdürülebilir Yatırımların Finansal Etkisi",
+            "layout": "cards",
+            "bullets": [
+              "ESG odaklı şirketler, daha düşük sermaye maliyeti ile borçlanmaktadır.",
+              "Karbon ayak izini düşüren firmalar, uzun vadeli risklerden korunmaktadır.",
+              "Yatırımcılar artık çevresel etkiyi, finansal performansın bir göstergesi saymaktadır."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "business growth chart",
+            "notes": "Sürdürülebilirlik artık bir sosyal sorumluluk projesi değil, doğrudan finansal bir stratejidir. ESG kriterlerine uyum sağlayan şirketler, sermaye piyasalarında daha değerli görülüyor. Geleceğin kazananları, bu dönüşümü erkenden başlatan ve operasyonlarına entegre eden kurumlar olacaktır. Dinlediğiniz için teşekkür ederim."
+          }
+        ],
+        "takeaways": [
+          "Yenilenebilir enerji artık fosil yakıtlara kıyasla daha uygun maliyetli bir seçenektir.",
+          "Batarya ve hidrojen teknolojileri enerji arzında kesintisiz sürekliliği sağlamaktadır.",
+          "ESG uyumlu yatırımlar kurumsal karlılığı ve uzun vadeli risk yönetimini destekler."
+        ]
+      },
+      "photos_found": 4,
+      "photo_places": 4,
+      "timings": {
+        "plan": 2.07,
+        "content": 5.13,
+        "images": 2.89,
+        "pptx": 0.14
+      },
+      "seconds": 10.23,
+      "models_used": [
+        "gemini-3.1-flash-lite"
+      ],
+      "input_tokens": 1556,
+      "output_tokens": 1979,
+      "cost_usd": 0.003357
+    },
+    {
+      "topic": "İklim değişikliğinin tarıma etkileri",
+      "audience": "Ziraat fakültesi öğrencileri",
+      "tone": "Akademik",
+      "slide_count": 7,
+      "success": true,
+      "checks": {
+        "Slayt sayısı istenenle aynı": true,
+        "Madde sayıları düzene uygun": true,
+        "Maddelerin %90'ı en fazla 16 kelime": true,
+        "Kart maddeleri en fazla 12 kelime": true,
+        "Slayt başlıkları en fazla 9 kelime": true,
+        "Seçilen düzenler uygulanabilir": true,
+        "En fazla 1 vurgu slaytı": true,
+        "Art arda aynı düzen yok": true,
+        "Notlar en az 2 cümle ve 25 kelime": true,
+        "Tam 3 önemli çıkarım": true,
+        "İçerik Türkçe": true
+      },
+      "quality": 1.0,
+      "title": "İklim Değişiminin Tarımsal Üretim Dinamikleri",
+      "layouts": [
+        "image",
+        "cards",
+        "comparison",
+        "image",
+        "cards",
+        "image",
+        "highlight"
+      ],
+      "presentation": {
+        "title": "İklim Değişiminin Tarımsal Üretim Dinamikleri",
+        "subtitle": "Küresel ısınmanın gıda arzı ve ekosistem sürdürülebilirliği üzerindeki çok boyutlu etkileri.",
+        "image_query": "wheat field drought",
+        "slides": [
+          {
+            "title": "Fenolojik Dönemlerdeki Kaymalar",
+            "layout": "image",
+            "bullets": [
+              "Sıcaklık artışı bitkilerin vejetatif dönemlerini kısaltarak çiçeklenme süresini erken evreye çekmektedir.",
+              "Kış soğuklama ihtiyacını karşılayamayan meyve ağaçlarında düzensiz çiçeklenme ve meyve tutumu azalmaktadır.",
+              "Tozlaşma dönemleri ile polinatör böceklerin aktivite takvimindeki uyumsuzluk verim düşüşüne sebep olmaktadır."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "apple tree blossoms",
+            "notes": "Bitkilerin biyolojik takvimi, çevresel sinyallere duyarlıdır. Artan sıcaklıklar, bitkinin kış uykusundan erken çıkmasına yol açarken, beklenmedik don olayları tüm mahsulü riske atıyor. Özellikle tozlaşma zamanı ile böcek aktivitesinin senkronize olmaması, ekosistem dengesini bozuyor. Şimdi bu fenolojik stresin bitki üzerindeki doğrudan fiziksel etkilerine bakalım."
+          },
+          {
+            "title": "Kuraklık Stresi ve Verim Kayıpları",
+            "layout": "cards",
+            "bullets": [
+              "Stomaların kapanması fotosentez hızını düşürerek karbon asimilasyonunu sınırlar.",
+              "Toprak nem kaybı besin alımını kök düzeyinde ciddi oranda kısıtlar.",
+              "Hücresel su potansiyelindeki düşüş protein sentezini doğrudan inhibe eder.",
+              "Transpirasyon kaybı bitkinin metabolik faaliyetlerini durma noktasına getirebilir."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "cracked dry soil",
+            "notes": "Kuraklık sadece su eksikliği değil, aynı zamanda bitkinin hayati fonksiyonlarının durmasıdır. Stomaların kapanması, bitkinin dış dünyayla olan gaz değişimini kesmesine ve dolayısıyla besin üretimini durdurmasına neden olur. Bu durum, birim alandan elde edilen biyokütle verimini doğrudan aşağı çeker. Bir sonraki slaytta bu stresin zararlı popülasyonlarını nasıl tetiklediğini göreceğiz."
+          },
+          {
+            "title": "Zararlı Organizma Popülasyon Dinamikleri",
+            "layout": "comparison",
+            "bullets": [],
+            "columns": [
+              {
+                "title": "İstilacı Tür Yayılımı",
+                "bullets": [
+                  "Sıcak bölgeler yeni zararlı türlere ev sahipliği yapar.",
+                  "Kış ölümlerinin azalması popülasyon yoğunluğunu artırır.",
+                  "Taşıyıcı vektörler hastalıkları daha geniş alanlara yayar."
+                ]
+              },
+              {
+                "title": "Hastalık Baskısı",
+                "bullets": [
+                  "Yüksek nem mantari patojenlerin üremesini hızlandırır.",
+                  "Bitki savunma mekanizmaları stres altında zayıflar.",
+                  "Epidemiyolojik yayılım hızı iklim değişiminden beslenir."
+                ]
+              }
+            ],
+            "highlight": "",
+            "image_query": "locust swarm crop",
+            "notes": "İklim değişikliği, zararlıların biyolojik sınırlarını genişletiyor. Daha önce soğuk kışlar nedeniyle hayatta kalamayan türler, artık tarım arazilerimizi daha uzun süre istila edebiliyor. Bu durum, sadece verim kaybı değil, aynı zamanda kontrol edilmesi gereken hastalık yükünün artması demektir. Zararlıların etkilediği toprak sağlığına daha yakından bakalım."
+          },
+          {
+            "title": "Toprak Verimliliği ve Mikrobiyal Aktivite",
+            "layout": "image",
+            "bullets": [
+              "Artan sıcaklıklar toprak organik maddesinin ayrışma hızını artırarak karbon salınımını tetikler.",
+              "Azot bağlayıcı bakterilerin simbiyotik faaliyetleri değişen toprak nemiyle ciddi oranda bozulmaktadır.",
+              "Mikrobiyal çeşitliliğin azalması toprağın doğal besin döngüsü kapasitesini önemli ölçüde kısıtlar."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "microscopic soil bacteria",
+            "notes": "Toprak, sadece bir zemin değil, yaşayan bir mikro-ekosistemdir. Sıcaklık artışı, topraktaki organik maddenin hızla tükenmesine neden olurken, faydalı mikroorganizmaların işlevselliğini bozuyor. Bu da toprağın besin tutma kapasitesini ve verimliliğini düşürüyor. Tarımsal sürdürülebilirlik için suyun yönetimi artık zorunluluk haline geldi."
+          },
+          {
+            "title": "Su Kaynaklarının Yönetimi ve Sulama",
+            "layout": "cards",
+            "bullets": [
+              "Damlama sulama sistemleri su kullanım etkinliğini maksimize eder.",
+              "Yeraltı suyu seviyelerinin düşmesi stratejik sulama planlamasını zorunlu kılar.",
+              "Gece sulaması buharlaşma kayıplarını minimuma indiren etkili yöntemdir.",
+              "Atık suyun arıtılarak sulamada kullanımı kuraklık yönetimine destek olur."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "drip irrigation system",
+            "notes": "Su kaynaklarımız azalırken, mevcut suyu en verimli şekilde kullanmak zorundayız. Geleneksel salma sulama artık bir lüks haline geldi. Gelecekte, sensör tabanlı ve hassas sulama teknolojileri tarımın bel kemiği olacak. Ancak sadece su değil, bitkilerin genetik yapısı da değişen dünyaya uyum sağlamalı."
+          },
+          {
+            "title": "Adaptasyon İçin Islah Stratejileri",
+            "layout": "image",
+            "bullets": [
+              "CRISPR gibi gen düzenleme teknolojileri kuraklığa dayanıklı genotiplerin geliştirilmesini hızlandırmaktadır.",
+              "Geleneksel ıslah yöntemleri ile abiyotik stres toleransını artırmak uzun vadeli çözümler sunar.",
+              "Yerel çeşitlerin genetik potansiyelinden yararlanarak iklime dirençli hibritler oluşturulması kritiktir."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "laboratory wheat samples",
+            "notes": "Modern ıslah yöntemleri, iklim değişikliğinin hızına yetişmemizi sağlayan en büyük gücümüzdür. Sadece verim değil, artık zorlu koşullara dayanıklılık genetik seçilimin odağında yer alıyor. Laboratuvar ortamındaki bu gelişmeler, tarladaki üretimin devamlılığı için hayati önem taşıyor. Son olarak, bu teknikleri destekleyen politikalara değinelim."
+          },
+          {
+            "title": "Sürdürülebilir Tarım İçin Politika Çerçeveleri",
+            "layout": "highlight",
+            "bullets": [],
+            "columns": [],
+            "highlight": "İklim dirençli tarım, bütüncül politika yaklaşımları ve teknolojik yeniliklerin entegrasyonu ile mümkündür.",
+            "image_query": "smart farming dashboard",
+            "notes": "Teknik çözümler ne kadar başarılı olursa olsun, uygun politika çerçeveleriyle desteklenmedikçe geniş ölçekte uygulanamaz. Destekleme mekanizmalarından arazi kullanım planlamasına kadar her adımda iklim değişikliği gözetilmelidir. Tarımın geleceği, bilimsel veriye dayalı stratejik yönetimde gizlidir. Katılımınız için teşekkür ederim."
+          }
+        ],
+        "takeaways": [
+          "Fenolojik kaymalar tarımsal üretim döngüsünü ve verimi doğrudan riske atmaktadır.",
+          "Su verimliliği ve mikrobiyal toprak sağlığı iklim adaptasyonunun temel taşlarıdır.",
+          "Genetik ıslah ve teknolojik sulama stratejileri gıda arzını güvence altına alır."
+        ]
+      },
+      "photos_found": 5,
+      "photo_places": 5,
+      "timings": {
+        "plan": 2.72,
+        "content": 6.0,
+        "images": 3.02,
+        "pptx": 0.19
+      },
+      "seconds": 11.93,
+      "models_used": [
+        "gemini-3.1-flash-lite"
+      ],
+      "input_tokens": 1654,
+      "output_tokens": 2395,
+      "cost_usd": 0.004006
+    },
+    {
+      "topic": "Siber güvenliğe giriş",
+      "audience": "Lise öğrencileri",
+      "tone": "Eğitici",
+      "slide_count": 5,
+      "success": true,
+      "checks": {
+        "Slayt sayısı istenenle aynı": true,
+        "Madde sayıları düzene uygun": true,
+        "Maddelerin %90'ı en fazla 16 kelime": true,
+        "Kart maddeleri en fazla 12 kelime": true,
+        "Slayt başlıkları en fazla 9 kelime": true,
+        "Seçilen düzenler uygulanabilir": true,
+        "En fazla 1 vurgu slaytı": true,
+        "Art arda aynı düzen yok": true,
+        "Notlar en az 2 cümle ve 25 kelime": true,
+        "Tam 3 önemli çıkarım": true,
+        "İçerik Türkçe": true
+      },
+      "quality": 1.0,
+      "title": "Dijital Dünyada Kendi Kaleni Koru",
+      "layouts": [
+        "image",
+        "cards",
+        "comparison",
+        "image",
+        "highlight"
+      ],
+      "presentation": {
+        "title": "Dijital Dünyada Kendi Kaleni Koru",
+        "subtitle": "İnternette güvende kalmanızı sağlayacak temel siber güvenlik stratejilerini öğrenin.",
+        "image_query": "hacker typing laptop keyboard",
+        "slides": [
+          {
+            "title": "Neden Siber Güvenlik Önemli?",
+            "layout": "image",
+            "bullets": [
+              "Dijital kimliğiniz çalındığında sosyal medya hesaplarınız üzerinden arkadaşlarınız dolandırılabilir veya özel fotoğraflarınız sızdırılabilir.",
+              "Kişisel verileriniz dark web platformlarında satılarak ileride banka hesaplarınızın ele geçirilmesine zemin hazırlayabilir.",
+              "Oyun hesaplarındaki ilerlemeleriniz ve satın aldığınız dijital öğeler geri alınamaz şekilde kaybedilebilir."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "digital security padlock protection",
+            "notes": "Bugün internet sadece oyun oynamak için değil, tüm hayatımızı dijitalleştirdiğimiz bir yer. Eğer birisi hesabınızı ele geçirirse, sadece şifrenizi değil, aslında dijital dünyadaki itibarınızı da çalmış olur. Bugün bu kaleyi nasıl koruyacağımızı adım adım inceleyeceğiz."
+          },
+          {
+            "title": "Parola Güvenliği ve İki Faktörlü Doğrulama",
+            "layout": "cards",
+            "bullets": [
+              "Karmaşık şifrelerde büyük, küçük harf ve özel karakterler kullanın.",
+              "Şifre yöneticileri sayesinde yüzlerce farklı parolayı güvenle saklayabilirsiniz.",
+              "İki faktörlü doğrulama, şifreniz çalınsa bile hesabınızı korumaya devam eder.",
+              "Telefonunuza gelen tek kullanımlık kodlar, hırsızların giriş yapmasını engeller."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "person entering password laptop",
+            "notes": "Çoğu kişi doğum tarihi veya '123456' gibi basit şifreler kullanıyor, bu da hackerların işini saniyelerle ölçülecek kadar kolaylaştırıyor. 'Password manager' uygulamaları kullanarak her site için benzersiz şifreler oluşturmalısınız. Ayrıca 2FA yani iki faktörlü doğrulama, kapınıza ekstra bir kilit takmak gibidir."
+          },
+          {
+            "title": "Oltalama Saldırılarını Nasıl Tanırsınız?",
+            "layout": "comparison",
+            "bullets": [],
+            "columns": [
+              {
+                "title": "Güvenilir Mesaj",
+                "bullets": [
+                  "Resmi kurumun gerçek web adresi",
+                  "Kişisel bilgileri sormayan genel dil",
+                  "Yazım hatası içermeyen kurumsal metin"
+                ]
+              },
+              {
+                "title": "Oltalama Mesajı",
+                "bullets": [
+                  "Aciliyet hissi yaratan sahte tehditler",
+                  "Tanınmayan veya hatalı web bağlantıları",
+                  "Hatalı dilbilgisi ve şüpheli gönderici"
+                ]
+              }
+            ],
+            "highlight": "",
+            "image_query": "phishing email warning sign",
+            "notes": "Oltalama, yani phishing, hackerların en sık kullandığı sosyal mühendislik yöntemidir. Size 'hesabınız askıya alındı' gibi korkutucu mesajlar atarak sahte bir siteye yönlendirirler. Gönderici adresini dikkatlice kontrol etmek ve bilmediğiniz linklere tıklamamak, sizi bu tuzaklardan korur."
+          },
+          {
+            "title": "Halka Açık Wi-Fi Riskleri",
+            "layout": "image",
+            "bullets": [
+              "Halka açık ağlarda verileriniz şifrelenmediği için siber saldırganlar trafiğinizi kolayca izleyebilir.",
+              "Ortadaki adam saldırısı, sizinle modem arasındaki veri akışını hackerların dinlemesine olanak tanır.",
+              "VPN kullanmak, internet trafiğinizi tünel içine alarak verilerinizin üçüncü taraflarca okunmasını engeller."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "coffee shop laptop wifi",
+            "notes": "Kafelerde veya okulda ücretsiz Wi-Fi kullanmak cazip olsa da, o ağlar genellikle savunmasızdır. Eğer o ağda bankacılık işlemleri yaparsanız, kredi kartı bilgileriniz bir başkasının ekranına düşebilir. Bu nedenle, halka açık ağlarda mutlaka güvenilir bir VPN uygulaması kullanmanızı öneririm."
+          },
+          {
+            "title": "Geleceğin Siber Güvenlik Uzmanları",
+            "layout": "highlight",
+            "bullets": [],
+            "columns": [],
+            "highlight": "Etik hackerlar sistemlerdeki açıkları saldırganlardan önce bularak dijital dünyayı daha güvenli hale getirir.",
+            "image_query": "cyber security team office",
+            "notes": "Siber güvenlik sadece bir savunma değil, aynı zamanda harika bir kariyer fırsatıdır. Etik hackerlar, sistemleri test ederek hataları bulur ve kurumların dijital kalelerini güçlendirir. Bu alanda uzmanlaşarak hem kendinizi koruyabilir hem de dünyayı daha güvenli bir yer yapabilirsiniz."
+          }
+        ],
+        "takeaways": [
+          "Karmaşık şifreler ve iki faktörlü doğrulama, en temel güvenlik önleminizdir.",
+          "Şüpheli linklere tıklamadan önce gönderici adresini ve web sitesini daima kontrol edin.",
+          "Halka açık Wi-Fi ağlarında kişisel verilerinizi korumak için mutlaka VPN kullanın."
+        ]
+      },
+      "photos_found": 4,
+      "photo_places": 4,
+      "timings": {
+        "plan": 1.95,
+        "content": 40.75,
+        "images": 2.14,
+        "pptx": 0.13
+      },
+      "seconds": 44.97,
+      "models_used": [
+        "gemini-3.1-flash-lite"
+      ],
+      "input_tokens": 1482,
+      "output_tokens": 1615,
+      "cost_usd": 0.002793
+    },
+    {
+      "topic": "Uzaktan çalışmanın verimliliğe etkisi",
+      "audience": "Şirket yöneticileri",
+      "tone": "Profesyonel",
+      "slide_count": 6,
+      "success": true,
+      "checks": {
+        "Slayt sayısı istenenle aynı": true,
+        "Madde sayıları düzene uygun": true,
+        "Maddelerin %90'ı en fazla 16 kelime": true,
+        "Kart maddeleri en fazla 12 kelime": true,
+        "Slayt başlıkları en fazla 9 kelime": true,
+        "Seçilen düzenler uygulanabilir": true,
+        "En fazla 1 vurgu slaytı": true,
+        "Art arda aynı düzen yok": true,
+        "Notlar en az 2 cümle ve 25 kelime": true,
+        "Tam 3 önemli çıkarım": true,
+        "İçerik Türkçe": true
+      },
+      "quality": 1.0,
+      "title": "Uzaktan Çalışma ve Verimlilik Dengesi",
+      "layouts": [
+        "image",
+        "cards",
+        "comparison",
+        "image",
+        "cards",
+        "highlight"
+      ],
+      "presentation": {
+        "title": "Uzaktan Çalışma ve Verimlilik Dengesi",
+        "subtitle": "Veri odaklı yaklaşımlarla hibrit çalışma modelinde maksimum performans hedefleri.",
+        "image_query": "modern office laptop home",
+        "slides": [
+          {
+            "title": "Zaman Yönetimi ve Odaklanma Avantajları",
+            "layout": "image",
+            "bullets": [
+              "Açık ofislerdeki kesintilerin azalması, çalışanların karmaşık görevlere daha derin odaklanmasını sağlar.",
+              "Kişiselleştirilmiş çalışma ortamı, çalışanların motivasyonunu ve görev tamamlama hızını doğrudan artırır.",
+              "Daha az toplantı bölünmesi sayesinde günlük odaklanma süresi ortalama yüzde yirmi artmaktadır."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "person working focused laptop",
+            "notes": "Ofis ortamındaki beklenmedik kesintiler, zihinsel akışımızı sık sık bozuyor. Uzaktan çalışma, bireylere kendi çalışma tempolarını belirleme özgürlüğü tanıyor. Bu sayede karmaşık projelerde daha yüksek verim elde ediyoruz. Şimdi bu verimliliğin bir başka kaynağı olan ulaşım faktörüne bakalım."
+          },
+          {
+            "title": "İşe Gidiş Sürelerinden Gelen Tasarruf",
+            "layout": "cards",
+            "bullets": [
+              "Günlük ulaşım süresi tasarrufu ile artan mesai başlangıç enerjisi.",
+              "Trafik stresinin ortadan kalkmasıyla iyileşen çalışan ruhsal sağlığı.",
+              "Kazanılan zamanın kişisel gelişim ve dinlenme ile verime dönüşümü."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "empty highway morning light",
+            "notes": "Büyükşehirlerde ulaşım sadece zaman kaybı değil, aynı zamanda ciddi bir enerji tüketimidir. Çalışanlar güne trafikte yorulmadan başladıklarında, mesainin ilk saatlerindeki performansları belirgin şekilde yükseliyor. Bu durum iş-özel hayat dengesini de olumlu etkiliyor. Peki, bu süreci nasıl şeffaf yönetiyoruz?"
+          },
+          {
+            "title": "Dijital İşbirliği Araçları ve Verimlilik",
+            "layout": "comparison",
+            "bullets": [],
+            "columns": [
+              {
+                "title": "Geleneksel Yöntemler",
+                "bullets": [
+                  "E-posta ile kopuk görev takibi",
+                  "Sözlü iletişimde oluşan bilgi kaybı",
+                  "Yöneticinin sürekli manuel kontrol ihtiyacı"
+                ]
+              },
+              {
+                "title": "Dijital Platformlar",
+                "bullets": [
+                  "Merkezi görev ve süreç yönetimi",
+                  "Anlık şeffaf ilerleme raporlama",
+                  "Otomatik bildirim ile hızlanan akış"
+                ]
+              }
+            ],
+            "highlight": "",
+            "image_query": "team collaboration software screen",
+            "notes": "Eski usul e-posta trafiği, projelerin takibini zorlaştırıyor ve bilgi siloları yaratıyor. Dijital araçlar ise herkesin aynı sayfada kalmasını sağlayan şeffaf bir platform sunuyor. Yöneticiler artık mikro yönetim yerine sonuçlara odaklanabiliyor. Şimdi bu sonuçların nasıl ölçüldüğüne odaklanalım."
+          },
+          {
+            "title": "Sonuç Odaklı Performans Değerlendirme Sistemi",
+            "layout": "image",
+            "bullets": [
+              "Masa başında geçirilen süre yerine tamamlanan çıktıların başarı kriteri olarak belirlenmesi.",
+              "KPI odaklı hedefler, yöneticilerin çalışan performansını objektif verilerle takip etmesini sağlar.",
+              "Sonuç odaklı yaklaşım, çalışanlarda sorumluluk bilincini ve iş sahipliği duygusunu güçlendirir."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "data dashboard screen analytics",
+            "notes": "Bir çalışanın masada oturması, işin kaliteli yapıldığı anlamına gelmez. Bizim hedefimiz, süreci değil çıktıları ödüllendiren bir yapı kurmaktır. Veriye dayalı hedefler, hem çalışanın hem de yöneticinin beklentisini hizalar. Ancak bu verimlilik arayışında sosyal bağı göz ardı etmemeliyiz."
+          },
+          {
+            "title": "Hibrit Modelde Sosyal Bağlılığı Korumak",
+            "layout": "cards",
+            "bullets": [
+              "Düzenli sanal kahve molaları ile ekip içi iletişimi canlı tutmak.",
+              "Fiziksel buluşmaların stratejik planlama ve yaratıcı beyin fırtınası için kullanılması.",
+              "Dijital platformlarda kutlama ve geri bildirim kanallarının aktif yönetilmesi."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "group video call laptop",
+            "notes": "Ekranlar bizi birleştirse de, insani etkileşimin yerini tutamaz. Bu nedenle hibrit modelde sosyal dokuyu bilinçli olarak örmemiz gerekiyor. Fiziksel ofisi rutin işler için değil, bağ kurmak için kullanmalıyız. Geleceğe bakarken bu dengeyi nasıl sürdürülebilir kılarız?"
+          },
+          {
+            "title": "Geleceğin Esnek Çalışma Stratejileri",
+            "layout": "highlight",
+            "bullets": [],
+            "columns": [],
+            "highlight": "Teknolojik altyapı ve çalışan esenliği yatırımları, sürdürülebilir verimlilik artışının temel taşıdır.",
+            "image_query": "modern office glass architecture",
+            "notes": "Gelecek, esnekliği bir yan hak değil, operasyonel bir zorunluluk olarak gören şirketlerin olacak. Teknolojik altyapıyı güçlendirmek ve çalışanların mental sağlığını korumak bir maliyet değil, uzun vadeli bir yatırımdır. Bu vizyonla hareket eden şirketler, rekabette öne geçecektir."
+          }
+        ],
+        "takeaways": [
+          "Uzaktan çalışma, odaklanmayı artırarak derin çalışma süresini maksimize eder.",
+          "Sonuç odaklı yönetim, verimliliği mesai saatinden daha etkili artırır.",
+          "Hibrit model, dijital araçlar ve sosyal etkileşim dengesiyle sürdürülebilir olur."
+        ]
+      },
+      "photos_found": 4,
+      "photo_places": 4,
+      "timings": {
+        "plan": 2.24,
+        "content": 8.24,
+        "images": 3.15,
+        "pptx": 0.13
+      },
+      "seconds": 13.76,
+      "models_used": [
+        "gemini-3.1-flash-lite"
+      ],
+      "input_tokens": 1577,
+      "output_tokens": 1889,
+      "cost_usd": 0.003228
+    },
+    {
+      "topic": "Osmanlı Devleti'nin kuruluş dönemi",
+      "audience": "Lise öğrencileri",
+      "tone": "Eğitici",
+      "slide_count": 6,
+      "success": true,
+      "checks": {
+        "Slayt sayısı istenenle aynı": true,
+        "Madde sayıları düzene uygun": true,
+        "Maddelerin %90'ı en fazla 16 kelime": true,
+        "Kart maddeleri en fazla 12 kelime": true,
+        "Slayt başlıkları en fazla 9 kelime": true,
+        "Seçilen düzenler uygulanabilir": true,
+        "En fazla 1 vurgu slaytı": true,
+        "Art arda aynı düzen yok": true,
+        "Notlar en az 2 cümle ve 25 kelime": true,
+        "Tam 3 önemli çıkarım": true,
+        "İçerik Türkçe": true
+      },
+      "quality": 1.0,
+      "title": "Küçük Bir Beylikten Cihan Devletine",
+      "layouts": [
+        "image",
+        "cards",
+        "comparison",
+        "image",
+        "highlight",
+        "cards"
+      ],
+      "presentation": {
+        "title": "Küçük Bir Beylikten Cihan Devletine",
+        "subtitle": "Osmanlı Devleti'nin kuruluş sürecindeki stratejik başarıların analizi.",
+        "image_query": "ottoman empire map parchment",
+        "slides": [
+          {
+            "title": "Uç Beyliğinden Bağımsızlığa Geçiş",
+            "layout": "image",
+            "bullets": [
+              "Bizans sınırındaki uç beyliği konumu, Osmanlı'ya sürekli gaza yapma ve genişleme imkanı tanıdı.",
+              "Anadolu'nun iç karışıklıklarından uzak kalarak, Türkmen nüfusunun desteğini stratejik bir güç olarak topladı.",
+              "Tekfurların kendi aralarındaki çekişmeleri, Osmanlı'nın sınırlarını daha az dirençle genişletmesini kolaylaştırdı."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "medieval castle wall ruins",
+            "notes": "Osmanlı'nın başlangıçta küçük bir beylik olması aslında en büyük şansıydı. Bizans sınırında olmaları, onları sürekli gaza yapmaya teşvik etti. Anadolu'daki diğer beylikler kendi aralarında savaşırken, Osmanlılar enerjilerini dışarıya yöneltti. Bu stratejik konum, devletin temelini sağlamlaştıran ilk büyük adımdı."
+          },
+          {
+            "title": "İskân Politikasıyla Kalıcı Fetihler",
+            "layout": "cards",
+            "bullets": [
+              "Göçebe aileler tarıma teşvik edildi.",
+              "Boş araziler verimli topraklara dönüştü.",
+              "Kalıcı nüfus hakimiyeti sağlandı.",
+              "Bölgesel güvenlik ve düzen kuruldu."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "farmers working field",
+            "notes": "İskân politikası, fethin sadece bir toprak kazanımı değil, bir yaşam biçimi olduğunu gösterir. Anadolu'dan gelen aileleri Balkanlar'a yerleştirerek orada kalıcı bir Türk nüfusu oluşturdular. Bu sayede fethedilen yerler kısa sürede birer Türk yurduna dönüştü. Sadece kılıçla değil, sabanla da fetih yaptılar."
+          },
+          {
+            "title": "İstimalet: Hoşgörü Siyaseti",
+            "layout": "comparison",
+            "bullets": [],
+            "columns": [
+              {
+                "title": "Adaletli Yönetim",
+                "bullets": [
+                  "Düşük vergi oranları uygulandı.",
+                  "İnanç özgürlüğü güvence altına alındı.",
+                  "Halkın yaşam tarzına karışılmadı."
+                ]
+              },
+              {
+                "title": "Fetih Hızı",
+                "bullets": [
+                  "Halkın direnci minimuma indi.",
+                  "Yeni bölgeler kolayca benimsendi.",
+                  "Uzun süreli isyanlar engellendi."
+                ]
+              }
+            ],
+            "highlight": "",
+            "image_query": "ancient market square",
+            "notes": "İstimalet, yani hoşgörü politikası, Osmanlı'nın Avrupa'da bu kadar hızlı ilerlemesinin anahtarıdır. Fethedilen yerlerdeki halka, eski yönetimden daha adil davranıldı. İnsanların inançlarına ve geleneklerine dokunulmadığı için Osmanlı yönetimi bir işgalci gibi değil, bir kurtarıcı gibi karşılandı."
+          },
+          {
+            "title": "Ahilerin Desteği ve Toplumsal Birlik",
+            "layout": "image",
+            "bullets": [
+              "Ahi teşkilatı, esnaflar arasında dayanışmayı sağlayarak ekonomik düzenin temelini oluşturdu.",
+              "Osmanlı beylerine sundukları manevi destek, halkın devlete olan güvenini pekiştirdi.",
+              "Üretim standartlarını belirleyen Ahi loncaları, şehirlerdeki ticari hayatın disiplinli ilerlemesini sağladı."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "craftsman working workshop",
+            "notes": "Ahiler sadece esnaf değil, toplumu bir arada tutan bir harç gibiydi. Osmanlı Beyliği'ne verdikleri destek, devletin sosyal meşruiyetini artırdı. Bir devlet, sadece askerle değil, güçlü bir ekonomik ve ahlaki teşkilatlanmayla ayakta kalır. Ahilik, bu disiplinin en somut örneğidir."
+          },
+          {
+            "title": "Merkeziyetçi Devlet Yapısının Kurulması",
+            "layout": "highlight",
+            "bullets": [],
+            "columns": [],
+            "highlight": "Osmanlı, aşiret yapısından düzenli orduya geçerek kurumsal bir devlet disiplini inşa etmiştir.",
+            "image_query": "medieval scroll ink",
+            "notes": "Orhan Gazi dönemi, beylikten devlete geçişin en kritik dönemidir. İlk düzenli ordunun kurulması, devletin artık keyfi değil, kurallara bağlı bir yapıda olduğunu gösterir. Merkeziyetçilik, gücün tek merkezden yönetilmesini sağlayarak devletin ömrünü uzatan en önemli faktör haline geldi."
+          },
+          {
+            "title": "Balkanlar'da Kalıcı Bir Güç Olmak",
+            "layout": "cards",
+            "bullets": [
+              "Çimpe Kalesi ilk üs oldu.",
+              "Balkan devletleri birbirleriyle çatışıyordu.",
+              "Stratejik ilerleme yolu açıldı.",
+              "Avrupa'ya geçiş süreci hızlandı."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "stone fortress tower",
+            "notes": "Çimpe Kalesi'nin alınması, Osmanlı için Balkanlar'a açılan kapıydı. O dönem Balkanlar'da büyük bir siyasi istikrarsızlık vardı ve bu durum Osmanlı'nın ilerlemesini çok kolaylaştırdı. Bir imparatorluk olma yolunda atılan bu adım, Osmanlı'yı bölgesel bir güçten kıtalararası bir aktöre dönüştürdü."
+          }
+        ],
+        "takeaways": [
+          "Osmanlı, hoşgörü ve adaletle fethedilen topraklarda kalıcılık sağladı.",
+          "İskân politikası, fetihleri sosyal ve ekonomik olarak destekledi.",
+          "Kurumsal yapı ve düzenli ordu, devletin ömrünü uzattı."
+        ]
+      },
+      "photos_found": 4,
+      "photo_places": 4,
+      "timings": {
+        "plan": 4.42,
+        "content": 4.9,
+        "images": 3.94,
+        "pptx": 0.15
+      },
+      "seconds": 13.41,
+      "models_used": [
+        "gemini-3.1-flash-lite"
+      ],
+      "input_tokens": 1579,
+      "output_tokens": 1897,
+      "cost_usd": 0.00324
+    },
+    {
+      "topic": "Kuantum bilgisayarlar",
+      "audience": "Yazılımcılar",
+      "tone": "Akademik",
+      "slide_count": 6,
+      "success": true,
+      "checks": {
+        "Slayt sayısı istenenle aynı": true,
+        "Madde sayıları düzene uygun": true,
+        "Maddelerin %90'ı en fazla 16 kelime": true,
+        "Kart maddeleri en fazla 12 kelime": true,
+        "Slayt başlıkları en fazla 9 kelime": true,
+        "Seçilen düzenler uygulanabilir": true,
+        "En fazla 1 vurgu slaytı": true,
+        "Art arda aynı düzen yok": true,
+        "Notlar en az 2 cümle ve 25 kelime": true,
+        "Tam 3 önemli çıkarım": true,
+        "İçerik Türkçe": true
+      },
+      "quality": 1.0,
+      "title": "Kuantum Hesaplama: Yeni Bir Bilişim Paradigması",
+      "layouts": [
+        "image",
+        "cards",
+        "comparison",
+        "image",
+        "highlight",
+        "cards"
+      ],
+      "presentation": {
+        "title": "Kuantum Hesaplama: Yeni Bir Bilişim Paradigması",
+        "subtitle": "Klasik bitlerden kübitlere geçişin algoritmik ve fiziksel temelleri.",
+        "image_query": "quantum computer processor chip",
+        "slides": [
+          {
+            "title": "Klasik Bitlerden Kuantum Kübitlerine Geçiş",
+            "layout": "image",
+            "bullets": [
+              "Klasik bitler yalnızca 0 veya 1 durumunu temsil ederek hesaplama uzayını sınırlı tutar.",
+              "Süperpozisyon prensibi kübitlerin aynı anda 0 ve 1 durumunda bulunmasına olanak tanır.",
+              "N adet kübit, 2 üzeri n büyüklüğünde bir durum uzayını aynı anda işleyebilir.",
+              "Bloch küresi görselleştirmesi, kübitlerin karmaşık vektör uzayındaki durumlarını matematiksel olarak ifade eder."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "quantum computer processor chip",
+            "notes": "Klasik bilgisayarların deterministik yapısını, kuantum mekaniğinin olasılıksal doğasıyla karşılaştırarak başlıyoruz. Kübitlerin sadece bir değer almaması, paralel işlem kapasitesinde devasa bir sıçrama yaratır. Bu durum uzayı genişlemesi, klasik mimarilerin neden bazı problemlerde tıkandığını anlamamızı sağlıyor. Şimdi bu kapasitenin nasıl birleştiğine bakalım."
+          },
+          {
+            "title": "Dolanıklık ve Kuantum Paralelliği Mekanizmaları",
+            "layout": "cards",
+            "bullets": [
+              "Dolanık kübitler tek bir sistem olarak davranır.",
+              "Biri ölçüldüğünde diğeri anında durumunu kesinleştirir.",
+              "Bu korelasyon hesaplama hızını katlanarak artırır.",
+              "Bell eşitsizlikleri bu fiziksel bağın gerçekliğini kanıtlar."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "entangled light particles",
+            "notes": "Dolanıklık, kuantum bilgisayarların en gizemli ve güçlü yönüdür. Ayrı kübitlerin birbirine bağlı olması, verinin işlenme biçimini klasik mantıktan tamamen ayırır. Bu korelasyon sayesinde, işlemci gücü doğrusal değil, üstel olarak büyür. Şimdi bu gücün algoritmalara nasıl yansıdığını inceleyelim."
+          },
+          {
+            "title": "Kuantum Algoritmaları: Shor ve Grover",
+            "layout": "comparison",
+            "bullets": [],
+            "columns": [
+              {
+                "title": "Shor Algoritması",
+                "bullets": [
+                  "Büyük sayıları verimli çarpanlara ayırır.",
+                  "RSA şifrelemesini teorik olarak kırabilir.",
+                  "Üstel hızlanma ile klasik yöntemleri ezer."
+                ]
+              },
+              {
+                "title": "Grover Algoritması",
+                "bullets": [
+                  "Sıralanmamış veritabanlarında arama yapar.",
+                  "Karesel hızlanma ile işlem süresini düşürür.",
+                  "Genel amaçlı optimizasyon problemlerinde kullanılır."
+                ]
+              }
+            ],
+            "highlight": "",
+            "image_query": "binary code grid",
+            "notes": "Shor ve Grover algoritmaları, kuantum hesaplamanın neden bir devrim olduğunu kanıtlayan iki temel sütundur. Shor, özellikle kriptografi dünyası için bir tehdit oluştururken, Grover geniş veri kümelerinde arama yapmayı optimize eder. Yazılımcılar olarak bu algoritmaların karmaşıklık sınıflarını anlamak, geleceğin kodunu yazmak için kritiktir. Peki bu sistemler ne kadar kararlı?"
+          },
+          {
+            "title": "Hata Düzeltme ve Fiziksel Kübit Kısıtları",
+            "layout": "image",
+            "bullets": [
+              "Dekoharens, dış çevreden gelen gürültü nedeniyle kuantum durumunun hızla bozulmasıdır.",
+              "Fiziksel kübitler, gürültüye karşı aşırı hassas oldukları için hata payları yüksektir.",
+              "Mantıksal kübitler, birçok fiziksel kübitin birleşerek hata düzeltme kodlarını çalıştırmasıdır.",
+              "Yüzey kodları gibi yöntemler, hatasız hesaplama için kritik bir altyapı sunar."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "laboratory cryogenic refrigerator",
+            "notes": "Teorik üstünlük, fiziksel gerçekliğin kısıtlarıyla çatışıyor. Bir kuantum sistemini dış dünyadan izole etmek, günümüz mühendisliğinin en büyük zorluklarından biridir. Dekoharens, verinin kararlılığını saniyelerden çok daha kısa sürede yok edebiliyor. Bu yüzden, hata düzeltme kodları olmadan ölçeklenebilir bir bilgisayar inşa etmek imkansızdır."
+          },
+          {
+            "title": "Kuantum Üstünlüğü ve Donanım Mimarileri",
+            "layout": "highlight",
+            "bullets": [],
+            "columns": [],
+            "highlight": "Kuantum üstünlüğü, bir kuantum cihazının klasik süper bilgisayarların çözemediği bir görevi başarmasıdır.",
+            "image_query": "superconducting quantum circuit",
+            "notes": "Kuantum üstünlüğü, sadece bir kilometre taşı değil, hesaplama tarihinde yeni bir dönemin başlangıcıdır. Süperiletken devreler veya iyon tuzakları gibi farklı donanım yolları, farklı avantajlar ve zorluklar sunuyor. Hangi mimarinin galip geleceği, donanım mühendisliğindeki ilerlemelere bağlı. Ancak yazılımcılar olarak biz, bu donanımları nasıl programlayacağımıza odaklanmalıyız."
+          },
+          {
+            "title": "Post-Kuantum Kriptografi ve Yazılımın Geleceği",
+            "layout": "cards",
+            "bullets": [
+              "Mevcut RSA ve ECC şifrelemeleri risk altındadır.",
+              "Kuantuma dayanıklı algoritmalar şimdiden geliştirilmektedir.",
+              "Geliştiriciler şifreleme kütüphanelerini güncellemeye başlamalıdır.",
+              "Hibrit güvenlik modelleri geçiş sürecinde en güvenli yoldur."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "digital security padlock",
+            "notes": "Kuantum bilgisayarların yükselişi, dijital güvenliğin temelini sarsıyor. Bugün kullanılan çoğu şifreleme standardı, kuantum saldırılarına karşı savunmasız kalabilir. Bu yüzden post-kuantum kriptografi standartlarına erkenden uyum sağlamak, verilerimizi korumak için zorunludur. Geleceğin yazılım mimarileri, kuantum tehdidini göz önünde bulundurarak tasarlanmalıdır."
+          }
+        ],
+        "takeaways": [
+          "Kübitler, süperpozisyon sayesinde klasik bitlerden çok daha geniş işlem kapasitesine sahiptir.",
+          "Shor ve Grover algoritmaları, geleneksel hesaplama sınırlarını kökten değiştiren hızlanmalar sağlar.",
+          "Kuantum güvenli şifreleme, yazılım dünyasının en acil hazırlık süreçlerinden biridir."
+        ]
+      },
+      "photos_found": 4,
+      "photo_places": 4,
+      "timings": {
+        "plan": 4.02,
+        "content": 28.93,
+        "images": 2.55,
+        "pptx": 0.15
+      },
+      "seconds": 35.65,
+      "models_used": [
+        "gemini-3.1-flash-lite"
+      ],
+      "input_tokens": 1599,
+      "output_tokens": 2126,
+      "cost_usd": 0.003589
+    },
+    {
+      "topic": "Sağlıklı beslenme alışkanlıkları",
+      "audience": "Ortaokul öğrencileri",
+      "tone": "Eğitici",
+      "slide_count": 4,
+      "success": true,
+      "checks": {
+        "Slayt sayısı istenenle aynı": true,
+        "Madde sayıları düzene uygun": true,
+        "Maddelerin %90'ı en fazla 16 kelime": true,
+        "Kart maddeleri en fazla 12 kelime": true,
+        "Slayt başlıkları en fazla 9 kelime": true,
+        "Seçilen düzenler uygulanabilir": true,
+        "En fazla 1 vurgu slaytı": true,
+        "Art arda aynı düzen yok": true,
+        "Notlar en az 2 cümle ve 25 kelime": true,
+        "Tam 3 önemli çıkarım": true,
+        "İçerik Türkçe": true
+      },
+      "quality": 1.0,
+      "title": "Enerjik Bir Hayat İçin Doğru Beslen",
+      "layouts": [
+        "image",
+        "cards",
+        "comparison",
+        "highlight"
+      ],
+      "presentation": {
+        "title": "Enerjik Bir Hayat İçin Doğru Beslen",
+        "subtitle": "Sağlıklı seçimler yaparak gün boyu zinde kalmanın pratik yollarını keşfedin.",
+        "image_query": "healthy lunch box school",
+        "slides": [
+          {
+            "title": "Vücudun Yakıtı Besinler",
+            "layout": "image",
+            "bullets": [
+              "Karbonhidratlar, oyun oynarken veya ders çalışırken ihtiyaç duyduğunuz hızlı enerjiyi sağlar.",
+              "Proteinler, spor yaptıktan sonra kaslarınızın onarılmasına ve vücudunuzun büyümesine yardımcı olur.",
+              "Sağlıklı yağlar, beyninizin daha hızlı çalışmasını ve odaklanmanızı kolaylaştıran temel yapı taşlarıdır."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "healthy food plate school",
+            "notes": "Vücudunuzu harika çalışan bir makine gibi düşünebilirsiniz. Bu makinenin yakıtı ise yediğiniz besinlerdir. Eğer yanlış yakıt koyarsanız performansınız düşer, doğru beslenirseniz gün boyu enerjik kalırsınız. Şimdi bu yakıtları nasıl dengeli kullanacağımıza bakalım."
+          },
+          {
+            "title": "Renkli Tabağın Gücü",
+            "layout": "cards",
+            "bullets": [
+              "Yeşil sebzelerle vücudunuza gerekli vitaminleri kazandırın.",
+              "Tam tahıllar gün boyu sabit enerji sağlar.",
+              "Proteinler büyümenizi ve kas gelişimini destekler.",
+              "Meyveler bağışıklık sisteminizi hastalıklara karşı korur."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "colorful vegetable salad bowl",
+            "notes": "Tabağınız ne kadar renkliyse o kadar sağlıklı bir öğün tüketiyorsunuz demektir. Kantinden alacağınız hazır bir sandviç yerine evden getireceğiniz renkli bir öğün, gün içindeki ders başarınızı doğrudan etkiler. Renklerin her biri vücudunuz için farklı bir koruma kalkanı anlamına gelir."
+          },
+          {
+            "title": "Şekerli İçeceklerin Gizli Etkisi",
+            "layout": "comparison",
+            "bullets": [],
+            "columns": [
+              {
+                "title": "Şekerli İçecekler",
+                "bullets": [
+                  "Hızlı enerji artışı sağlar",
+                  "Aniden kan şekerini düşürür",
+                  "Konsantrasyon kaybına yol açar"
+                ]
+              },
+              {
+                "title": "Su ve Ayran",
+                "bullets": [
+                  "Zihinsel berraklık kazandırır",
+                  "Uzun süreli tokluk verir",
+                  "Vücut ısısını dengeler"
+                ]
+              }
+            ],
+            "highlight": "",
+            "image_query": "water glass vs soda",
+            "notes": "Şekerli içecekler içtiğinizde ilk beş dakika kendinizi iyi hissedersiniz ancak sonra büyük bir enerji çöküşü yaşarsınız. Bu çöküş dersi dinlerken uykunuzun gelmesine veya odaklanamamanıza neden olur. Su ise beyninizin en büyük dostudur ve sizi her zaman zinde tutar."
+          },
+          {
+            "title": "Küçük Değişimler Büyük Fark Yaratır",
+            "layout": "highlight",
+            "bullets": [],
+            "columns": [],
+            "highlight": "Okul çantanıza ekleyeceğiniz bir elma ve su matarası, gün boyu enerjinizi yüksek tutar.",
+            "image_query": "student holding apple",
+            "notes": "Büyük hedefler koymanıza gerek yok, küçük alışkanlıklar zamanla büyük değişimler yaratır. Her gün yanınızda su taşımak veya paketli gıdalar yerine bir meyve tercih etmek vücudunuzdaki değişimi başlatacaktır. Sağlıklı bir gelecek, bugün yaptığınız bu küçük seçimlerle inşa ediliyor."
+          }
+        ],
+        "takeaways": [
+          "Besinler vücudunuzun büyümesi ve enerji üretimi için temel yakıttır.",
+          "Renkli ve doğal besinler odaklanma sürenizi doğrudan olumlu etkiler.",
+          "Şekerli içecekler yerine su tüketerek zihinsel performansınızı koruyabilirsiniz."
+        ]
+      },
+      "photos_found": 3,
+      "photo_places": 3,
+      "timings": {
+        "plan": 3.22,
+        "content": 7.97,
+        "images": 2.85,
+        "pptx": 0.1
+      },
+      "seconds": 14.14,
+      "models_used": [
+        "gemini-3.1-flash-lite"
+      ],
+      "input_tokens": 1437,
+      "output_tokens": 1264,
+      "cost_usd": 0.002255
+    },
+    {
+      "topic": "Elektrikli toplu taşımaya geçiş",
+      "audience": "Belediye meclisi",
+      "tone": "İkna edici",
+      "slide_count": 6,
+      "success": true,
+      "checks": {
+        "Slayt sayısı istenenle aynı": true,
+        "Madde sayıları düzene uygun": true,
+        "Maddelerin %90'ı en fazla 16 kelime": true,
+        "Kart maddeleri en fazla 12 kelime": true,
+        "Slayt başlıkları en fazla 9 kelime": true,
+        "Seçilen düzenler uygulanabilir": true,
+        "En fazla 1 vurgu slaytı": true,
+        "Art arda aynı düzen yok": true,
+        "Notlar en az 2 cümle ve 25 kelime": true,
+        "Tam 3 önemli çıkarım": true,
+        "İçerik Türkçe": true
+      },
+      "quality": 1.0,
+      "title": "Geleceğin Şehirleri: Elektrikli Toplu Taşıma",
+      "layouts": [
+        "image",
+        "comparison",
+        "cards",
+        "image",
+        "cards",
+        "highlight"
+      ],
+      "presentation": {
+        "title": "Geleceğin Şehirleri: Elektrikli Toplu Taşıma",
+        "subtitle": "Şehir içi ulaşımı sessiz, temiz ve ekonomik bir geleceğe taşıyoruz.",
+        "image_query": "electric city bus street",
+        "slides": [
+          {
+            "title": "Fosil Yakıtlardan Elektriğe Geçiş Zorunluluğu",
+            "layout": "image",
+            "bullets": [
+              "Dizel araçların yarattığı partikül maddeler, solunum yolu hastalıklarını doğrudan artırarak sağlık harcamalarını yükseltiyor.",
+              "Şehir içi otobüslerin yüksek karbon salımı, küresel iklim hedeflerine uyum sağlamamızı zorlaştırarak idari cezalar getiriyor.",
+              "Eski tip dizel motorların verimsizliği, belediyemizin bütçesinde her yıl öngörülemeyen büyük çaplı yakıt maliyetleri yaratıyor."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "polluted city street traffic",
+            "notes": "Değerli meclis üyeleri, bugün sadece bir araç değişimi değil, şehrimizin geleceğini kurtarma kararı alıyoruz. Dizel otobüsler sadece havamızı kirletmekle kalmıyor, belediye bütçemizi de sessizce tüketiyor. Sağlık maliyetlerini ve çevresel yükümlülükleri düşürmek için artık elektrikli sisteme geçmek bir tercih değil, zorunluluktur."
+          },
+          {
+            "title": "Düşük İşletme ve Bakım Maliyetleri",
+            "layout": "comparison",
+            "bullets": [],
+            "columns": [
+              {
+                "title": "Dizel Araçlar",
+                "bullets": [
+                  "Karmaşık motor sistemleri arıza riski taşır",
+                  "Yağ değişimi ve filtre yenileme maliyetli",
+                  "Yüksek yakıt fiyatları bütçeyi zorlar"
+                ]
+              },
+              {
+                "title": "Elektrikli Araçlar",
+                "bullets": [
+                  "Hareketli parça sayısı yüzde 80 az",
+                  "Bakım ihtiyacı minimuma inerek tasarruf sağlar",
+                  "Düşük enerji maliyetiyle uzun vadeli kazanç"
+                ]
+              }
+            ],
+            "highlight": "",
+            "image_query": "electric bus engine components",
+            "notes": "Ekrandaki karşılaştırma, elektrikli otobüslerin neden finansal açıdan daha akıllıca olduğunu gösteriyor. Dizel araçların sahip olduğu binlerce hareketli parça sürekli bakım isterken, elektrikli motorlar çok daha basit ve sağlamdır. Bu teknoloji ile işletme giderlerimizi ciddi oranda düşürerek kaynaklarımızı başka hizmetlere aktarabiliriz."
+          },
+          {
+            "title": "Sessiz Şehirler İçin Gürültü Kirliliği Çözümü",
+            "layout": "cards",
+            "bullets": [
+              "Motor gürültüsü kalkarak şehir merkezlerinde huzurlu ortam oluşur.",
+              "Gece saatlerinde yapılan seferler konut bölgelerini artık rahatsız etmez.",
+              "Sessiz çalışan araçlar şehirde daha kaliteli yaşam alanı sağlar."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "quiet city park bench",
+            "notes": "Şehir merkezindeki gürültü kirliliği, vatandaşlarımızın yaşam kalitesini doğrudan düşüren bir etken. Elektrikli otobüsler, geleneksel motor gürültüsünü ortadan kaldırarak sokaklarımızı daha huzurlu bir yer haline getiriyor. Vatandaşlarımız, sessiz bir ulaşım deneyimiyle şehrin tadını daha iyi çıkaracaklar."
+          },
+          {
+            "title": "Akıllı Şebeke ve Enerji Entegrasyonu",
+            "layout": "image",
+            "bullets": [
+              "Otobüs şarj istasyonlarını güneş panelleriyle besleyerek tamamen yeşil enerjiye geçiş sağlıyoruz.",
+              "Akıllı şebeke sistemleri, enerji yoğunluğunun düşük olduğu gece saatlerinde araçları uygun fiyatla şarj eder.",
+              "Depolanan enerji, şebekede ani yüklenme olduğunda dengeleyici bir güç kaynağı olarak kullanılabilir."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "solar panels charging station",
+            "notes": "Enerji altyapımızı sadece otobüsleri şarj etmek için değil, sistemin geneline fayda sağlayacak şekilde tasarlıyoruz. Güneş enerjisi ile çalışan şarj istasyonları, belediyemizin enerji bağımsızlığını artıracaktır. Akıllı şebeke yönetimi sayesinde, elektrik maliyetlerini en düşük seviyede tutarak verimliliği maksimize edeceğiz."
+          },
+          {
+            "title": "Yerli Üretim ve İstihdam Fırsatları",
+            "layout": "cards",
+            "bullets": [
+              "Yerli üreticilerle iş birliği yaparak yerel sanayi kapasitesini güçlendiriyoruz.",
+              "Teknik servis ve bakım alanında yeni uzmanlık iş kolları yaratıyoruz.",
+              "Ar-Ge faaliyetleri sayesinde şehrimiz teknolojik dönüşümün merkezi haline geliyor."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "factory workers assembly line",
+            "notes": "Bu yatırım sadece ulaşımı değil, yerel ekonomimizi de dönüştürecek bir fırsattır. Yerli üreticilerimizle çalışarak teknolojik bilgi birikimini şehrimize kazandırıyoruz. Yeni nesil bakım merkezleri ve servis istasyonları sayesinde, vatandaşlarımıza yüksek nitelikli iş olanakları sunarak yerel istihdamı destekliyoruz."
+          },
+          {
+            "title": "Sürdürülebilir Bir Şehir İçin İlk Adım",
+            "layout": "highlight",
+            "bullets": [],
+            "columns": [],
+            "highlight": "Şehrimizi modern, temiz ve ekonomik toplu taşıma ile geleceğin öncüsü yapmaya hazırız.",
+            "image_query": "modern city skyline sunset",
+            "notes": "Sayın meclis üyeleri, önümüzdeki bu plan sadece bir ulaşım projesi değil, daha temiz ve yaşanabilir bir şehir kurma vizyonudur. Bugün atacağımız bu cesur adım, gelecek nesillere daha sağlıklı bir çevre bırakmamızı sağlayacak. Kararınızla birlikte şehrimizi modern ulaşımın merkezi yapmaya davet ediyorum."
+          }
+        ],
+        "takeaways": [
+          "Elektrikli otobüsler, bakım ve yakıt maliyetlerinde büyük tasarruf sağlar.",
+          "Sessiz ve emisyonsuz ulaşım, şehirdeki yaşam kalitesini doğrudan artırır.",
+          "Yerli üretim desteğiyle hem ekonomiyi hem de teknolojik kapasiteyi güçlendiriyoruz."
+        ]
+      },
+      "photos_found": 4,
+      "photo_places": 4,
+      "timings": {
+        "plan": 1.97,
+        "content": 5.22,
+        "images": 2.23,
+        "pptx": 0.16
+      },
+      "seconds": 9.58,
+      "models_used": [
+        "gemini-3.1-flash-lite"
+      ],
+      "input_tokens": 1611,
+      "output_tokens": 1979,
+      "cost_usd": 0.003371
+    },
+    {
+      "topic": "Sosyal medyanın gençlerin ruh sağlığına etkisi",
+      "audience": "Ebeveynler",
+      "tone": "Profesyonel",
+      "slide_count": 6,
+      "success": true,
+      "checks": {
+        "Slayt sayısı istenenle aynı": true,
+        "Madde sayıları düzene uygun": true,
+        "Maddelerin %90'ı en fazla 16 kelime": true,
+        "Kart maddeleri en fazla 12 kelime": true,
+        "Slayt başlıkları en fazla 9 kelime": true,
+        "Seçilen düzenler uygulanabilir": true,
+        "En fazla 1 vurgu slaytı": true,
+        "Art arda aynı düzen yok": true,
+        "Notlar en az 2 cümle ve 25 kelime": true,
+        "Tam 3 önemli çıkarım": true,
+        "İçerik Türkçe": true
+      },
+      "quality": 1.0,
+      "title": "Dijital Dünyada Genç ve Ruh Sağlığı",
+      "layouts": [
+        "image",
+        "cards",
+        "comparison",
+        "image",
+        "cards",
+        "highlight"
+      ],
+      "presentation": {
+        "title": "Dijital Dünyada Genç ve Ruh Sağlığı",
+        "subtitle": "Sosyal medya kullanımının genç psikolojisi üzerindeki somut etkileri ve çözüm yolları.",
+        "image_query": "teenager looking at smartphone screen",
+        "slides": [
+          {
+            "title": "Algoritmalar ve Dikkat Ekonomisi",
+            "layout": "image",
+            "bullets": [
+              "Sonsuz kaydırma özelliği, dopamin döngüsünü tetikleyerek kullanıcıyı uygulamada daha uzun süre tutmayı hedefler.",
+              "Kişiselleştirilmiş içerik akışı, gençlerin ilgi alanlarını analiz ederek onları dijital platformlara sürekli bağlar.",
+              "Bildirim mekanizmaları, anlık etkileşim beklentisiyle gençlerin odaklanma sürelerini ciddi şekilde kısıtlamaktadır."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "smartphone notification screen",
+            "notes": "Dijital platformlar sadece eğlence aracı değil, dikkatimizi ticari bir meta haline getiren sistemlerdir. Gençlerin bu algoritmalara karşı savunmasız kalması, farkında olmadan saatlerini ekran başında geçirmelerine neden oluyor. Bugün bu mekanizmaların psikolojik maliyetini anlamaya odaklanacağız."
+          },
+          {
+            "title": "Kıyaslama Kültürü ve Özsaygı",
+            "layout": "cards",
+            "bullets": [
+              "Filtrelenmiş fotoğraflar gerçek dışı güzellik standartları oluşturur.",
+              "Başarı odaklı paylaşımlar yetersizlik hissini hızla tetikler.",
+              "Sosyal onay arayışı gençlerde sürekli kaygıya yol açar.",
+              "İdealize edilmiş yaşamlar özsaygıyı olumsuz yönde etkiler."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "teenager looking at social media",
+            "notes": "Sosyal medya, gençlerin kendi hayatlarını başkalarının en iyi anlarıyla kıyasladığı bir vitrin haline geldi. Bu durum, özellikle ergenlik döneminde gelişen özsaygı üzerinde ciddi bir baskı oluşturuyor. Gençler, dijital dünyadaki kurgusal mükemmelliğe ulaşamadıklarında kendilerini başarısız hissetmeye başlıyorlar."
+          },
+          {
+            "title": "Siber Zorbalık ve Sosyal Dışlanma",
+            "layout": "comparison",
+            "bullets": [],
+            "columns": [
+              {
+                "title": "Dijital Riskler",
+                "bullets": [
+                  "Anonim profillerden gelen acımasız yorumlar",
+                  "Gruplardan dışlanmanın yarattığı yalnızlık hissi",
+                  "Mesajlaşma uygulamalarında hızla yayılan dedikodular"
+                ]
+              },
+              {
+                "title": "Psikolojik Sonuçlar",
+                "bullets": [
+                  "Okul başarısında görülen ani düşüşler",
+                  "Sosyal ortamlardan çekilme ve izolasyon",
+                  "Yüksek düzeyde kronik kaygı bozukluğu"
+                ]
+              }
+            ],
+            "highlight": "",
+            "image_query": "lonely teenager sitting alone",
+            "notes": "Siber zorbalık, okul çıkışında biten bir olay değil, 7/24 devam eden bir sürece dönüştü. Sosyal dışlanma, gençlerin aidiyet duygusunu zedeleyerek onları içe kapanmaya itiyor. Bu durumun yarattığı travmayı, dijital dünyanın bir parçası olarak ciddiyetle ele almamız gerekiyor."
+          },
+          {
+            "title": "Uyku Düzeni ve Bilişsel Kayıplar",
+            "layout": "image",
+            "bullets": [
+              "Mavi ışık maruziyeti, melatonin salgısını baskılayarak uykuya dalma süresini belirgin şekilde uzatır.",
+              "Gece geç saatlere kadar ekran kullanımı, ertesi gün akademik odaklanmayı ve hafıza performansını düşürür.",
+              "Düzensiz uyku döngüsü, gençlerin duygusal regülasyon becerilerini zayıflatarak stres toleranslarını azaltır."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "person using phone in bed",
+            "notes": "Uyku, genç beyninin gelişimi için en kritik süreçtir, ancak ekranlar bu süreci doğrudan sabote ediyor. Yetersiz uyku sadece yorgunluk değil, aynı zamanda bilişsel bir gerileme anlamına gelir. Bir sonraki slaytta, bu etkilerle başa çıkmak için hangi sınırları koyabileceğimizi konuşacağız."
+          },
+          {
+            "title": "Dijital Okuryazarlık ve Sınırlar",
+            "layout": "cards",
+            "bullets": [
+              "Ekran süresini dengeleyen ortak kurallar belirleyin.",
+              "Dijital içeriği eleştirel bir gözle analiz edin.",
+              "Teknolojisiz aile saatleri için alanlar oluşturun.",
+              "Açık iletişimle dijital deneyimleri düzenli konuşun."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "family talking in living room",
+            "notes": "Yasaklamak yerine dengeyi öğretmek, uzun vadede çok daha kalıcı bir çözüm sunar. Gençlerle teknoloji kullanımı hakkında açık bir diyalog kurmak, onların dijital dünyadaki riskleri daha iyi anlamasını sağlar. Ebeveynler olarak dijital okuryazarlıkta rol model olmamız şarttır."
+          },
+          {
+            "title": "Bilinçli Teknoloji Kullanımı Hedefleri",
+            "layout": "highlight",
+            "bullets": [],
+            "columns": [],
+            "highlight": "Teknolojiyi bir amaç değil, hayat kalitesini artıran bilinçli bir araç olarak konumlandırmalıyız.",
+            "image_query": "teenager reading a book",
+            "notes": "Sonuç olarak, hedefimiz gençleri teknolojiden koparmak değil, onu hayatlarının merkezinden alıp bir yardımcı haline getirmektir. Kendi sınırlarını çizebilen ve dijital dünyanın farkında olan bireyler yetiştirmek en büyük önceliğimizdir. Dinlediğiniz için teşekkür ederim."
+          }
+        ],
+        "takeaways": [
+          "Algoritmaların dikkat ekonomisi üzerindeki etkisini mutlaka fark edin.",
+          "Sosyal kıyaslamanın yarattığı özsaygı sorunlarına karşı açık iletişim kurun.",
+          "Ekran süresini sınırlayarak uyku kalitesini ve akademik başarıyı koruyun."
+        ]
+      },
+      "photos_found": 4,
+      "photo_places": 4,
+      "timings": {
+        "plan": 2.33,
+        "content": 4.88,
+        "images": 1.8,
+        "pptx": 0.14
+      },
+      "seconds": 9.15,
+      "models_used": [
+        "gemini-3.1-flash-lite"
+      ],
+      "input_tokens": 1573,
+      "output_tokens": 1911,
+      "cost_usd": 0.00326
+    },
+    {
+      "topic": "Girişimler için yatırım turları",
+      "audience": "Girişimciler",
+      "tone": "Profesyonel",
+      "slide_count": 7,
+      "success": true,
+      "checks": {
+        "Slayt sayısı istenenle aynı": true,
+        "Madde sayıları düzene uygun": true,
+        "Maddelerin %90'ı en fazla 16 kelime": true,
+        "Kart maddeleri en fazla 12 kelime": true,
+        "Slayt başlıkları en fazla 9 kelime": true,
+        "Seçilen düzenler uygulanabilir": true,
+        "En fazla 1 vurgu slaytı": true,
+        "Art arda aynı düzen yok": true,
+        "Notlar en az 2 cümle ve 25 kelime": true,
+        "Tam 3 önemli çıkarım": true,
+        "İçerik Türkçe": true
+      },
+      "quality": 1.0,
+      "title": "Girişimler İçin Yatırım Turu Rehberi",
+      "layouts": [
+        "image",
+        "cards",
+        "comparison",
+        "image",
+        "highlight",
+        "cards",
+        "image"
+      ],
+      "presentation": {
+        "title": "Girişimler İçin Yatırım Turu Rehberi",
+        "subtitle": "Erken aşamadan büyümeye yatırım süreçlerini yönetme stratejileri.",
+        "image_query": "handshake business meeting office",
+        "slides": [
+          {
+            "title": "Yatırım Turu Neden Bir Araçtır",
+            "layout": "image",
+            "bullets": [
+              "Yatırım sadece sermaye değil, operasyonel hızı artıran stratejik bir kaldıraç etkisidir.",
+              "Doğru yatırımcı ağı, girişiminizin pazara giriş süresini ve ağ erişimini önemli ölçüde hızlandırır.",
+              "Finansal kaynaklar, ürün geliştirme süreçlerini agresif bir şekilde ölçeklendirmek için temel yakıttır."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "rocket launch desk startup",
+            "notes": "Yatırım turuna sadece para ihtiyacı olarak bakmak büyük bir hatadır. Aslında bu süreç, girişiminizi bir üst lige taşıyacak stratejik ortaklıklar kurma platformudur. Sermaye ile birlikte gelen mentorluk ve ağ, nakit akışından daha değerli olabilir. Şimdi, bu yolculuğun ilk adımı olan pre-seed aşamasına yakından bakalım."
+          },
+          {
+            "title": "Pre-Seed ve Melek Yatırım Dinamikleri",
+            "layout": "cards",
+            "bullets": [
+              "Prototip geliştirme süreci",
+              "Pazar ihtiyacı kanıtlama",
+              "Erken aşama ekip kurma",
+              "MVP ile geri bildirim"
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "laptop prototype app design",
+            "notes": "Pre-seed evresinde yatırımcılar fikir kadar kurucu ekibin yetkinliğine odaklanır. Temel hedefiniz, teorik fikrinizi çalışan bir prototipe dönüştürerek pazarda bir karşılığı olduğunu göstermektir. Bu aşamada melek yatırımcılar, projenin büyüme potansiyeli için ilk risk alan kişilerdir."
+          },
+          {
+            "title": "Tohum Yatırımda Temel Metrikler",
+            "layout": "comparison",
+            "bullets": [],
+            "columns": [
+              {
+                "title": "Kullanıcı Büyümesi",
+                "bullets": [
+                  "Haftalık aktif kullanıcı artışı",
+                  "Müşteri edinme maliyeti takibi",
+                  "Ürün tutundurma oranı analizi"
+                ]
+              },
+              {
+                "title": "Ürün-Pazar Uyumu",
+                "bullets": [
+                  "Organik büyüme kanalları başarısı",
+                  "Net tavsiye skoru verileri",
+                  "Tekrarlayan gelir akışı hacmi"
+                ]
+              }
+            ],
+            "highlight": "",
+            "image_query": "data analytics dashboard screen",
+            "notes": "Tohum aşamasında artık varsayımlar değil, veriler konuşur. Yatırımcılar, ürününüzün pazarda gerçekten bir sorunu çözüp çözmediğini anlamak için churn oranlarına ve büyüme hızınıza bakar. Bu metrikler, yatırım turunuzun başarısını doğrudan etkileyen en kritik göstergelerdir."
+          },
+          {
+            "title": "Seri A ile Ölçeklenme Stratejileri",
+            "layout": "image",
+            "bullets": [
+              "Kanıtlanmış gelir modeli, yeni pazarlara açılmak için agresif büyüme stratejilerini destekler.",
+              "Satış kanallarını optimize ederek, müşteri yaşam boyu değerini artırma odaklı operasyonlar kurulur.",
+              "Kurumsal yönetim yapısı oluşturularak, artan operasyonel yükün verimli bir şekilde yönetilmesi sağlanır."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "business growth chart arrow",
+            "notes": "Seri A artık 'deneme' aşamasının bittiği ve 'makineyi büyütme' aşamasının başladığı yerdir. Burada odak, operasyonel verimliliği artırarak pazardaki payınızı kalıcı kılmaktır. Yatırımcılar, artık daha öngörülebilir ve tekrarlanabilir bir gelir modeli görmek ister."
+          },
+          {
+            "title": "Değerleme ve Hisse Dağılımı Yönetimi",
+            "layout": "highlight",
+            "bullets": [],
+            "columns": [],
+            "highlight": "Hisse payınızı korumak için değerleme görüşmelerinde sadece nakde değil, stratejik katkıya odaklanmalısınız.",
+            "image_query": "negotiation table handshake meeting",
+            "notes": "Değerleme, sadece bir sayı değil, girişimin gelecekteki kontrolü üzerindeki etkidir. Çok erken aşamada çok fazla hisse verirseniz, ilerideki turlarda kurucu ortakların motivasyonu düşebilir. Bu dengeyi korumak, uzun vadeli başarı için en kritik yönetim becerisidir."
+          },
+          {
+            "title": "Yatırımcı İlişkileri ve Şeffaflık",
+            "layout": "cards",
+            "bullets": [
+              "Düzenli aylık güncellemeler",
+              "Kritik sorunları paylaşma",
+              "Finansal şeffaflık sağlama",
+              "Beklenti yönetimi yapma"
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "email reporting laptop",
+            "notes": "Yatırımcılar sürprizleri sevmez, özellikle kötü olanları. Düzenli ve şeffaf raporlama, yatırımcıya güven aşılar ve bir sonraki turda sizi desteklemelerini kolaylaştırır. Onları şirketinizin bir parçası gibi hissettirmek, kritik anlarda kapıların açılmasını sağlar."
+          },
+          {
+            "title": "Başarılı Bir Exit Vizyonu",
+            "layout": "image",
+            "bullets": [
+              "Kurumsal standartlarda finansal kayıtlar tutmak, olası satın alma süreçlerinde değerlemeyi yukarı taşır.",
+              "Şirket süreçlerini dokümante etmek, bağımlılığı azaltarak alıcılar için operasyonel riskleri minimize eder.",
+              "Stratejik çıkış noktalarını önceden belirlemek, ekibin ve yatırımcıların ortak vizyonda buluşmasını sağlar."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "exit door business sign",
+            "notes": "Exit, bir son değil, girişimin değerinin nihai kanıtıdır. Şirketinizi en başından itibaren 'satılabilir' bir yapıda kurgulamak, verimliliğinizi artırır. Bu vizyonla hareket eden girişimciler, yatırımcıları için her zaman daha cazip bir seçenek haline gelir."
+          }
+        ],
+        "takeaways": [
+          "Yatırım turu sermaye değil, ölçeklenme için stratejik bir kaldıraçtır.",
+          "Her yatırım aşaması farklı metrik ve beklentilerle yönetilmelidir.",
+          "Şeffaf yatırımcı ilişkileri, gelecekteki finansman kapılarını açık tutar."
+        ]
+      },
+      "photos_found": 5,
+      "photo_places": 5,
+      "timings": {
+        "plan": 3.5,
+        "content": 49.82,
+        "images": 3.14,
+        "pptx": 0.22
+      },
+      "seconds": 56.68,
+      "models_used": [
+        "gemini-3.1-flash-lite"
+      ],
+      "input_tokens": 1610,
+      "output_tokens": 2096,
+      "cost_usd": 0.003546
+    },
+    {
+      "topic": "Geri dönüşümü alışkanlık haline getirmek",
+      "audience": "Mahalle sakinleri",
+      "tone": "İkna edici",
+      "slide_count": 5,
+      "success": true,
+      "checks": {
+        "Slayt sayısı istenenle aynı": true,
+        "Madde sayıları düzene uygun": true,
+        "Maddelerin %90'ı en fazla 16 kelime": true,
+        "Kart maddeleri en fazla 12 kelime": true,
+        "Slayt başlıkları en fazla 9 kelime": true,
+        "Seçilen düzenler uygulanabilir": true,
+        "En fazla 1 vurgu slaytı": true,
+        "Art arda aynı düzen yok": true,
+        "Notlar en az 2 cümle ve 25 kelime": true,
+        "Tam 3 önemli çıkarım": true,
+        "İçerik Türkçe": true
+      },
+      "quality": 1.0,
+      "title": "Geri Dönüşümle Mahallemizi Yeniden İnşa Edelim",
+      "layouts": [
+        "image",
+        "cards",
+        "comparison",
+        "image",
+        "highlight"
+      ],
+      "presentation": {
+        "title": "Geri Dönüşümle Mahallemizi Yeniden İnşa Edelim",
+        "subtitle": "Küçük adımlar atarak daha temiz ve yaşanabilir bir çevreye kavuşabiliriz.",
+        "image_query": "recycling bins neighborhood street",
+        "slides": [
+          {
+            "title": "Atıklarınız Aslında Birer Kaynak",
+            "layout": "image",
+            "bullets": [
+              "Evde çöpe attığınız her plastik şişe, aslında yeni ürünlere dönüşebilecek değerli bir hammaddedir.",
+              "Metal kutular, eritilerek yeniden işlendiğinde maden çıkarma maliyetlerini ve çevresel yıkımı önemli ölçüde engeller.",
+              "Doğru ayrıştırılan kağıt atıklar, ormanların korunmasına ve ağaçların kesilmeden ekonomiye kazandırılmasına doğrudan katkı sağlar."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "recycling sorting household waste",
+            "notes": "Çöp kutusuna attığımız her şeyin yok olmadığını biliyor muydunuz? Aslında çoğu materyal, doğru ayrıştırıldığında sanayi için hammadde haline gelebiliyor. Bugün sadece çöplerimizi değil, kaynaklarımızı nasıl yönetebileceğimizi konuşacağız. Gelin, atıkların aslında nasıl birer fırsat olduğunu birlikte keşfedelim."
+          },
+          {
+            "title": "Doğru Ayrıştırma ile Kaynakları Koruyun",
+            "layout": "cards",
+            "bullets": [
+              "Plastik: İkinci yaşam için temizleyip kutulara atın.",
+              "Kağıt: Gazete ve kartonları kuru şekilde biriktirin.",
+              "Cam: Kırık parçaları dikkatlice ayrı bir yerde toplayın."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "colored recycling bins",
+            "notes": "Ayrıştırma işlemi karmaşık bir süreç değil, sadece birkaç saniyelik alışkanlık gerektirir. Plastiklerin temiz olması geri dönüşüm tesislerinde işlenmesini kolaylaştırır. Kağıt ve kartonların nemlenmemesi ise kağıt liflerinin kalitesini korur. Bu basit adımlarla doğaya verdiğimiz zararı minimuma indirebiliriz."
+          },
+          {
+            "title": "Mahallede Ortak Geri Dönüşüm Kültürü",
+            "layout": "comparison",
+            "bullets": [],
+            "columns": [
+              {
+                "title": "Bireysel Yaklaşım",
+                "bullets": [
+                  "Herkes kendi çöpünü karıştırır.",
+                  "Geri kazanım oranı oldukça düşüktür.",
+                  "Doğal kaynaklar hızla tükenir."
+                ]
+              },
+              {
+                "title": "Toplumsal Bilinç",
+                "bullets": [
+                  "Mahalleli ayrıştırma konusunda iş birliği yapar.",
+                  "Atık miktarı gözle görülür şekilde azalır.",
+                  "Daha temiz sokaklar ve parklar oluşur."
+                ]
+              }
+            ],
+            "highlight": "",
+            "image_query": "neighbors talking outside",
+            "notes": "Tek başınıza attığınız bir adım değerli olsa da, tüm mahalle olarak hareket ettiğimizde etkisi katlanarak artar. Çöp toplama merkezlerine giden yükü azalttığımızda, mahallemiz daha az koku ve trafik sorunu yaşar. Şimdi, bireysel çabamızı nasıl bir toplumsal başarı hikayesine dönüştürebileceğimize bakalım."
+          },
+          {
+            "title": "Ekonomik ve Çevresel Kazançlar",
+            "layout": "image",
+            "bullets": [
+              "Belediyenin çöp toplama maliyetlerini düşürerek mahalle bütçesinin diğer hizmetlere aktarılmasına olanak sağlar.",
+              "Atıkların yerinde ayrıştırılması, çöp depolama alanlarının ömrünü uzatarak ekolojik dengenin korunmasına yardımcı olur.",
+              "Geri dönüşüm tesislerinde yaratılan yeni istihdam alanları ile ülke ekonomisine doğrudan katma değer sağlanır."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "green city park environment",
+            "notes": "Geri dönüşüm sadece bir çevre meselesi değil, aynı zamanda ciddi bir ekonomi yönetimidir. Belediyelerin çöp taşımaya ayırdığı devasa bütçeler, geri dönüşüm sayesinde azalabilir. Bu tasarruf, mahallemize yeni parklar veya sosyal alanlar olarak geri dönebilir. Hem cüzdanımızı hem de doğamızı korumak elimizde."
+          },
+          {
+            "title": "Bugünden Başlayan Temiz Bir Gelecek",
+            "layout": "highlight",
+            "bullets": [],
+            "columns": [],
+            "highlight": "Bugün mutfağınıza koyacağınız küçük bir ikinci kutu, yarınlarımızı temiz ve yaşanabilir kılacaktır.",
+            "image_query": "hands holding green plant",
+            "notes": "Eve döndüğünüzde yapacağınız ilk şey, bir karton kutuyu geri dönüşüm kutusu olarak belirlemek olsun. Değişim, büyük vaatlerle değil, evdeki küçük rutinlerle başlar. Siz bugün başlarsanız, komşunuz da sizi izleyecektir. Geleceğimiz, attığımız her doğru adımda gizli."
+          }
+        ],
+        "takeaways": [
+          "Atıklarınızı ayrıştırarak onları değerli birer hammaddeye dönüştürün.",
+          "Mahalle çapında ortak hareket ederek çevresel ve ekonomik tasarruf sağlayın.",
+          "Bugün evinizde başlatacağınız basit bir alışkanlık geleceği değiştirir."
+        ]
+      },
+      "photos_found": 4,
+      "photo_places": 4,
+      "timings": {
+        "plan": 3.65,
+        "content": 4.3,
+        "images": 2.07,
+        "pptx": 0.16
+      },
+      "seconds": 10.18,
+      "models_used": [
+        "gemini-3.1-flash-lite"
+      ],
+      "input_tokens": 1537,
+      "output_tokens": 1637,
+      "cost_usd": 0.00284
+    },
+    {
+      "topic": "Blokzincir teknolojisi",
+      "audience": "Bankacılar",
+      "tone": "Profesyonel",
+      "slide_count": 6,
+      "success": true,
+      "checks": {
+        "Slayt sayısı istenenle aynı": true,
+        "Madde sayıları düzene uygun": true,
+        "Maddelerin %90'ı en fazla 16 kelime": true,
+        "Kart maddeleri en fazla 12 kelime": true,
+        "Slayt başlıkları en fazla 9 kelime": true,
+        "Seçilen düzenler uygulanabilir": true,
+        "En fazla 1 vurgu slaytı": true,
+        "Art arda aynı düzen yok": true,
+        "Notlar en az 2 cümle ve 25 kelime": true,
+        "Tam 3 önemli çıkarım": true,
+        "İçerik Türkçe": true
+      },
+      "quality": 1.0,
+      "title": "Finansın Geleceği: Blokzincir Teknolojisi",
+      "layouts": [
+        "image",
+        "cards",
+        "comparison",
+        "image",
+        "highlight",
+        "cards"
+      ],
+      "presentation": {
+        "title": "Finansın Geleceği: Blokzincir Teknolojisi",
+        "subtitle": "Blokzincir ile bankacılık operasyonlarında verimlilik ve güvenlik devrimi.",
+        "image_query": "digital interconnected server network",
+        "slides": [
+          {
+            "title": "Geleneksel Bankacılıkta Operasyonel Verimsizlikler",
+            "layout": "image",
+            "bullets": [
+              "Aracı kurumlar arası mutabakat süreçleri, işlem başına operasyonel maliyetleri ciddi oranda artırmaktadır.",
+              "Manuel veri girişleri, insan hatası kaynaklı riskleri yükselterek operasyonel verimliliği düşürmektedir.",
+              "Eski altyapılar, sınır ötesi transferlerde üç ila beş gün süren işlem sürelerine neden olmaktadır."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "stack of paperwork on desk",
+            "notes": "Bankacılık dünyasında arka planda dönen mutabakat süreçleri ciddi bir yük oluşturuyor. Manuel yapılan her işlem hem hata payını artırıyor hem de kurumun kaynaklarını tüketiyor. Mevcut sistemlerin hantallığı, dijitalleşen dünyada rekabet gücümüzü zayıflatıyor. Şimdi bu verimsizlikleri nasıl aşabileceğimizi teknolojik açıdan inceleyelim."
+          },
+          {
+            "title": "Dağıtık Defter Teknolojisinin Temel Prensipleri",
+            "layout": "cards",
+            "bullets": [
+              "Veri merkeziyetsiz olarak tüm ağ düğümlerinde güvenli şekilde saklanır.",
+              "Kriptografik zincirleme yöntemiyle geçmiş kayıtlar üzerinde değiştirme yapılamaz.",
+              "Şeffaflık sayesinde ağdaki tüm yetkili taraflar kayıtları anlık görüntüler."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "network nodes connection",
+            "notes": "Blokzincir, sadece bir veritabanı değil, bir güven protokolüdür. Bilgiyi tek bir merkezde tutmak yerine ağın geneline yayarak tekil hata noktalarını ortadan kaldırıyoruz. Her blok, kendinden öncekini doğruladığı için manipülasyon imkansız hale geliyor. Bu teknoloji, finansal kayıt tutma yöntemimizi kökten değiştirme potansiyeline sahip."
+          },
+          {
+            "title": "Akıllı Sözleşmeler ile Otomatik İşlemler",
+            "layout": "comparison",
+            "bullets": [],
+            "columns": [
+              {
+                "title": "Geleneksel Süreçler",
+                "bullets": [
+                  "Manuel doküman onayı gereklidir",
+                  "Hukuki denetim süreci yavaştır",
+                  "Aracı kurumlar komisyon alır"
+                ]
+              },
+              {
+                "title": "Akıllı Sözleşmeler",
+                "bullets": [
+                  "Kod tabanlı otomatik doğrulama",
+                  "Saniyeler içinde işlem gerçekleşir",
+                  "Aracı kurum maliyeti düşer"
+                ]
+              }
+            ],
+            "highlight": "",
+            "image_query": "digital contract on screen",
+            "notes": "Akıllı sözleşmeler, bankacılıkta 'if-then' mantığını kullanarak işlemleri otomatize eder. Örneğin bir kredi ödemesi gerçekleştiğinde, teminatın serbest bırakılması için bir memurun onayını beklemek zorunda kalmazsınız. Kod, sözleşme şartlarını yerine getirildiği an uygular. Bu da operasyonel süreçlerdeki insan faktörünü ve hata payını minimize eder."
+          },
+          {
+            "title": "Sınır Ötesi Ödemelerde Hız ve Şeffaflık",
+            "layout": "image",
+            "bullets": [
+              "Blokzincir tabanlı transferler, geleneksel muhabir bankacılık sistemine kıyasla işlem süresini dakikalara indirir.",
+              "Aracı banka sayısının azaltılması, SWIFT üzerinden yapılan transferlerdeki yüksek komisyon maliyetlerini düşürür.",
+              "Uçtan uca takip imkanı, müşterilerin para transferinin hangi aşamada olduğunu anlık görmesini sağlar."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "global financial map connection",
+            "notes": "Sınır ötesi ödemeler, bankacılığın en maliyetli ve yavaş alanlarından biridir. Blokzincir, muhabir banka ağlarına olan bağımlılığı azaltarak süreci doğrudan ve şeffaf hale getiriyor. Müşterileriniz artık transferlerinin nerede beklediğini sormak yerine, gerçek zamanlı izleme yapabiliyor. Bu da müşteri memnuniyetini doğrudan artıran bir unsur."
+          },
+          {
+            "title": "Dijital Varlıklar ve Regülasyon Uyumu",
+            "layout": "highlight",
+            "bullets": [],
+            "columns": [],
+            "highlight": "Kurumsal düzeyde blokzincir adaptasyonu, regülasyonlara tam uyumlu dijital varlık altyapısı ile mümkündür.",
+            "image_query": "digital currency token shield",
+            "notes": "Teknolojinin gelişimi regülasyonların çok önünde ilerliyor ancak bankalar için uyum her şeydir. Merkez bankası dijital paraları (CBDC), blokzincirin finansal sisteme entegrasyonunda güvenli bir köprü görevi görecek. Regülasyonlara uyumlu geliştirilen özel blokzincir ağları, kurumsal riskleri yönetmemize olanak sağlıyor. Gelecek, yasal çerçeveye oturtulmuş dijital varlık ekonomisindedir."
+          },
+          {
+            "title": "Bankacılıkta Blokzincir Stratejik Yol Haritası",
+            "layout": "cards",
+            "bullets": [
+              "Düşük riskli pilot projelerle teknoloji yetkinliğini test edin.",
+              "Siber güvenlik protokollerini blokzincir mimarisine göre yeniden yapılandırın.",
+              "Kurum içi ekipleri blokzincir geliştirme süreçleri için eğitin."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "strategic planning whiteboard",
+            "notes": "Bu dönüşüm bir gecede gerçekleşmeyecek; stratejik bir planlama gerektirir. Küçük kapsamlı pilot çalışmalarla başlayarak hem teknolojiyi öğrenmeli hem de risklerinizi ölçmelisiniz. Siber güvenlik altyapınızın bu yeni ağ yapısına uygunluğunu gözden geçirmek, yol haritanızın en kritik adımıdır. Doğru adımlarla, geleceğin finansal altyapısını bugünden inşa edebiliriz."
+          }
+        ],
+        "takeaways": [
+          "Blokzincir, operasyonel maliyetleri düşürerek verimliliği artırır.",
+          "Akıllı sözleşmeler manuel süreçlerde hata payını sıfıra indirir.",
+          "Regülasyon uyumu, dijital varlıkların bankacılığa entegrasyonunda temeldir."
+        ]
+      },
+      "photos_found": 4,
+      "photo_places": 4,
+      "timings": {
+        "plan": 1.65,
+        "content": 9.47,
+        "images": 3.89,
+        "pptx": 0.15
+      },
+      "seconds": 15.16,
+      "models_used": [
+        "gemini-3.1-flash-lite"
+      ],
+      "input_tokens": 1546,
+      "output_tokens": 1992,
+      "cost_usd": 0.003374
+    },
+    {
+      "topic": "Mars'a insanlı yolculuk",
+      "audience": "Genel izleyici",
+      "tone": "Eğitici",
+      "slide_count": 6,
+      "success": true,
+      "checks": {
+        "Slayt sayısı istenenle aynı": true,
+        "Madde sayıları düzene uygun": true,
+        "Maddelerin %90'ı en fazla 16 kelime": true,
+        "Kart maddeleri en fazla 12 kelime": false,
+        "Slayt başlıkları en fazla 9 kelime": true,
+        "Seçilen düzenler uygulanabilir": true,
+        "En fazla 1 vurgu slaytı": true,
+        "Art arda aynı düzen yok": true,
+        "Notlar en az 2 cümle ve 25 kelime": true,
+        "Tam 3 önemli çıkarım": true,
+        "İçerik Türkçe": true
+      },
+      "quality": 0.909,
+      "title": "Kızıl Gezegen Mars'a İnsanlı Yolculuk",
+      "layouts": [
+        "image",
+        "cards",
+        "comparison",
+        "image",
+        "cards",
+        "highlight"
+      ],
+      "presentation": {
+        "title": "Kızıl Gezegen Mars'a İnsanlı Yolculuk",
+        "subtitle": "İnsanlığın yeni sınırını keşfetmek için atılan dev adımları öğrenin.",
+        "image_query": "planet mars surface landscape",
+        "slides": [
+          {
+            "title": "Mars Neden Yeni Evimiz Olabilir?",
+            "layout": "image",
+            "bullets": [
+              "Mars, 24.6 saatlik gün süresiyle Dünya'nın döngüsüne şaşırtıcı derecede benzer bir yapı sunar.",
+              "Gezegenin kutup bölgelerinde bulunan donmuş su rezervleri, içme suyu ve yakıt üretimi sağlar.",
+              "Atmosferindeki karbon dioksit, özel reaktörler aracılığıyla oksijene dönüştürülerek solunabilir hava elde edilebilir."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "planet mars surface landscape",
+            "notes": "Mars sadece uzak bir nokta değil, keşfedilmeyi bekleyen bir laboratuvar gibidir. Dünya'ya olan benzerliği, sadece bir varış noktası değil, insanlığın evriminde bir sonraki basamak olabileceğini gösteriyor. Şimdi bu yolculuğun teknik zorluklarına daha yakından bakalım."
+          },
+          {
+            "title": "Yolculuk İçin Gerekli Teknoloji ve Araçlar",
+            "layout": "cards",
+            "bullets": [
+              "Devasa roket motorları, gezegenin çekim gücünden kurtulmak için devasa yakıt tüketir.",
+              "Derin uzayda yakıt ikmali, uzun süreli yolculukların sürdürülebilir olması için kritik önem taşır.",
+              "Isı kalkanları, atmosfere giriş anındaki aşırı yüksek sıcaklıklardan aracı ve mürettebatı korur."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "large rocket launch pad",
+            "notes": "Mars'a gitmek, bir okyanusu aşmak kadar karmaşık bir lojistik planlama gerektiriyor. Roketlerin devasa gücü, bizi yerçekiminden kurtarsa da asıl zorluk derin uzayda başlıyor. Yakıt ikmali yapabilen istasyonlar, bu mesafeyi katetmemiz için en büyük anahtarımız olacak."
+          },
+          {
+            "title": "Uzay Yolculuğunda İnsan Vücudu",
+            "layout": "comparison",
+            "bullets": [],
+            "columns": [
+              {
+                "title": "Dünya'da Yaşam",
+                "bullets": [
+                  "Yerçekimi kasları düzenli çalıştırır.",
+                  "Kemik yoğunluğu doğal ağırlıkla korunur.",
+                  "Dolaşım sistemi normal işleyişini sürdürür."
+                ]
+              },
+              {
+                "title": "Uzayda Yaşam",
+                "bullets": [
+                  "Kaslar hareketsizlikten hızla zayıflar.",
+                  "Kemikler sürekli kalsiyum kaybeder.",
+                  "Sıvılar vücudun üst kısmında birikir."
+                ]
+              }
+            ],
+            "highlight": "",
+            "image_query": "astronaut exercising on treadmill",
+            "notes": "Dünya'da yerçekimi sayesinde kaslarımız ve kemiklerimiz sürekli bir dirençle çalışır. Uzayda ise bu direnç ortadan kalkınca vücut kendi yapısını korumakta zorlanıyor. Bu yüzden astronotlar, kemik kaybını önlemek için her gün yoğun egzersiz yapmak zorundalar."
+          },
+          {
+            "title": "Kızıl Gezegende Hayatta Kalma Sanatı",
+            "layout": "image",
+            "bullets": [
+              "Mars yüzeyindeki yoğun radyasyondan korunmak için yaşam alanları toprak altına inşa edilmelidir.",
+              "Kapalı devre sistemler, atık suyu %95 oranında geri dönüştürerek su ihtiyacını karşılar.",
+              "Basınçlı modüller, gezegenin ince atmosferindeki düşük basınca rağmen yaşanabilir bir ortam yaratır."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "mars habitat base structure",
+            "notes": "Mars'ta hayatta kalmak, doğaya karşı değil, doğayla uyumlu bir sistem kurmak demektir. Radyasyon ve düşük basınç, Dünya'daki konforumuzu orada birebir sürdüremeyeceğimizi hatırlatıyor. Ancak kapalı devre sistemler, bize Dünya'daki kaynaklarımızı korumayı da öğretiyor."
+          },
+          {
+            "title": "Gıda Üretimi ve Sürdürülebilir Tarım",
+            "layout": "cards",
+            "bullets": [
+              "Topraksız tarım, bitkilerin besinli suyla büyümesini sağlayarak verimi artırır.",
+              "Mars toprağındaki toksik tuzlar, bitki ekiminden önce mutlaka arındırılmalıdır.",
+              "LED aydınlatma sistemleri, güneş ışığının yetersiz olduğu alanlarda fotosentezi destekler."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "hydroponic farm greenhouse",
+            "notes": "Mars'ta taze gıda, sadece beslenme değil, aynı zamanda psikolojik bir ihtiyaçtır. Dünyadan sürekli yiyecek taşımak imkansız olduğu için, kendi seralarımızı kurmak zorundayız. Bu yöntemler, aslında Dünya'da kurak bölgelerde tarım yapmamıza da büyük katkı sağlıyor."
+          },
+          {
+            "title": "Geleceğin Mars Kolonisi Vizyonu",
+            "layout": "highlight",
+            "bullets": [],
+            "columns": [],
+            "highlight": "Mars kolonisi, insanlığı çok gezegenli bir tür haline getirerek hayatta kalma şansımızı artıracaktır.",
+            "image_query": "futuristic mars city dome",
+            "notes": "Mars'ta bir koloni kurmak, sadece bir keşif değil, insanlığın geleceğini sigortalamaktır. Bu yolculukta edindiğimiz tüm teknolojiler, Dünya'nın kaynaklarını daha verimli kullanmamızı sağlayacak. Uzaydan baktığımızda, evimizin ne kadar değerli olduğunu daha iyi anlıyoruz."
+          }
+        ],
+        "takeaways": [
+          "Mars, Dünya'ya benzerliğiyle sürdürülebilir bir gelecek için potansiyel barındırır.",
+          "Uzay yolculuğu, biyolojik zorlukları aşmak için ileri düzey teknoloji gerektirir.",
+          "Mars'ta hayatta kalma çabası, Dünya'daki yaşamı korumayı da öğretir."
+        ]
+      },
+      "photos_found": 4,
+      "photo_places": 4,
+      "timings": {
+        "plan": 2.15,
+        "content": 5.06,
+        "images": 1.9,
+        "pptx": 0.14
+      },
+      "seconds": 9.25,
+      "models_used": [
+        "gemini-3.1-flash-lite"
+      ],
+      "input_tokens": 1555,
+      "output_tokens": 1910,
+      "cost_usd": 0.003254
+    },
+    {
+      "topic": "Türk mutfağının bölgesel çeşitliliği",
+      "audience": "Yabancı turistler",
+      "tone": "İkna edici",
+      "slide_count": 5,
+      "success": true,
+      "checks": {
+        "Slayt sayısı istenenle aynı": true,
+        "Madde sayıları düzene uygun": true,
+        "Maddelerin %90'ı en fazla 16 kelime": true,
+        "Kart maddeleri en fazla 12 kelime": true,
+        "Slayt başlıkları en fazla 9 kelime": true,
+        "Seçilen düzenler uygulanabilir": true,
+        "En fazla 1 vurgu slaytı": true,
+        "Art arda aynı düzen yok": true,
+        "Notlar en az 2 cümle ve 25 kelime": true,
+        "Tam 3 önemli çıkarım": true,
+        "İçerik Türkçe": true
+      },
+      "quality": 1.0,
+      "title": "Türk Mutfağı: Lezzetlerin Bin Yıllık Yolculuğu",
+      "layouts": [
+        "image",
+        "cards",
+        "comparison",
+        "image",
+        "highlight"
+      ],
+      "presentation": {
+        "title": "Türk Mutfağı: Lezzetlerin Bin Yıllık Yolculuğu",
+        "subtitle": "Coğrafyanın sunduğu eşsiz malzemeler ve kültürel mirasla damaklarınızda unutulmaz bir iz bırakın.",
+        "image_query": "traditional turkish feast table",
+        "slides": [
+          {
+            "title": "Doğa ve Kültürün Kusursuz Uyumu",
+            "layout": "image",
+            "bullets": [
+              "Üç tarafı denizlerle çevrili Türkiye, taze deniz ürünleri ve bereketli tarım arazileri sunar.",
+              "Binlerce yıllık medeniyetler, yerel malzemeleri eşsiz pişirme teknikleriyle birleştirerek zengin bir kültür oluşturmuştur.",
+              "İklim çeşitliliği, her bölgenin kendi özgün sebze ve meyve türünü yetiştirmesine olanak sağlar.",
+              "Topraklarımızın sunduğu bu doğal çeşitlilik, Türk mutfağının temelindeki taze malzeme felsefesini oluşturur."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "fertile agricultural landscape turkey",
+            "notes": "Türkiye sadece tarihi bir rota değil, aynı zamanda dünyanın en zengin mutfak kütüphanesidir. Coğrafyamızın sunduğu bu cömertlik, her tabağın arkasında bir doğa hikayesi olduğunu gösterir. Şimdi gelin, bu lezzet yolculuğuna kıyı şeridimizden başlayalım."
+          },
+          {
+            "title": "Ege ve Akdeniz'in Sağlıklı Doğası",
+            "layout": "cards",
+            "bullets": [
+              "Soğuk sıkım zeytinyağları kalp sağlığını destekler.",
+              "Taze otlar sindirimi düzenleyen doğal enzimler içerir.",
+              "Hafif sebze yemekleri uzun ve zinde yaşatır.",
+              "Akdeniz tipi beslenme enerji seviyenizi gün boyu korur."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "mediterranean olive oil salad",
+            "notes": "Ege'de bir sofraya oturduğunuzda sadece yemek yemezsiniz, adeta şifa bulursunuz. Zeytinyağlılar, taze otlar ve denizden gelen lezzetler vücudunuzu yormadan besler. Bu hafiflik, bölgenin sakin yaşam tarzıyla doğrudan ilişkilidir."
+          },
+          {
+            "title": "Güneydoğu'nun Baharatlı ve Zengin Mirası",
+            "layout": "comparison",
+            "bullets": [],
+            "columns": [
+              {
+                "title": "Baharatlı Lezzetler",
+                "bullets": [
+                  "Sumak ve isot özel aroma katar",
+                  "Tarihi taş fırınlarda kebap pişer",
+                  "Doğal baharatlar metabolizmayı hızlandırır"
+                ]
+              },
+              {
+                "title": "Kültürel Derinlik",
+                "bullets": [
+                  "Antakya mutfağı medeniyetleri birleştirir",
+                  "Gaziantep UNESCO gastronomi şehri seçildi",
+                  "Yüzyıllık tarifler nesilden nesile aktarılır"
+                ]
+              }
+            ],
+            "highlight": "",
+            "image_query": "spices market gaziantep",
+            "notes": "Güneydoğu'ya geçtiğimizde lezzet profili tamamen değişir ve daha iddialı, baharatlı bir karaktere bürünür. Gaziantep ve Antakya, sadece yemek değil, birer tarihsel mirastır. Bu bölgedeki her kebap, yüzyılların getirdiği bir ustalığın sonucudur."
+          },
+          {
+            "title": "Karadeniz'in Doğal ve Taze Ürünleri",
+            "layout": "image",
+            "bullets": [
+              "Karadeniz'in soğuk sularından çıkan taze hamsi, yüksek omega-3 oranıyla zihinsel sağlığı destekler.",
+              "Bereketli yaylalarda yetişen mısır, geleneksel ekmek yapımında temel enerji kaynağı olarak kullanılır.",
+              "Doğal karalahana, bölge halkının zorlu iklim koşullarında dahi zinde kalmasını sağlayan süper gıdadır.",
+              "Dağ köylerinden gelen süt ürünleri, hiçbir katkı maddesi içermeyen saf lezzetler sunar."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "fresh anchovy fish market",
+            "notes": "Karadeniz'in hırçın doğası mutfağına da yansımıştır; basit, taze ve çok güçlü bir enerji kaynağıdır. Hamsi ve mısırın bu kadar öne çıkması tesadüf değildir, tamamen yerel şartlara uyumdur. Bu mutfak, doğa ile mücadelenin ve barışın en lezzetli halidir."
+          },
+          {
+            "title": "Bir Lezzet Rotası Oluşturun",
+            "layout": "highlight",
+            "bullets": [],
+            "columns": [],
+            "highlight": "Türkiye'yi sadece gezmeyin, yerel mutfak atölyelerine katılarak bu eşsiz mirası bizzat deneyimleyin.",
+            "image_query": "cooking class students turkey",
+            "notes": "Bir ülkeyi tanımanın en iyi yolu, onun tenceresinde ne piştiğini görmektir. Sizleri sadece restoranları ziyaret etmeye değil, köylerde hamur açmaya, baharatları tanımaya davet ediyorum. Türkiye'nin lezzet sırlarını yerinde keşfetmeye hazır mısınız?"
+          }
+        ],
+        "takeaways": [
+          "Türk mutfağı bölgesel iklim ve coğrafyadan beslenen zengin bir kültürdür.",
+          "Doğal ve taze malzemeler her yemeğin temelinde yer alan ana kuraldır.",
+          "Yerel mutfak atölyeleri kültürü derinlemesine deneyimlemenin en etkili yoludur."
+        ]
+      },
+      "photos_found": 4,
+      "photo_places": 4,
+      "timings": {
+        "plan": 3.45,
+        "content": 4.77,
+        "images": 1.82,
+        "pptx": 0.14
+      },
+      "seconds": 10.18,
+      "models_used": [
+        "gemini-3.1-flash-lite"
+      ],
+      "input_tokens": 1553,
+      "output_tokens": 1731,
+      "cost_usd": 0.002985
+    },
+    {
+      "topic": "Agile ve Scrum ile proje yönetimi",
+      "audience": "Yazılım ekipleri",
+      "tone": "Profesyonel",
+      "slide_count": 6,
+      "success": true,
+      "checks": {
+        "Slayt sayısı istenenle aynı": true,
+        "Madde sayıları düzene uygun": true,
+        "Maddelerin %90'ı en fazla 16 kelime": true,
+        "Kart maddeleri en fazla 12 kelime": true,
+        "Slayt başlıkları en fazla 9 kelime": true,
+        "Seçilen düzenler uygulanabilir": true,
+        "En fazla 1 vurgu slaytı": true,
+        "Art arda aynı düzen yok": true,
+        "Notlar en az 2 cümle ve 25 kelime": true,
+        "Tam 3 önemli çıkarım": true,
+        "İçerik Türkçe": true
+      },
+      "quality": 1.0,
+      "title": "Agile ile Çevik Proje Yönetimi",
+      "layouts": [
+        "image",
+        "cards",
+        "comparison",
+        "image",
+        "highlight",
+        "cards"
+      ],
+      "presentation": {
+        "title": "Agile ile Çevik Proje Yönetimi",
+        "subtitle": "Yazılım geliştirme süreçlerinde verimliliği ve hızı artırmanın stratejik yolları.",
+        "image_query": "team working scrum board",
+        "slides": [
+          {
+            "title": "Gelenekselden Çevik Yönetime Geçiş",
+            "layout": "image",
+            "bullets": [
+              "Waterfall modeli, katı aşamaları nedeniyle değişen müşteri ihtiyaçlarına yanıt vermekte ciddi zorluklar yaşar.",
+              "Agile yaklaşımı, projeyi küçük parçalara bölerek hataların erken aşamada tespit edilmesini ve düzeltilmesini sağlar.",
+              "Yazılım ekipleri için doğrusal süreçten çevik yapıya geçiş, ürün teslim süresini önemli ölçüde kısaltır."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "waterfall diagram vs agile circle",
+            "notes": "Geleneksel yöntemler genellikle planlama aşamasında takılıp kalır. Oysa yazılım dünyası dinamiktir ve sürekli değişim gerektirir. Çevik yönetim, bu değişimi bir engel olarak değil, bir fırsat olarak görür. Şimdi bu yapıyı hayata geçiren Scrum çerçevesine bakalım."
+          },
+          {
+            "title": "Scrum Çerçevesinin Temel Taşları",
+            "layout": "cards",
+            "bullets": [
+              "Product Owner: Ürün değerini maksimize eden kişi.",
+              "Scrum Master: Süreçteki engelleri kaldıran kolaylaştırıcı.",
+              "Geliştirme Ekibi: Yazılımı üreten yetkin uzmanlar grubu.",
+              "Sprintler: Belirli süreli, odaklanmış çalışma döngüleri."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "scrum team meeting",
+            "notes": "Scrum sadece bir toplantı dizisi değil, disiplinli bir iş birliği modelidir. Her rolün net sorumlulukları vardır ve bu sorumluluklar ekibin kendi kendini yönetmesini sağlar. Bu rollerin nasıl bir araya geldiğini, yani sprint döngülerini inceleyelim."
+          },
+          {
+            "title": "Sprints: Sürekli Değer Üretimi",
+            "layout": "comparison",
+            "bullets": [],
+            "columns": [
+              {
+                "title": "Uzun Vadeli Planlar",
+                "bullets": [
+                  "Yüksek belirsizlik ve risk barındırır.",
+                  "Değişiklik maliyetleri çok yüksektir.",
+                  "Teslimat süreci çok uzundur."
+                ]
+              },
+              {
+                "title": "İki Haftalık Sprintler",
+                "bullets": [
+                  "Hata payını hızla düşürür.",
+                  "Değişikliklere anında uyum sağlar.",
+                  "Düzenli çalışan ürün çıktısı üretir."
+                ]
+              }
+            ],
+            "highlight": "",
+            "image_query": "calendar with sprint tasks",
+            "notes": "Sprintler, belirsizliği parçalara bölerek yönetmemize olanak tanır. Her sprint sonunda elimizde çalışan bir yazılım parçası olmalıdır. Bu durum, müşteriye sürekli değer sunmamızı ve geri bildirim almamızı kolaylaştırır."
+          },
+          {
+            "title": "Etkili Daily Stand-up Yönetimi",
+            "layout": "image",
+            "bullets": [
+              "Günlük toplantılar, ekibin birbirine hesap vermesi yerine engellerin şeffaf bir şekilde paylaşılması içindir.",
+              "Sadece dün ne yapıldı ve bugün ne yapılacak soruları, iş akışındaki darboğazları belirlemek için yeterlidir.",
+              "Toplantı süresini 15 dakikada tutmak, ekibin odaklanmasını sağlar ve toplantı yorgunluğunu minimize eder."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "team standing around whiteboard",
+            "notes": "Birçok ekip günlük toplantıları bir raporlama seansı gibi kullanıyor, bu bir hatadır. Asıl amaç, o gün önünüzde duran blokajları kaldırmaktır. Eğer bir konu uzuyorsa, toplantı dışında tartışılmalıdır."
+          },
+          {
+            "title": "Backlog Yönetimi ve Önceliklendirme",
+            "layout": "highlight",
+            "bullets": [],
+            "columns": [],
+            "highlight": "Doğru önceliklendirme, ekibin en yüksek iş değerini üretecek işlere odaklanmasını sağlayan stratejik bir zorunluluktur.",
+            "image_query": "kanban board priority tasks",
+            "notes": "Backlog, ekibin yapılacak işler listesidir. Ancak her şey önemli değildir. Product Owner'ın temel görevi, hangi özelliğin kullanıcıya en hızlı değeri katacağını belirlemektir. Önceliklendirme yanlış yapılırsa, çok çalışsanız bile değer üretemezsiniz."
+          },
+          {
+            "title": "Retrospektif ile Sürekli İyileşme",
+            "layout": "cards",
+            "bullets": [
+              "Neler iyi gitti: Başarıları ölçümleyerek tekrarla.",
+              "Neler aksadı: Sorunların kök nedenlerini analiz et.",
+              "Aksiyon planı: Bir sonraki sprintte iyileşme uygula.",
+              "Ekip kültürü: Açık ve güvenli iletişim kur."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "sticky notes on wall",
+            "notes": "Retrospektif, Scrum'ın kalp atışıdır. Eğer her sprint sonunda süreci iyileştirmiyorsanız, sadece iş yapıyorsunuz demektir. Hataları bir öğrenme fırsatı olarak görün ve sürekli gelişimi bir alışkanlık haline getirin."
+          }
+        ],
+        "takeaways": [
+          "Projeleri küçük sprintlere bölerek riskleri ve belirsizliği azaltın.",
+          "Günlük toplantıları raporlama değil, engelleri kaldırma aracı olarak kullanın.",
+          "Retrospektifler ile ekip performansını her döngüde daha ileriye taşıyın."
+        ]
+      },
+      "photos_found": 4,
+      "photo_places": 4,
+      "timings": {
+        "plan": 2.03,
+        "content": 4.78,
+        "images": 2.14,
+        "pptx": 0.15
+      },
+      "seconds": 9.1,
+      "models_used": [
+        "gemini-3.1-flash-lite"
+      ],
+      "input_tokens": 1531,
+      "output_tokens": 1778,
+      "cost_usd": 0.00305
+    },
+    {
+      "topic": "Depreme hazırlık",
+      "audience": "Aileler",
+      "tone": "Eğitici",
+      "slide_count": 5,
+      "success": true,
+      "checks": {
+        "Slayt sayısı istenenle aynı": true,
+        "Madde sayıları düzene uygun": true,
+        "Maddelerin %90'ı en fazla 16 kelime": true,
+        "Kart maddeleri en fazla 12 kelime": true,
+        "Slayt başlıkları en fazla 9 kelime": true,
+        "Seçilen düzenler uygulanabilir": true,
+        "En fazla 1 vurgu slaytı": true,
+        "Art arda aynı düzen yok": true,
+        "Notlar en az 2 cümle ve 25 kelime": true,
+        "Tam 3 önemli çıkarım": true,
+        "İçerik Türkçe": true
+      },
+      "quality": 1.0,
+      "title": "Depreme Hazırlık: Ailenizi Güvende Tutun",
+      "layouts": [
+        "image",
+        "cards",
+        "comparison",
+        "image",
+        "highlight"
+      ],
+      "presentation": {
+        "title": "Depreme Hazırlık: Ailenizi Güvende Tutun",
+        "subtitle": "Küçük adımlarla büyük felaketlere karşı hazırlıklı olun.",
+        "image_query": "family preparing emergency kit",
+        "slides": [
+          {
+            "title": "Deprem Gerçeğiyle Yüzleşmek",
+            "layout": "image",
+            "bullets": [
+              "Depremler coğrafyamızın değişmez bir gerçeğidir, bu nedenle hazırlık çalışmalarını ertelememek kritik önem taşır.",
+              "Önceden tahmin edilemeyen sarsıntılara karşı ev içi düzenlemeler yaparak yaralanma riskini ciddi oranda düşürebilirsiniz.",
+              "Hazırlıklı olmak sadece fiziksel değil, aile bireylerinin psikolojik olarak kendilerini güvende hissetmelerini de sağlar."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "seismograph recording earthquake wave",
+            "notes": "Deprem bir doğa olayıdır ve onu engellememiz mümkün değildir. Ancak, alacağımız önlemlerle depremin etkilerini yönetebiliriz. Bugün, evimizi güvenli bir limana dönüştürmek için atabileceğimiz somut adımları konuşacağız. Hazırsanız, ilk olarak en büyük tehlike olan eşyalarımızdan başlayalım."
+          },
+          {
+            "title": "Evdeki Sabitlenmemiş Eşyaları Tespit Edin",
+            "layout": "cards",
+            "bullets": [
+              "Dolapları duvara L-braket kullanarak güçlü bir şekilde sabitleyin.",
+              "Televizyon ünitelerini devrilmeye karşı mutlaka duvar bağlantılarıyla güçlendirin.",
+              "Ağır eşyaları alt raflara yerleştirerek ağırlık merkezini aşağı çekin.",
+              "Aynaları ve tabloları duvara dayanıklı vida ve dübellerle sabitleyin."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "furniture wall anchor kit",
+            "notes": "Deprem anında yaralanmaların büyük kısmı devrilen mobilyalardan kaynaklanır. Sadece birkaç vida ve braket kullanarak bu riski sıfırlayabilirsiniz. Özellikle çocuk odalarındaki şifonyerlerin duvara sabitlenmesi hayati bir öneme sahiptir. Şimdi, evden çıkmak zorunda kalırsak yanımıza almamız gerekenleri inceleyelim."
+          },
+          {
+            "title": "Acil Durum Çantasında Neler Olmalı",
+            "layout": "comparison",
+            "bullets": [],
+            "columns": [
+              {
+                "title": "Temel İhtiyaçlar",
+                "bullets": [
+                  "Kişi başı üç litre su",
+                  "Uzun ömürlü paketli gıdalar",
+                  "İlk yardım çantası seti",
+                  "Düzenli kullanılan kritik ilaçlar"
+                ]
+              },
+              {
+                "title": "Doküman ve Ekipman",
+                "bullets": [
+                  "Kimlik kartı ve tapu fotokopileri",
+                  "Düdük ve el feneri",
+                  "Yedek pilli taşınabilir radyo",
+                  "Nakit para ve powerbank"
+                ]
+              }
+            ],
+            "highlight": "",
+            "image_query": "emergency backpack supplies kit",
+            "notes": "Acil durum çantası, ilk 72 saatte ihtiyaç duyacağınız temel yaşam destek ünitesidir. Bu çantayı kolayca erişebileceğiniz bir yerde, örneğin kapı girişinde tutmalısınız. Belgelerinizi su geçirmez bir poşete koymayı ihmal etmeyin. Çantalarımız hazır olduğuna göre, şimdi ailemizle nasıl iletişim kuracağımızı planlayalım."
+          },
+          {
+            "title": "Aile İçi Afet Planı Oluşturun",
+            "layout": "image",
+            "bullets": [
+              "Deprem anında aile bireylerinin bir araya geleceği güvenli bir buluşma noktası belirleyin.",
+              "Şehir dışındaki bir yakınımızı ortak iletişim kişisi olarak belirleyerek haberleşmeyi kolaylaştırın.",
+              "Evdeki herkesin elektrik, su ve doğalgaz vanalarının yerini bilmesini mutlaka sağlayın."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "family planning emergency meeting point",
+            "notes": "Deprem sırasında telefon hatları aşırı yoğunluktan dolayı kilitlenebilir. Bu yüzden kısa mesaj kullanmak veya önceden belirlediğiniz bir şehir dışı yakınınız üzerinden haberleşmek en güvenli yoldur. Evin içinde de herkesin görev dağılımını yapması karmaşayı önler. Son olarak, deprem anında nerede duracağımıza bakalım."
+          },
+          {
+            "title": "Güvenli Alanları Önceden Belirleyin",
+            "layout": "highlight",
+            "bullets": [],
+            "columns": [],
+            "highlight": "Sarsıntı anında çök-kapan-tutun yaparak devrilmeyen ağır eşyaların yanında yaşam üçgeni oluşturun.",
+            "image_query": "drop cover hold on instruction",
+            "notes": "Güvenli alan, üzerine bir şeyin düşmeyeceği veya yanında kendinize yer açabileceğiniz noktalardır. Sarsıntı bittiğinde ise binayı kontrollü bir şekilde, asansörleri kullanmadan terk etmelisiniz. Bu basit yöntemler, panik anında doğru kararlar vermenizi sağlar. Unutmayın, hazırlık felaketin en büyük düşmanıdır."
+          }
+        ],
+        "takeaways": [
+          "Eşyalarınızı duvara sabitleyerek evinizi güvenli hale getirin.",
+          "Acil durum çantasını her zaman hazır ve ulaşılabilir tutun.",
+          "Aile afet planı yaparak iletişim krizlerini önceden engelleyin."
+        ]
+      },
+      "photos_found": 4,
+      "photo_places": 4,
+      "timings": {
+        "plan": 8.52,
+        "content": 6.81,
+        "images": 2.19,
+        "pptx": 0.13
+      },
+      "seconds": 17.65,
+      "models_used": [
+        "gemini-3.1-flash-lite"
+      ],
+      "input_tokens": 1474,
+      "output_tokens": 1644,
+      "cost_usd": 0.002834
+    },
+    {
+      "topic": "Veri bilimi kariyer yolu",
+      "audience": "Üniversite öğrencileri",
+      "tone": "Eğitici",
+      "slide_count": 6,
+      "success": true,
+      "checks": {
+        "Slayt sayısı istenenle aynı": true,
+        "Madde sayıları düzene uygun": true,
+        "Maddelerin %90'ı en fazla 16 kelime": true,
+        "Kart maddeleri en fazla 12 kelime": true,
+        "Slayt başlıkları en fazla 9 kelime": true,
+        "Seçilen düzenler uygulanabilir": true,
+        "En fazla 1 vurgu slaytı": true,
+        "Art arda aynı düzen yok": true,
+        "Notlar en az 2 cümle ve 25 kelime": true,
+        "Tam 3 önemli çıkarım": true,
+        "İçerik Türkçe": true
+      },
+      "quality": 1.0,
+      "title": "Veri Bilimi ile Geleceği Tasarlayın",
+      "layouts": [
+        "image",
+        "cards",
+        "comparison",
+        "image",
+        "cards",
+        "highlight"
+      ],
+      "presentation": {
+        "title": "Veri Bilimi ile Geleceği Tasarlayın",
+        "subtitle": "Ham veriyi anlamlı içgörülere dönüştüren veri bilimcilerin dünyasını keşfedin.",
+        "image_query": "data scientist working laptop",
+        "slides": [
+          {
+            "title": "Veri Bilimi Neden Önemli?",
+            "layout": "image",
+            "bullets": [
+              "Veri odaklı şirketler, müşteri davranışlarını analiz ederek kişiselleştirilmiş kampanya stratejileri geliştirebilirler.",
+              "Üretim süreçlerinde sensörlerden gelen veriler, makinelerin arızalanmadan önce tamir edilmesini mümkün kılar.",
+              "Finansal kuruluşlar, işlem verilerini inceleyerek kredi risklerini minimize eden güvenli modeller oluştururlar."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "business dashboard monitor",
+            "notes": "Bugün veriye sahip olmak yetmiyor, o veriyi anlamlı bir hikayeye dönüştürmek gerekiyor. Şirketler artık sezgilerle değil, rakamların sunduğu kanıtlarla yol alıyor. Bu dönüşümün merkezinde ise veri bilimciler yer alıyor. Şimdi bu dünyayı inşa eden temel yetkinliklere bakalım."
+          },
+          {
+            "title": "İhtiyacınız Olan Temel Yetkinlikler",
+            "layout": "cards",
+            "bullets": [
+              "İstatistiksel analiz: Olasılık ve hipotez testlerini doğru yorumlama yeteneği.",
+              "Programlama temeli: Python veya R dillerinde veri manipülasyonu becerisi.",
+              "Matematiksel mantık: Lineer cebir ile algoritma çalışma prensiplerini kavrama.",
+              "Problem çözme: Karmaşık iş sorularını matematiksel modellere dönüştürme pratiği."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "math formulas blackboard",
+            "notes": "Veri bilimi sadece kod yazmak değil, aynı zamanda doğru soruyu sorma sanatıdır. İstatistik, verideki gürültüyü ayıklamanızı sağlar; programlama ise bu veriyi işlenebilir hale getirir. Bu üçlü sacayağı, kariyerinizin temelini oluşturacak en güçlü araçlarınızdır."
+          },
+          {
+            "title": "Veri Biliminde Kullanılan Araçlar",
+            "layout": "comparison",
+            "bullets": [],
+            "columns": [
+              {
+                "title": "Analiz ve Kodlama",
+                "bullets": [
+                  "Python kütüphaneleri ile veri temizleme",
+                  "SQL ile veritabanı sorgulama",
+                  "Jupyter Notebook ile kod geliştirme"
+                ]
+              },
+              {
+                "title": "Sunum ve Görselleştirme",
+                "bullets": [
+                  "Tableau ile interaktif grafikler",
+                  "Power BI ile raporlama",
+                  "Matplotlib ile veri görselleştirme"
+                ]
+              }
+            ],
+            "highlight": "",
+            "image_query": "laptop screen displaying code",
+            "notes": "Araçlar değişebilir ancak mantık aynı kalır. Bir veri bilimci, veritabanından ham veriyi çeker, kodla temizler ve sonunda bir görselle yöneticiye sunar. Bu döngünün her aşamasında farklı bir yazılımı ustalıkla kullanmanız beklenir."
+          },
+          {
+            "title": "Gerçek Hayattan Veri Hikayeleri",
+            "layout": "image",
+            "bullets": [
+              "Netflix, izleme geçmişinizi analiz ederek size uygun içerikleri öneren karmaşık algoritmalar kullanır.",
+              "E-ticaret platformları, satın alma alışkanlıklarınıza göre dinamik fiyatlandırma yaparak stok yönetimini optimize eder.",
+              "Hava durumu tahmin sistemleri, uydu verilerini işleyerek olası doğal afetleri önceden haber verir."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "streaming service interface",
+            "notes": "Algoritmalar aslında uzak ve karmaşık kavramlar değil; her gün kullandığınız uygulamaların arka planındaki gizli kahramanlardır. İzlediğiniz bir film önerisi veya aldığınız bir indirim bildirimi, veri biliminin hayatımıza dokunduğu somut örneklerdir. Şimdi bu etkileyici dünyaya nasıl adım atabileceğinize odaklanalım."
+          },
+          {
+            "title": "Kariyer Basamaklarını Doğru Tırmanmak",
+            "layout": "cards",
+            "bullets": [
+              "GitHub üzerinde kendi projelerinizi paylaşarak teknik yetkinliğinizi kanıtlayın.",
+              "Kaggle yarışmalarına katılarak gerçek veri setleriyle çözüm üretmeyi deneyimleyin.",
+              "Sektörel stajlar yaparak iş dünyasının veri ihtiyaçlarını yakından gözlemleyin.",
+              "Online sertifika programları ile güncel teknolojileri sürekli takip edin."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "student working on laptop",
+            "notes": "Kariyer yolu sadece teorik bilgiyle değil, somut projelerle şekillenir. Bir portfolyo, özgeçmişinizde yazan onlarca kelimeden daha etkileyicidir. Hatalar yapmaktan korkmayın, çünkü veri biliminde her hatalı model aslında bir öğrenme fırsatıdır."
+          },
+          {
+            "title": "Geleceğin Veri Odaklı Dünyası",
+            "layout": "highlight",
+            "bullets": [],
+            "columns": [],
+            "highlight": "Veri okuryazarlığı, dijital gelecekte her sektörün anahtar yetkinliği haline gelecektir.",
+            "image_query": "futuristic digital city",
+            "notes": "Yapay zeka işleri elimizden almayacak, ancak veri okuryazarı olanlar, olmayanların önüne geçecek. Gelecek, veriyi anlamlı bir karara dönüştürebilenlerin dünyası olacak. Bu yolculukta kendinizi geliştirmeye bugün başlayın."
+          }
+        ],
+        "takeaways": [
+          "Veri bilimi, sezgileri matematiksel kanıtlarla birleştiren karar verme sürecidir.",
+          "İstatistik, programlama ve görselleştirme yetenekleri başarılı bir kariyerin temelidir.",
+          "Kişisel projeler ve pratik deneyim, teorik bilgiden daha değerlidir."
+        ]
+      },
+      "photos_found": 4,
+      "photo_places": 4,
+      "timings": {
+        "plan": 2.71,
+        "content": 4.88,
+        "images": 3.25,
+        "pptx": 0.12
+      },
+      "seconds": 10.96,
+      "models_used": [
+        "gemini-3.1-flash-lite"
+      ],
+      "input_tokens": 1518,
+      "output_tokens": 1806,
+      "cost_usd": 0.003089
+    },
+    {
+      "topic": "Gönüllülük ve sivil toplum",
+      "audience": "Üniversite öğrencileri",
+      "tone": "İkna edici",
+      "slide_count": 5,
+      "success": true,
+      "checks": {
+        "Slayt sayısı istenenle aynı": true,
+        "Madde sayıları düzene uygun": true,
+        "Maddelerin %90'ı en fazla 16 kelime": true,
+        "Kart maddeleri en fazla 12 kelime": true,
+        "Slayt başlıkları en fazla 9 kelime": true,
+        "Seçilen düzenler uygulanabilir": true,
+        "En fazla 1 vurgu slaytı": true,
+        "Art arda aynı düzen yok": true,
+        "Notlar en az 2 cümle ve 25 kelime": true,
+        "Tam 3 önemli çıkarım": true,
+        "İçerik Türkçe": true
+      },
+      "quality": 1.0,
+      "title": "Dünyayı Değiştirmek Senin Elinde",
+      "layouts": [
+        "image",
+        "cards",
+        "comparison",
+        "image",
+        "highlight"
+      ],
+      "presentation": {
+        "title": "Dünyayı Değiştirmek Senin Elinde",
+        "subtitle": "Gönüllülük ile hem topluma hem de kendi kariyerine değer kat.",
+        "image_query": "young volunteers planting trees",
+        "slides": [
+          {
+            "title": "Neden Gönüllü Olmalısın?",
+            "layout": "image",
+            "bullets": [
+              "Sosyal sorumluluk projeleri, karmaşık problemleri çözerken analitik düşünme becerilerinizi hızla geliştirmenizi sağlar.",
+              "Farklı geçmişlere sahip insanlarla çalışmak, iletişim ve empati yeteneğinizi profesyonel düzeyde güçlendirir.",
+              "Gönüllülük, zorlu durumlar karşısında inisiyatif alarak özgüveninizi ve liderlik potansiyelinizi ortaya çıkarır."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "diverse volunteers working together",
+            "notes": "Gönüllülük sadece dışarıya verilen bir emek değil, aslında kendinize yaptığınız en büyük yatırımdır. Bir projede sorumluluk almak, okulda teorik olarak öğrendiğiniz bilgileri gerçek hayatın karmaşasında test etmenize olanak tanır. Şimdi bu deneyimin sizi nasıl dönüştürebileceğine daha yakından bakalım."
+          },
+          {
+            "title": "Sivil Toplumun Gücü",
+            "layout": "cards",
+            "bullets": [
+              "Bireysel çabalar, STK yapısı sayesinde sürdürülebilir toplumsal projelere dönüşür.",
+              "Kurumsal ağlar, yerel sorunları ulusal çapta görünür kılmayı mümkün kılar.",
+              "Gönüllü toplulukları, yasal savunuculuk ile sistemik değişimlerin öncülüğünü yapar."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "people holding protest banners",
+            "notes": "Tek bir kişi tek başına dalga yaratamaz ama sivil toplumun oluşturduğu okyanusta devrim yapabilir. STK'lar, bireysel enerjiyi doğru kanallara yönlendirerek birleştirir ve çarpan etkisi yaratır. Bu organizasyon yapısı, sadece yardım etmekle kalmaz, aynı zamanda sorunların kök nedenlerini ortadan kaldırmayı hedefler."
+          },
+          {
+            "title": "Kariyerinde Fark Yarat",
+            "layout": "comparison",
+            "bullets": [],
+            "columns": [
+              {
+                "title": "Geleneksel Deneyim",
+                "bullets": [
+                  "Sadece akademik başarı odaklıdır",
+                  "Pratik uygulama alanı kısıtlıdır",
+                  "Ekip çalışması deneyimi zayıftır"
+                ]
+              },
+              {
+                "title": "Gönüllülük Deneyimi",
+                "bullets": [
+                  "Sosyal kanıt ve liderlik sağlar",
+                  "Kriz yönetimi becerisi kazandırır",
+                  "Profesyonel iş ağı oluşturur"
+                ]
+              }
+            ],
+            "highlight": "",
+            "image_query": "student presenting business project",
+            "notes": "İşverenler artık sadece not ortalamasına değil, adayın ne kadar sorumluluk aldığına bakıyor. Gönüllü bir projede yönettiğiniz bir bütçe veya kriz anında aldığınız bir karar, mülakatlarda akademik başarıdan daha fazla merak uyandırır. Gelin, bu yetkinlikleri nasıl çeşitlendirebileceğinize göz atalım."
+          },
+          {
+            "title": "İlgi Alanına Göre Katıl",
+            "layout": "image",
+            "bullets": [
+              "Çevre projelerinde yer alarak iklim değişikliği ile mücadelede somut adımlar atabilirsiniz.",
+              "Eğitim destek programları ile dezavantajlı bölgelerdeki çocukların akademik başarılarına doğrudan katkı sağlarsınız.",
+              "Teknoloji odaklı STK'larda gönüllü yazılımcı olarak dijital uçurumu kapatan çözümler üretebilirsiniz."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "volunteers cleaning park",
+            "notes": "Gönüllülük yapmak için bir uzman olmanıza gerek yok; sadece tutkulu olmanız yeterli. İster kod yazmayı bilin, ister sadece ağaç dikmeyi; her yeteneğin sivil toplumda bir karşılığı vardır. Önemli olan, sizin değerlerinizle örtüşen bir alanı keşfetmenizdir."
+          },
+          {
+            "title": "Hemen Bugün Harekete Geç",
+            "layout": "highlight",
+            "bullets": [],
+            "columns": [],
+            "highlight": "Dünyayı değiştirmek için mükemmel zamanı bekleme, ilk adımını hemen bugün bir STK ile at.",
+            "image_query": "hand touching world map",
+            "notes": "Bugün buradan çıktığınızda sadece bir sunum dinlemiş olmayın. Yerel bir derneğin web sitesine girin, bir projeye kayıt olun veya bir arkadaşınızla ilk küçük girişiminizi başlatın. Geleceğin dünyasını, bugün attığınız o ilk adım inşa edecek."
+          }
+        ],
+        "takeaways": [
+          "Gönüllülük, profesyonel yetkinliklerinizi geliştirmenin en etkili yollarından biridir.",
+          "Sivil toplum, bireysel çabaları sürdürülebilir ve büyük ölçekli etkiye dönüştürür.",
+          "İlgi alanınıza uygun projelerde yer alarak toplumsal dönüşüme hemen katkı sağlayabilirsiniz."
+        ]
+      },
+      "photos_found": 4,
+      "photo_places": 4,
+      "timings": {
+        "plan": 2.04,
+        "content": 4.8,
+        "images": 2.18,
+        "pptx": 0.12
+      },
+      "seconds": 9.14,
+      "models_used": [
+        "gemini-3.1-flash-lite"
+      ],
+      "input_tokens": 1515,
+      "output_tokens": 1601,
+      "cost_usd": 0.00278
+    },
+    {
+      "topic": "E-ticarette müşteri deneyimi",
+      "audience": "KOBİ sahipleri",
+      "tone": "Profesyonel",
+      "slide_count": 6,
+      "success": true,
+      "checks": {
+        "Slayt sayısı istenenle aynı": true,
+        "Madde sayıları düzene uygun": true,
+        "Maddelerin %90'ı en fazla 16 kelime": true,
+        "Kart maddeleri en fazla 12 kelime": true,
+        "Slayt başlıkları en fazla 9 kelime": true,
+        "Seçilen düzenler uygulanabilir": true,
+        "En fazla 1 vurgu slaytı": true,
+        "Art arda aynı düzen yok": true,
+        "Notlar en az 2 cümle ve 25 kelime": true,
+        "Tam 3 önemli çıkarım": true,
+        "İçerik Türkçe": true
+      },
+      "quality": 1.0,
+      "title": "E-Ticarette Müşteri Odaklı Satış Stratejileri",
+      "layouts": [
+        "image",
+        "cards",
+        "comparison",
+        "image",
+        "highlight",
+        "cards"
+      ],
+      "presentation": {
+        "title": "E-Ticarette Müşteri Odaklı Satış Stratejileri",
+        "subtitle": "KOBİ'ler için dijital dünyada sadık müşteri kitlesi yaratmanın yolları.",
+        "image_query": "online shopping delivery package",
+        "slides": [
+          {
+            "title": "Dijital Dönüşümde Müşteri Deneyiminin Gücü",
+            "layout": "image",
+            "bullets": [
+              "Fiyat rekabeti yerine satın alma deneyimindeki pürüzsüzlük, sadık bir müşteri kitlesi oluşturmanızı sağlar.",
+              "Güven odaklı bir arayüz tasarımı, ziyaretçilerin kişisel verilerini paylaşma konusundaki çekincelerini önemli ölçüde azaltır.",
+              "Satın alma sürecindeki her adımın kolaylaşması, müşteri kaybını önleyerek dijital satış hacminizi doğrudan artırır."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "happy customer online shopping",
+            "notes": "Günümüzde tüketiciler sadece bir ürün değil, iyi bir deneyim arayışındalar. Bir KOBİ olarak, dev markalarla fiyatla yarışmak yerine, sunduğunuz hizmet kalitesiyle fark yaratabilirsiniz. Müşterinin web sitenizde kendini güvende hissetmesi, tekrar gelen müşteri kazanmanın ilk anahtarıdır. Şimdi, bu deneyimi teknik olarak nasıl iyileştireceğimize bakalım."
+          },
+          {
+            "title": "Kullanıcı Dostu Arayüz ile Satış Artırma",
+            "layout": "cards",
+            "bullets": [
+              "Mobil uyumluluk, tüm cihazlarda sorunsuz bir alışveriş deneyimi sunar.",
+              "Hızlı yüklenen sayfalar, kullanıcıların siteden hemen çıkma oranını düşürür.",
+              "Basitleştirilmiş ödeme adımları, sepetteki ürünlerin tamamlanma oranını ciddi oranda artırır."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "responsive web design mobile",
+            "notes": "Web siteniz bir mağazanın vitrini gibidir; eğer vitrin dağınıksa müşteri içeri girmez. Mobil cihazlardan gelen trafiğin giderek arttığı günümüzde, mobil uyumluluk bir lüks değil zorunluluktur. Siteniz saniyeler içinde açılmazsa, potansiyel müşteriniz rakip siteye geçecektir. Kullanıcıyı yormayan sade bir ödeme ekranı, satış dönüşümünü en çok etkileyen teknik detaydır."
+          },
+          {
+            "title": "Kişiselleştirilmiş İletişimle Müşteri Bağlılığı",
+            "layout": "comparison",
+            "bullets": [],
+            "columns": [
+              {
+                "title": "Genel Pazarlama",
+                "bullets": [
+                  "Tüm kullanıcılara aynı mesaj gider",
+                  "Düşük dönüşüm oranları görülür",
+                  "Müşteri kendini özel hissetmez"
+                ]
+              },
+              {
+                "title": "Kişiselleştirilmiş İletişim",
+                "bullets": [
+                  "İlgi alanına göre öneri sunar",
+                  "Tekrar alışveriş oranı yükselir",
+                  "Müşteri markayla bağ kurar"
+                ]
+              }
+            ],
+            "highlight": "",
+            "image_query": "personalized email marketing",
+            "notes": "Müşterilerinize sadece bir sipariş numarası gibi davranmaktan vazgeçmelisiniz. Geçmiş alışverişlerini analiz ederek onlara özel öneriler sunmak, bir mağaza sahibinin müşterisini tanımasıyla eşdeğerdir. Bu yaklaşım, sadece bir satış değil, uzun vadeli bir ilişki kurmanızı sağlar. Şimdi bu ilişkinin lojistik tarafındaki yansımasına göz atalım."
+          },
+          {
+            "title": "Süreç Yönetimi ve Şeffaf Kargo Takibi",
+            "layout": "image",
+            "bullets": [
+              "Siparişin her aşamasında yapılan bilgilendirmeler, müşterideki belirsizlik hissini ve kaygıyı ortadan kaldırır.",
+              "Hızlı ve şeffaf bir lojistik süreci, marka güvenilirliğini artıran en güçlü operasyonel faktördür.",
+              "Teslimat sonrası takip mesajları, müşterinin markanızla olan bağını güçlendirerek sadakati pekiştirir."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "delivery person package box",
+            "notes": "Ödeme yapıldıktan sonra müşterinin en büyük beklentisi ürünün güvenli ve hızlı ulaşmasıdır. Siparişin durumunu anlık takip edebilen bir müşteri, sizden tekrar alışveriş yapmaya daha meyillidir. Lojistik süreçlerindeki şeffaflık, müşteri hizmetlerine gelen yükü de azaltır. Kargo sürecini yönetmek, aslında müşterinin marka algısını yönetmektir."
+          },
+          {
+            "title": "Sosyal Kanıt ve Müşteri Yorumları",
+            "layout": "highlight",
+            "bullets": [],
+            "columns": [],
+            "highlight": "Gerçek kullanıcı yorumları, dijital dünyada markanızın en güvenilir referans mektubudur.",
+            "image_query": "star rating review screen",
+            "notes": "İnsanlar markanın ne dediğinden ziyade, diğer kullanıcıların ne dediğine inanır. Olumlu veya olumsuz tüm yorumlar, yeni gelen müşteriler için bir karar mekanizması oluşturur. Bu yorumları şeffaf bir şekilde sergilemek, dürüstlüğünüzü ve hizmet kalitenizi kanıtlar. Şimdi bu verileri nasıl bir büyüme aracına dönüştüreceğimizi konuşalım."
+          },
+          {
+            "title": "Sürdürülebilir Büyüme için Müşteri Geri Bildirimi",
+            "layout": "cards",
+            "bullets": [
+              "Şikayetler, süreçlerinizdeki gizli hataları bulmanızı sağlayan ücretsiz danışmanlık verileridir.",
+              "Müşteri önerileri, ürün geliştirme aşamasında doğrudan ihtiyaçlara göre hareket etmenizi sağlar.",
+              "Geri bildirimleri işleyerek hizmet kalitesini artırmak, sizi rakiplerinizden kalıcı olarak ayırır."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "customer feedback survey",
+            "notes": "Geri bildirimleri sadece bir şikayet değil, gelişim fırsatı olarak görmelisiniz. Kendi işinize dışarıdan bir gözle bakmak zordur, ancak müşterileriniz size bu bakış açısını ücretsiz sunar. Bu verileri analiz ederek operasyonunuzu her gün bir adım daha ileri taşıyabilirsiniz. Dinlediğiniz için teşekkürler, şimdi sorularınızı yanıtlayabilirim."
+          }
+        ],
+        "takeaways": [
+          "Kullanıcı dostu arayüzler satış dönüşüm oranlarını doğrudan artırır.",
+          "Kişiselleştirilmiş iletişim, müşteri sadakatini ve tekrar alışverişi tetikler.",
+          "Müşteri geri bildirimleri, sürekli iyileştirme için en değerli veri kaynağıdır."
+        ]
+      },
+      "photos_found": 4,
+      "photo_places": 4,
+      "timings": {
+        "plan": 6.38,
+        "content": 5.02,
+        "images": 5.49,
+        "pptx": 0.28
+      },
+      "seconds": 17.17,
+      "models_used": [
+        "gemini-3.1-flash-lite"
+      ],
+      "input_tokens": 1583,
+      "output_tokens": 2036,
+      "cost_usd": 0.00345
+    },
+    {
+      "topic": "Fotosentez",
+      "audience": "İlkokul öğrencileri",
+      "tone": "Eğitici",
+      "slide_count": 4,
+      "success": true,
+      "checks": {
+        "Slayt sayısı istenenle aynı": true,
+        "Madde sayıları düzene uygun": true,
+        "Maddelerin %90'ı en fazla 16 kelime": true,
+        "Kart maddeleri en fazla 12 kelime": true,
+        "Slayt başlıkları en fazla 9 kelime": true,
+        "Seçilen düzenler uygulanabilir": true,
+        "En fazla 1 vurgu slaytı": true,
+        "Art arda aynı düzen yok": true,
+        "Notlar en az 2 cümle ve 25 kelime": true,
+        "Tam 3 önemli çıkarım": true,
+        "İçerik Türkçe": true
+      },
+      "quality": 1.0,
+      "title": "Bitkiler Kendi Yemeğini Nasıl Yapar?",
+      "layouts": [
+        "image",
+        "cards",
+        "comparison",
+        "highlight"
+      ],
+      "presentation": {
+        "title": "Bitkiler Kendi Yemeğini Nasıl Yapar?",
+        "subtitle": "Güneş ışığını enerjiye dönüştüren doğanın büyüleyici süreci fotosentezi keşfediyoruz.",
+        "image_query": "green leaf sunlight",
+        "slides": [
+          {
+            "title": "Bitkiler Neden Yemek Yemez?",
+            "layout": "image",
+            "bullets": [
+              "İnsanlar enerji almak için dışarıdan besin tüketirken bitkiler kendi besinlerini üretirler.",
+              "Kendi besinini üretebilen canlılar doğada üretici olarak adlandırılan özel bir gruptur.",
+              "Bitkiler güneş ışığını kullanarak hayatta kalmalarını sağlayan glikoz isimli şekeri üretirler."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "green plant sunlight",
+            "notes": "Çocuklar, biz acıktığımızda mutfağa gideriz ancak bitkiler bunu yapamaz. Onların vücutları aslında birer küçük fabrika gibi çalışır. Kendi yemeklerini yapmak için dışarıdan hazır gıda almalarına hiç gerek yoktur. Şimdi bu fabrikanın nasıl çalıştığına bakalım."
+          },
+          {
+            "title": "Mutfağımızda Neler Var?",
+            "layout": "cards",
+            "bullets": [
+              "Güneş ışığı bitkilerin enerji kaynağıdır.",
+              "Su kökler aracılığıyla topraktan alınır.",
+              "Karbondioksit havadan yaprak gözeneklerine girer."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "sunlight water plant",
+            "notes": "Bir kek yapmak için un, şeker ve yumurta gerekir, değil mi? Bitkilerin de fotosentez yapabilmesi için üç temel malzemesi vardır. Güneş, su ve karbondioksit bir araya geldiğinde bitkinin mutfağı çalışmaya başlar. Bu malzemelerin hepsi doğada her an el altında bulunur."
+          },
+          {
+            "title": "Yapraklardaki Gizli Fabrika",
+            "layout": "comparison",
+            "bullets": [],
+            "columns": [
+              {
+                "title": "Klorofilin Görevi",
+                "bullets": [
+                  "Güneş ışığını yakalayıp hapseder.",
+                  "Yapraklara yeşil rengini verir."
+                ]
+              },
+              {
+                "title": "Üretim Süreci",
+                "bullets": [
+                  "Enerjiyle şeker üretimi başlar.",
+                  "Bitki büyümek için enerji kullanır."
+                ]
+              }
+            ],
+            "highlight": "",
+            "image_query": "microscopic view leaf",
+            "notes": "Yaprakların içindeki klorofil maddesi, güneş ışığını yakalayan bir güneş paneli gibi davranır. Bu enerjiyle su ve karbondioksiti şekerli bir besine dönüştürürler. Yani aslında yapraklar, bitkinin tüm gün çalışan mutfağı ve fabrikasıdır."
+          },
+          {
+            "title": "Bize Temiz Hava Armağanı",
+            "layout": "highlight",
+            "bullets": [],
+            "columns": [],
+            "highlight": "Fotosentez sayesinde bitkiler bize nefes almamız için gerekli olan temiz oksijeni üretirler.",
+            "image_query": "forest oxygen sunlight",
+            "notes": "Bitkiler yemeklerini yaparken aslında bize harika bir hediye verirler. Üretim sonucunda açığa çıkan oksijen havaya karışır ve bizim nefes almamızı sağlar. Onlar yemek yaparken aslında dünyayı yaşanabilir kılan temiz havayı bizlere sunarlar."
+          }
+        ],
+        "takeaways": [
+          "Bitkiler güneş ışığını kullanarak kendi besinlerini üretirler.",
+          "Fotosentez için güneş, su ve karbondioksit temel malzemelerdir.",
+          "Bitkiler fotosentez yaparken bizlere temiz oksijen sağlarlar."
+        ]
+      },
+      "photos_found": 3,
+      "photo_places": 3,
+      "timings": {
+        "plan": 2.7,
+        "content": 3.4,
+        "images": 1.9,
+        "pptx": 0.1
+      },
+      "seconds": 8.1,
+      "models_used": [
+        "gemini-3.1-flash-lite"
+      ],
+      "input_tokens": 1431,
+      "output_tokens": 1190,
+      "cost_usd": 0.002143
+    },
+    {
+      "topic": "Kahve",
+      "audience": "Genel izleyici",
+      "tone": "Profesyonel",
+      "slide_count": 3,
+      "success": true,
+      "checks": {
+        "Slayt sayısı istenenle aynı": true,
+        "Madde sayıları düzene uygun": true,
+        "Maddelerin %90'ı en fazla 16 kelime": true,
+        "Kart maddeleri en fazla 12 kelime": false,
+        "Slayt başlıkları en fazla 9 kelime": true,
+        "Seçilen düzenler uygulanabilir": true,
+        "En fazla 1 vurgu slaytı": true,
+        "Art arda aynı düzen yok": true,
+        "Notlar en az 2 cümle ve 25 kelime": true,
+        "Tam 3 önemli çıkarım": true,
+        "İçerik Türkçe": true
+      },
+      "quality": 0.909,
+      "title": "Kahvenin Küresel Ekonomi ve Kültürdeki Yeri",
+      "layouts": [
+        "image",
+        "cards",
+        "highlight"
+      ],
+      "presentation": {
+        "title": "Kahvenin Küresel Ekonomi ve Kültürdeki Yeri",
+        "subtitle": "Dünyanın en çok tüketilen içeceklerinden birinin tarihsel gelişimi ve ekonomik etkisi.",
+        "image_query": "steaming coffee cup",
+        "slides": [
+          {
+            "title": "Kahve: Küresel Ticaretin Dinamik Gücü",
+            "layout": "image",
+            "bullets": [
+              "Kahve, dünya genelinde 60'tan fazla ülkede yetiştirilerek milyarlarca dolarlık devasa bir dış ticaret hacmi oluşturur.",
+              "Küresel ölçekte yaklaşık 125 milyon insan geçimini doğrudan kahve üretimi ve ticareti üzerinden sağlamaktadır.",
+              "Petrolün ardından dünyada en fazla işlem gören emtia olması, kahvenin küresel ekonomi için önemini kanıtlar.",
+              "Gelişmekte olan ülkelerin ihracat gelirlerinde kahve, stratejik bir kalem olarak ekonomik büyümeyi doğrudan desteklemektedir."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "coffee shipping port",
+            "notes": "Kahve, sadece sabah içtiğimiz bir içecek değil, devasa bir küresel ticaret ağıdır. Petrol gibi stratejik bir emtia olarak, üretici ülkelerin ekonomisinde hayati bir role sahiptir. Milyonlarca ailenin geçim kaynağı olan bu sektör, dünya ticaretinde denge unsuru oluşturur. Şimdi, bu ticari gücün tüketici tarafında nasıl bir değişime uğradığına bakalım."
+          },
+          {
+            "title": "Nitelikli Kahve Akımı ve Tüketici Değişimi",
+            "layout": "cards",
+            "bullets": [
+              "Çekirdek menşei ve hasat bilgisine odaklanan şeffaf tedarik zinciri anlayışı gelişti.",
+              "Farklı demleme teknikleri kahvenin aroma profilini ön plana çıkaran profesyonel bir süreçtir.",
+              "Doğrudan ticaret modeli, çiftçinin daha yüksek gelir elde etmesini sağlayan adil bir sistemdir.",
+              "Tüketici artık sadece kafein değil, nitelikli ve sürdürülebilir bir kahve deneyimi aramaktadır."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "barista brewing coffee",
+            "notes": "Son yıllarda üçüncü dalga kahvecilik ile birlikte tüketici profili kökten değişti. Artık kahve severler, çekirdeğin hangi rakımda yetiştiğini ve nasıl kavrulduğunu sorguluyor. Bu bilinçli tüketim, sektörü daha kaliteli ve şeffaf bir üretim modeline zorluyor. Kalite odaklı bu artış, aynı zamanda sürdürülebilirlik kavramını da ajandamızın en üst sırasına taşıdı."
+          },
+          {
+            "title": "Sürdürülebilirlik ve Geleceğin Kahve Endüstrisi",
+            "layout": "highlight",
+            "bullets": [],
+            "columns": [],
+            "highlight": "İklim dirençli tarım modelleri, kahve endüstrisinin geleceğini korumak için tek sürdürülebilir çözümdür.",
+            "image_query": "coffee farm field",
+            "notes": "İklim değişikliği, kahve ağaçlarının yetiştiği kuşakları ciddi oranda tehdit ediyor. Artan sıcaklıklar ve düzensiz yağışlar, tarımsal verimi düşürme riski taşıyor. Bu yüzden teknolojik adaptasyon ve etik ticaret modelleri artık bir tercih değil, zorunluluk haline geldi. Sektör, gelecekte de varlığını sürdürebilmek için doğayla uyumlu yöntemlere yatırım yapmak zorundadır."
+          }
+        ],
+        "takeaways": [
+          "Kahve, küresel ekonomiyi ayakta tutan stratejik bir tarımsal emtiadır.",
+          "Bilinçli tüketici talebi, kahve sektöründe kalite ve şeffaflığı artırmıştır.",
+          "İklim değişikliğine karşı adaptasyon, kahve endüstrisinin devamlılığı için kritiktir."
+        ]
+      },
+      "photos_found": 3,
+      "photo_places": 3,
+      "timings": {
+        "plan": 1.54,
+        "content": 3.22,
+        "images": 1.78,
+        "pptx": 0.09
+      },
+      "seconds": 6.63,
+      "models_used": [
+        "gemini-3.1-flash-lite"
+      ],
+      "input_tokens": 1410,
+      "output_tokens": 1182,
+      "cost_usd": 0.002126
+    },
+    {
+      "topic": "Yapay zekâ etiği: önyargı, şeffaflık ve hesap verebilirlik",
+      "audience": "Akademisyenler",
+      "tone": "Akademik",
+      "slide_count": 10,
+      "success": true,
+      "checks": {
+        "Slayt sayısı istenenle aynı": true,
+        "Madde sayıları düzene uygun": true,
+        "Maddelerin %90'ı en fazla 16 kelime": true,
+        "Kart maddeleri en fazla 12 kelime": true,
+        "Slayt başlıkları en fazla 9 kelime": true,
+        "Seçilen düzenler uygulanabilir": true,
+        "En fazla 1 vurgu slaytı": true,
+        "Art arda aynı düzen yok": true,
+        "Notlar en az 2 cümle ve 25 kelime": true,
+        "Tam 3 önemli çıkarım": true,
+        "İçerik Türkçe": true
+      },
+      "quality": 1.0,
+      "title": "Yapay Zeka Etiğinde Algoritmik Sorumluluk",
+      "layouts": [
+        "image",
+        "cards",
+        "comparison",
+        "image",
+        "highlight",
+        "cards",
+        "image",
+        "comparison",
+        "cards",
+        "image"
+      ],
+      "presentation": {
+        "title": "Yapay Zeka Etiğinde Algoritmik Sorumluluk",
+        "subtitle": "Önyargı, şeffaflık ve denetlenebilirlik ekseninde etik bir çerçeve analizi.",
+        "image_query": "circuit board human brain",
+        "slides": [
+          {
+            "title": "Veri Kümelerinde Önyargı Kaynakları",
+            "layout": "image",
+            "bullets": [
+              "Tarihsel veriler, geçmişteki toplumsal eşitsizlikleri temsil eden örtük önyargıları modellerin öğrenmesine neden olur.",
+              "Örnekleme yanlılığı, belirli demografik grupların veri setinde yeterince temsil edilmemesiyle model başarısını düşürür.",
+              "Etiketleme sürecindeki öznel değerlendirmeler, verinin tarafsızlığını bozarak algoritmanın hatalı korelasyonlar kurmasına yol açar."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "dataset statistics table",
+            "notes": "Modellerimiz aslında verinin birer aynasıdır, bu yüzden verideki toplumsal yaraları olduğu gibi yansıtırlar. Eğitim setlerindeki bu tarihsel birikimler, algoritmanın tarafsız kalmasını imkansız kılan ilk engeli oluşturur. Şimdi bu önyargıların karar alma süreçlerinde nasıl somut ayrımcılıklara dönüştüğünü inceleyelim."
+          },
+          {
+            "title": "Algoritmik Karar Verme ve Taraflılık",
+            "layout": "cards",
+            "bullets": [
+              "İstatistiksel korelasyonlar nedensellik ile karıştırıldığında hatalı çıkarımlar tetiklenir.",
+              "Algoritmik ayrımcılık, geçmişteki yanlı verilerin gelecekteki kararları manipüle etmesidir.",
+              "Geri besleme döngüleri, model çıktılarını veriye dönüştürerek önyargıları sürekli pekiştirir."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "data nodes connection",
+            "notes": "İstatistiksel bir model, sadece elindeki veriye bakarak bir korelasyon kurar; ancak bu korelasyonun etik maliyetini bilmez. Örneğin, kredi puanlama sistemlerinde geçmiş veriye dayalı ayrımcılık, sistemik önyargıları meşrulaştırabilir. Bu durum bizi sistemlerin neden birer 'kara kutu' olarak algılandığı sorusuna götürüyor."
+          },
+          {
+            "title": "Kara Kutu Modelleri ve Şeffaflık",
+            "layout": "comparison",
+            "bullets": [],
+            "columns": [
+              {
+                "title": "Yüksek Başarı Modelleri",
+                "bullets": [
+                  "Karmaşık derin öğrenme mimarileri kullanılır.",
+                  "Tahmin başarısı oldukça yüksek seviyededir.",
+                  "Karar mekanizmaları teknik olarak kapalıdır."
+                ]
+              },
+              {
+                "title": "Şeffaf Algoritmalar",
+                "bullets": [
+                  "Basit karar ağaçları gibi yapılardır.",
+                  "Karar mantığı kolayca takip edilebilir.",
+                  "Doğruluk payı bazen daha düşüktür."
+                ]
+              }
+            ],
+            "highlight": "",
+            "image_query": "deep learning neural network",
+            "notes": "Karmaşıklık arttıkça şeffaflık azalıyor; bu bir mühendislik ikilemi. Yüksek doğruluk oranı ile açıklanabilirlik arasında bir denge kurmamız gerekiyor. Şimdi, bu 'kara kutu' sorununu aşmak için geliştirilen teknik yöntemlere odaklanalım."
+          },
+          {
+            "title": "Yorumlanabilirlik ile Güven İnşası",
+            "layout": "image",
+            "bullets": [
+              "LIME ve SHAP gibi teknikler, modelin belirli bir kararı hangi özelliklere dayandırdığını görselleştirir.",
+              "Özellik önemi analizi, modelin hangi veri sütunlarına daha fazla ağırlık verdiğini netleştirir.",
+              "Yerel açıklanabilirlik, karmaşık modellerin genel yapısını bozmadan bireysel kararların mantığını anlamamızı sağlar."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "data visualization dashboard",
+            "notes": "Kullanıcıya 'bu kararı neden verdim' diyebilen bir sistem, güven inşa etmenin temelidir. SHAP ve LIME gibi araçlar, modelin kara kutusuna birer fener tutarak kararların izini sürmemizi sağlıyor. Ancak teknik şeffaflık, tek başına sorumluluğu belirlemeye yetmez."
+          },
+          {
+            "title": "Hesap Verebilirlik Mekanizmaları",
+            "layout": "highlight",
+            "bullets": [],
+            "columns": [],
+            "highlight": "Algoritmik hatalarda sorumluluk, tasarım sürecinden nihai kullanım aşamasına kadar paydaşlar arasında dağıtılmalıdır.",
+            "image_query": "legal document signature",
+            "notes": "Bir yapay zeka hata yaptığında, bu hata kime aittir? Tasarımcıya mı, veri sağlayıcıya mı yoksa sistemi işleten kuruma mı? Hesap verebilirlik, sadece teknik bir sorun değil, aynı zamanda hukuki ve etik bir paylaşım meselesidir."
+          },
+          {
+            "title": "Denetlenebilir Yapay Zeka Protokolleri",
+            "layout": "cards",
+            "bullets": [
+              "Algoritmik etki değerlendirmesi, sistemin toplumsal sonuçlarını önceden ölçümler.",
+              "Dış denetim süreçleri, bağımsız kuruluşların sistemin tarafsızlığını doğrulamasına olanak sağlar.",
+              "Log kayıtları, alınan tüm kararların izlenebilir ve denetlenebilir olmasını zorunlu kılar."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "auditing document checklist",
+            "notes": "Denetim, yazılım geliştirme sürecinin bir parçası olmalı; sistem bittikten sonra yapılan bir yama değil. Bağımsız denetçiler, sistemin etik standartlara uyup uymadığını doğrulamak için kritik birer filtredir. Şimdi bu standartların nasıl kurumsallaştığına bakalım."
+          },
+          {
+            "title": "Etik Tasarım ve Yazılım Yaşam Döngüsü",
+            "layout": "image",
+            "bullets": [
+              "Etik gereksinimler, yazılım geliştirme sürecinin en başında, tasarım aşamasında tanımlanmalıdır.",
+              "Sürekli test süreçleri, sistemin dağıtım sonrası önyargı geliştirip geliştirmediğini düzenli olarak izler.",
+              "Çok disiplinli ekipler, etik kaygıları teknik kısıtlarla birlikte değerlendirerek dengeyi sağlar."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "team meeting whiteboard",
+            "notes": "Etik, sadece kodlama bittikten sonra düşünülecek bir şey değildir. SDLC yani yazılım yaşam döngüsünün her evresine 'etik kontrol noktaları' yerleştirmeliyiz. Bu metodoloji, hataların sistem yayına girmeden yakalanmasını sağlar."
+          },
+          {
+            "title": "Düzenleyici Çerçeveler ve Hukuki Uyum",
+            "layout": "comparison",
+            "bullets": [],
+            "columns": [
+              {
+                "title": "Mevzuatın Etkisi",
+                "bullets": [
+                  "Yüksek riskli sistemlere denetim gelir.",
+                  "Şeffaflık zorunluluğu yasal hale gelir.",
+                  "Uyumluluk maliyetleri başlangıçta artar."
+                ]
+              },
+              {
+                "title": "Teknik Uygulama",
+                "bullets": [
+                  "Dokümantasyon süreçleri daha detaylı olur.",
+                  "Veri işleme protokolleri kısıtlanır.",
+                  "Sorumluluk limitleri netleşir."
+                ]
+              }
+            ],
+            "highlight": "",
+            "image_query": "law books gavel",
+            "notes": "Düzenlemeler, inovasyonu yavaşlatmak yerine ona güvenli bir zemin hazırlar. Özellikle Avrupa Birliği'nin yapay zeka yasası gibi çerçeveler, teknik uygulamalarımızı doğrudan etkileyen yeni standartlar koyuyor. Bu hukuki uyum, aslında etik bir zorunluluğun kurumsallaşmasıdır."
+          },
+          {
+            "title": "İnsan Merkezli Yapay Zeka Yaklaşımı",
+            "layout": "cards",
+            "bullets": [
+              "İnsan denetimi, kritik kararlarda nihai onayın insanda kalmasını sağlar.",
+              "Özerklik koruması, teknolojinin insan karar mekanizmasını manipüle etmesini engeller.",
+              "İnsan-makine iş birliği, sistemin insanın yeteneklerini artırmasını hedefler."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "human machine interaction",
+            "notes": "Yapay zeka, insanın yerini almak için değil, insanın yeteneklerini tamamlamak için tasarlanmalıdır. İnsan merkezli tasarım, otomasyonun sınırlarını çizerken bireyin özerkliğini korur. Bu yaklaşım, teknolojinin insani değerlerle çatışmasını engelleyen bir kalkandır."
+          },
+          {
+            "title": "Gelecek İçin Sürdürülebilir Etik",
+            "layout": "image",
+            "bullets": [
+              "Etik değerler, teknolojik ilerlemenin hızıyla eş zamanlı olarak sürekli güncellenmelidir.",
+              "Küresel iş birliği, yapay zeka standartlarının coğrafi sınırlardan bağımsız ortak bir dilde buluşmasını sağlar.",
+              "Sürdürülebilir etik, teknolojinin gelecek kuşaklara zararsız ve faydalı bir miras bırakmasını hedefler."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "futuristic city landscape",
+            "notes": "Etik, statik bir kural listesi değil, yaşayan ve gelişen bir süreçtir. Teknolojinin hızıyla etik değerler arasındaki makası kapalı tutmak, akademik ve profesyonel sorumluluğumuzdur. Geleceği birlikte, etik değerler üzerine inşa etmeliyiz."
+          }
+        ],
+        "takeaways": [
+          "Veri önyargıları, sistemin en başında ele alınması gereken teknik bir sorundur.",
+          "Şeffaflık ve açıklanabilirlik, güvenli yapay zeka sistemlerinin temel yapı taşıdır.",
+          "Etik tasarım, yazılım yaşam döngüsünün ayrılmaz bir parçası olarak uygulanmalıdır."
+        ]
+      },
+      "photos_found": 6,
+      "photo_places": 6,
+      "timings": {
+        "plan": 3.99,
+        "content": 12.58,
+        "images": 1.89,
+        "pptx": 0.11
+      },
+      "seconds": 18.57,
+      "models_used": [
+        "gemini-3.1-flash-lite"
+      ],
+      "input_tokens": 1809,
+      "output_tokens": 3075,
+      "cost_usd": 0.005065
+    },
+    {
+      "topic": "Machine learning basics",
+      "audience": "Genel izleyici",
+      "tone": "Eğitici",
+      "slide_count": 5,
+      "success": true,
+      "checks": {
+        "Slayt sayısı istenenle aynı": true,
+        "Madde sayıları düzene uygun": true,
+        "Maddelerin %90'ı en fazla 16 kelime": true,
+        "Kart maddeleri en fazla 12 kelime": true,
+        "Slayt başlıkları en fazla 9 kelime": true,
+        "Seçilen düzenler uygulanabilir": true,
+        "En fazla 1 vurgu slaytı": true,
+        "Art arda aynı düzen yok": true,
+        "Notlar en az 2 cümle ve 25 kelime": true,
+        "Tam 3 önemli çıkarım": true,
+        "İçerik Türkçe": true
+      },
+      "quality": 1.0,
+      "title": "Yapay Zeka: Makine Öğrenmesi Temelleri",
+      "layouts": [
+        "image",
+        "cards",
+        "comparison",
+        "image",
+        "highlight"
+      ],
+      "presentation": {
+        "title": "Yapay Zeka: Makine Öğrenmesi Temelleri",
+        "subtitle": "Bilgisayarların verilerden öğrenerek nasıl karar verdiğini keşfedin.",
+        "image_query": "robot hand touching screen",
+        "slides": [
+          {
+            "title": "Makine Öğrenmesi Nedir?",
+            "layout": "image",
+            "bullets": [
+              "Geleneksel yazılım, kodlanmış kuralları takip ederken makine öğrenmesi verilerden kendi kurallarını geliştirir.",
+              "Bilgisayara bir kedi fotoğrafını tanımlamayı öğretmek yerine, binlerce kedi görseli göstererek öğrenmesini sağlarız.",
+              "Sistem, aldığı her yeni veri ile hata payını azaltarak tahmin yeteneğini sürekli geliştirir."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "circuit board neural network",
+            "notes": "Eskiden bilgisayarlara ne yapacaklarını adım adım tarif ederdik, şimdi ise onlara örnekler gösteriyoruz. Bir çocuğun dünyayı deneyerek öğrenmesi gibi, makineler de verilerle tecrübe kazanıyor. Bu süreçte yazılımcı sadece temel mimariyi kurar, kararları ise veri belirler."
+          },
+          {
+            "title": "Veri Bir Yakıt Gibidir",
+            "layout": "cards",
+            "bullets": [
+              "Veri miktarı arttıkça modelin tahmin isabet oranı doğrudan yükselir.",
+              "Düşük kaliteli ve hatalı veriler, yanlış sonuçlar üreten modeller oluşturur.",
+              "Çeşitlilik içeren veri setleri, algoritmanın genel geçer kararlar almasını sağlar.",
+              "Ham veriyi işleyip anlamlı hale getirmek öğrenme sürecinin en kritik adımıdır."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "data analytics dashboard",
+            "notes": "Bir otomobilin gitmesi için benzin neyse, yapay zeka için de veri aynı şeydir. Ancak sadece miktar değil, verinin kalitesi de hayati önem taşır. Çöp veri girerseniz, sonuçta mutlaka çöp bir çıktı alırsınız; bu yüzden veriyi temizlemek işin yarısıdır."
+          },
+          {
+            "title": "Denetimli Öğrenme: Etiketli Örnekler",
+            "layout": "comparison",
+            "bullets": [],
+            "columns": [
+              {
+                "title": "Süreç Nasıl İşler",
+                "bullets": [
+                  "Bilgisayara giriş ve sonuç verilir",
+                  "Doğru cevaplar sistemi eğitir",
+                  "Yeni verilerle tahmin yapılır"
+                ]
+              },
+              {
+                "title": "Günlük Uygulamalar",
+                "bullets": [
+                  "E-posta spam filtreleme sistemleri",
+                  "Konut fiyatı tahmini modelleri",
+                  "Kredi puanı hesaplama araçları"
+                ]
+              }
+            ],
+            "highlight": "",
+            "image_query": "labeled data charts",
+            "notes": "Denetimli öğrenmeyi, başında öğretmeni olan bir öğrenciye benzetebiliriz. Sisteme hem soruyu hem de doğru cevabı veriyoruz, o da bu kalıpları ezberliyor. Böylece hiç görmediği bir yeni e-postanın spam olup olmadığını şak diye söyleyebiliyor."
+          },
+          {
+            "title": "Denetimsiz Öğrenme: Gizli Desenler",
+            "layout": "image",
+            "bullets": [
+              "Sisteme hiçbir etiket vermeden, veriler arasındaki benzerlikleri kendi başına bulmasını sağlarız.",
+              "E-ticaret siteleri, benzer ürünleri alan kullanıcıları gruplayarak kişiselleştirilmiş reklamlar sunar.",
+              "Büyük veri setlerinde insan gözünün kaçırabileceği gizli ilişkileri ve anormallikleri hızla tespit eder."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "cluster analysis dots",
+            "notes": "Burada bir öğretmen yok, bilgisayar tamamen kendi başına keşif yapıyor. Binlerce müşteri verisi arasındaki ortak noktaları bulup onları farklı profillere ayırıyor. Bu yöntem özellikle pazarlama stratejilerinde hedef kitleyi anlamak için mucizevi sonuçlar doğuruyor."
+          },
+          {
+            "title": "Günlük Hayatta Yapay Zeka",
+            "layout": "highlight",
+            "bullets": [],
+            "columns": [],
+            "highlight": "Makine öğrenmesi, karmaşık verileri günlük hayatı kolaylaştıran pratik çözümlere dönüştüren bir teknolojidir.",
+            "image_query": "smartphone apps interface",
+            "notes": "Aslında makine öğrenmesi laboratuvarlarda değil, cebimizde yaşıyor. İzlediğiniz film önerileri, anlık çeviri araçları ve yüz tanıma sistemleri hep bu temel prensiplerle çalışıyor. Bu teknoloji artık hayatımızın görünmez ama vazgeçilmez bir parçası haline geldi."
+          }
+        ],
+        "takeaways": [
+          "Makine öğrenmesi, verilerden öğrenerek tahmin yapabilen bir sistemdir.",
+          "Veri kalitesi, algoritmanın başarısını doğrudan belirleyen en önemli unsurdur.",
+          "Yapay zeka, günlük rutinlerimizi otomatize ederek verimliliği artırır."
+        ]
+      },
+      "photos_found": 4,
+      "photo_places": 4,
+      "timings": {
+        "plan": 1.71,
+        "content": 4.41,
+        "images": 1.41,
+        "pptx": 0.07
+      },
+      "seconds": 7.6,
+      "models_used": [
+        "gemini-3.1-flash-lite"
+      ],
+      "input_tokens": 1451,
+      "output_tokens": 1504,
+      "cost_usd": 0.002619
+    }
+  ]
+}

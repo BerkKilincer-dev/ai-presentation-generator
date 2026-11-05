@@ -1,0 +1,93 @@
+{
+  "name": "cmp-gemini-2.5-flash",
+  "model": "gemini-2.5-flash",
+  "fallbacks": false,
+  "images": false,
+  "date": "2026-11-05T21:19:59",
+  "cases": [
+    {
+      "topic": "Yapay zekânın eğitimdeki rolü",
+      "audience": "Öğretmenler",
+      "tone": "Eğitici",
+      "slide_count": 6,
+      "success": false,
+      "error": "Tüm modeller şu an çok yoğun, lütfen biraz sonra tekrar deneyin. (gemini-2.5-flash: 429 RESOURCE_EXHAUSTED)",
+      "timings": {},
+      "seconds": 0,
+      "models_used": [],
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cost_usd": 0
+    },
+    {
+      "topic": "Yenilenebilir enerji kaynakları",
+      "audience": "Genel izleyici",
+      "tone": "Profesyonel",
+      "slide_count": 6,
+      "success": false,
+      "error": "Tüm modeller şu an çok yoğun, lütfen biraz sonra tekrar deneyin. (gemini-2.5-flash: 429 RESOURCE_EXHAUSTED)",
+      "timings": {},
+      "seconds": 0,
+      "models_used": [],
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cost_usd": 0
+    },
+    {
+      "topic": "İklim değişikliğinin tarıma etkileri",
+      "audience": "Ziraat fakültesi öğrencileri",
+      "tone": "Akademik",
+      "slide_count": 7,
+      "success": false,
+      "error": "Tüm modeller şu an çok yoğun, lütfen biraz sonra tekrar deneyin. (gemini-2.5-flash: 429 RESOURCE_EXHAUSTED)",
+      "timings": {},
+      "seconds": 0,
+      "models_used": [],
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cost_usd": 0
+    },
+    {
+      "topic": "Siber güvenliğe giriş",
+      "audience": "Lise öğrencileri",
+      "tone": "Eğitici",
+      "slide_count": 5,
+      "success": false,
+      "error": "Tüm modeller şu an çok yoğun, lütfen biraz sonra tekrar deneyin. (gemini-2.5-flash: 429 RESOURCE_EXHAUSTED)",
+      "timings": {},
+      "seconds": 0,
+      "models_used": [],
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cost_usd": 0
+    },
+    {
+      "topic": "Uzaktan çalışmanın verimliliğe etkisi",
+      "audience": "Şirket yöneticileri",
+      "tone": "Profesyonel",
+      "slide_count": 6,
+      "success": false,
+      "error": "Tüm modeller şu an çok yoğun, lütfen biraz sonra tekrar deneyin. (gemini-2.5-flash: 429 RESOURCE_EXHAUSTED)",
+      "timings": {},
+      "seconds": 0,
+      "models_used": [],
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cost_usd": 0
+    },
+    {
+      "topic": "Osmanlı Devleti'nin kuruluş dönemi",
+      "audience": "Lise öğrencileri",
+      "tone": "Eğitici",
+      "slide_count": 6,
+      "success": false,
+      "error": "Tüm modeller şu an çok yoğun, lütfen biraz sonra tekrar deneyin. (gemini-2.5-flash: 429 RESOURCE_EXHAUSTED)",
+      "timings": {},
+      "seconds": 0,
+      "models_used": [],
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cost_usd": 0
+    }
+  ]
+}

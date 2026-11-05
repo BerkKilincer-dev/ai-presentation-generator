@@ -1,0 +1,866 @@
+{
+  "name": "cmp-gemini-3.1-flash-lite",
+  "model": "gemini-3.1-flash-lite",
+  "fallbacks": false,
+  "images": false,
+  "date": "2026-11-05T21:14:09",
+  "cases": [
+    {
+      "topic": "Yapay zekânın eğitimdeki rolü",
+      "audience": "Öğretmenler",
+      "tone": "Eğitici",
+      "slide_count": 6,
+      "success": true,
+      "checks": {
+        "Slayt sayısı istenenle aynı": true,
+        "Madde sayıları düzene uygun": true,
+        "Maddelerin %90'ı en fazla 16 kelime": true,
+        "Slayt başlıkları en fazla 9 kelime": true,
+        "Seçilen düzenler uygulanabilir": true,
+        "En fazla 1 vurgu slaytı": true,
+        "Art arda aynı düzen yok": true,
+        "Notlar en az 2 cümle ve 25 kelime": true,
+        "Tam 3 önemli çıkarım": true,
+        "İçerik Türkçe": true
+      },
+      "quality": 1.0,
+      "title": "Eğitimde Yapay Zeka: Yeni Dönem",
+      "layouts": [
+        "image",
+        "cards",
+        "comparison",
+        "image",
+        "highlight",
+        "cards"
+      ],
+      "presentation": {
+        "title": "Eğitimde Yapay Zeka: Yeni Dönem",
+        "subtitle": "Yapay zeka araçlarını birer asistan gibi kullanarak öğretim süreçlerinizi nasıl verimli kılacağınızı keşfedin.",
+        "image_query": "teacher using tablet in classroom",
+        "slides": [
+          {
+            "title": "Yapay Zeka Bir Asistandır",
+            "layout": "image",
+            "bullets": [
+              "Yapay zeka, öğretmenlerin idari yüklerini üstlenen ve zaman kazandıran dijital bir yardımcıdır.",
+              "Ders planı hazırlama gibi tekrarlayan işleri hızlandırarak öğretmene öğrenciyle bağ kurma vakti bırakır.",
+              "Öğretmen, yapay zekayı bir rakip olarak değil, sınıf yönetimini kolaylaştıran bir araç görmelidir."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "teacher using artificial intelligence software",
+            "notes": "Değerli meslektaşlarım, yapay zeka bir öğretmen adayı değil, bir asistan olarak görülmelidir. Sınıf içindeki o eşsiz etkileşimin yerini hiçbir yazılım alamaz. Biz burada sadece yükünüzü hafifletecek bir teknolojik iş ortağından bahsediyoruz. Şimdi, bu ortağın öğretim sürecine nasıl katkı sağladığına yakından bakalım."
+          },
+          {
+            "title": "Kişiselleştirilmiş Öğrenme Deneyimi",
+            "layout": "cards",
+            "bullets": [
+              "Hızlı öğrenen öğrencilere daha karmaşık okuma metinleri sunar.",
+              "Zorlanan öğrencilere temel kavramları basitleştirerek tekrar anlatır.",
+              "Öğrenci ilgi alanlarına göre özelleştirilmiş örnek sorular oluşturur."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "student working on tablet computer",
+            "notes": "Sınıfta her öğrencinin öğrenme hızı farklıdır, bunu hepimiz biliyoruz. Yapay zeka, bir öğrenciye matematik problemini oyunla anlatırken, diğerine daha akademik bir metinle sunabilir. Bu, her öğrenciye özel bir ders öğretmeni tutmak gibidir. Böylece kimse sınıfta geride kalmaz veya sıkılmaz."
+          },
+          {
+            "title": "Zaman Kazandıran Otomasyon Araçları",
+            "layout": "comparison",
+            "bullets": [],
+            "columns": [
+              {
+                "title": "Geleneksel Yöntemler",
+                "bullets": [
+                  "Sınav kağıtlarını elle tek tek okumak.",
+                  "Ders planlarını saatlerce yazarak oluşturmak.",
+                  "Öğrenci raporlarını manuel olarak hazırlamak."
+                ]
+              },
+              {
+                "title": "Yapay Zeka Destekli",
+                "bullets": [
+                  "Optik okuyucularla anında sonuç analizi.",
+                  "Taslak planları saniyeler içinde tasarlamak.",
+                  "Otomatik özetler ile gelişim raporlama."
+                ]
+              }
+            ],
+            "highlight": "",
+            "image_query": "teacher working with laptop documents",
+            "notes": "Kağıt yığınları arasında geçen hafta sonlarını hatırlayın. Şimdi bu süreci yapay zeka ile sadece birkaç dakikaya indirdiğinizi hayal edin. İş yükünüzün hafiflemesi, enerjinizi daha yaratıcı ders içeriklerine aktarmanızı sağlar. Şimdi bu enerjiyi nasıl daha etkileşimli kılacağımıza bakalım."
+          },
+          {
+            "title": "Öğrenci Motivasyonunu Artıran Etkileşim",
+            "layout": "image",
+            "bullets": [
+              "İnteraktif testler ile sınavları sıkıcı olmaktan çıkarıp bir yarışmaya dönüştürür.",
+              "Hikayeleştirme araçları sayesinde tarih veya fen konularını bir maceraya çevirir.",
+              "Öğrencilerin anında geri bildirim alması, derse olan meraklarını sürekli diri tutar."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "students engaged in classroom activity",
+            "notes": "Motivasyon, öğrenmenin en önemli anahtarıdır. Öğrencileriniz bir konuyu oyun oynar gibi öğrendiklerinde, o bilginin kalıcılığı artar. Yapay zeka, sınıf içinde interaktif bir atmosfer oluşturmanıza yardımcı olur. Bu sayede öğrenciler pasif dinleyiciler olmaktan çıkıp aktif katılımcılara dönüşürler."
+          },
+          {
+            "title": "Veriye Dayalı Öğrenci Analizi",
+            "layout": "highlight",
+            "bullets": [],
+            "columns": [],
+            "highlight": "Yapay zeka, öğrenci performansındaki gizli kalmış zorlukları verilerle analiz ederek erken müdahale imkanı sağlar.",
+            "image_query": "data analytics on screen",
+            "notes": "Hangi öğrencinin hangi konuda zorlandığını sezgilerimizle biliriz, ancak veriler bunu kanıtlar. Yapay zeka, öğrencinin başarısız olduğu soru tiplerini tarar ve size 'bu öğrenci kesirlerde zorlanıyor' uyarısını yapar. Bu somut veriler, veli görüşmelerinde size çok daha güçlü bir rehberlik alanı açar."
+          },
+          {
+            "title": "Dijital Okuryazarlık ve Etik Sorumluluk",
+            "layout": "cards",
+            "bullets": [
+              "Bilginin doğruluğunu teyit etmeyi öğrencilere mutlaka öğretin.",
+              "Yapay zeka çıktılarını birer taslak olarak görmelerini sağlayın.",
+              "Kişisel verilerin gizliliği konusunda öğrencileri sürekli uyarın."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "teacher guiding students with technology",
+            "notes": "Yapay zeka harika bir araçtır, ancak her araç gibi rehberlik ister. Öğrencilerinize yapay zekanın her dediğine inanmamaları gerektiğini, eleştirel düşüncenin önemini anlatmalısınız. Sizlerin rehberliği, bu teknolojinin etik ve güvenli kullanılmasının tek yoludur. Geleceğin dijital vatandaşlarını yetiştirmek sizin ellerinizde."
+          }
+        ],
+        "takeaways": [
+          "Yapay zeka öğretmenin yerini değil, iş yükünü hafifleten asistanıdır.",
+          "Kişiselleştirilmiş içerik üretimi öğrenci başarısını ve motivasyonunu doğrudan artırır.",
+          "Teknolojiyi etik ve eleştirel bir bakış açısıyla sınıfa entegre edin."
+        ]
+      },
+      "photos_found": 0,
+      "photo_places": 0,
+      "timings": {
+        "plan": 2.16,
+        "content": 4.85,
+        "pptx": 0.09
+      },
+      "seconds": 7.1,
+      "models_used": [
+        "gemini-3.1-flash-lite"
+      ],
+      "input_tokens": 1539,
+      "output_tokens": 1887,
+      "cost_usd": 0.003215
+    },
+    {
+      "topic": "Yenilenebilir enerji kaynakları",
+      "audience": "Genel izleyici",
+      "tone": "Profesyonel",
+      "slide_count": 6,
+      "success": true,
+      "checks": {
+        "Slayt sayısı istenenle aynı": true,
+        "Madde sayıları düzene uygun": true,
+        "Maddelerin %90'ı en fazla 16 kelime": true,
+        "Slayt başlıkları en fazla 9 kelime": true,
+        "Seçilen düzenler uygulanabilir": true,
+        "En fazla 1 vurgu slaytı": true,
+        "Art arda aynı düzen yok": true,
+        "Notlar en az 2 cümle ve 25 kelime": true,
+        "Tam 3 önemli çıkarım": true,
+        "İçerik Türkçe": true
+      },
+      "quality": 1.0,
+      "title": "Geleceği Şekillendiren Yenilenebilir Enerji Kaynakları",
+      "layouts": [
+        "image",
+        "cards",
+        "comparison",
+        "image",
+        "highlight",
+        "cards"
+      ],
+      "presentation": {
+        "title": "Geleceği Şekillendiren Yenilenebilir Enerji Kaynakları",
+        "subtitle": "Sürdürülebilir büyüme için enerji dönüşümünün stratejik önemi ve teknolojik gelişimi.",
+        "image_query": "solar panels wind turbines",
+        "slides": [
+          {
+            "title": "Enerji Arzında Yeni Dönem Başlıyor",
+            "layout": "image",
+            "bullets": [
+              "Küresel enerji talebi artarken fosil yakıtların arz güvenliği üzerindeki riskleri belirginleşmektedir.",
+              "Karbonsuzlaşma hedefleri, enerji şirketlerini portföylerini yenilenebilir kaynaklar lehine yeniden yapılandırmaya zorlamaktadır.",
+              "Politik düzenlemeler ve karbon vergileri, yenilenebilir enerjiyi ekonomik açıdan daha cazip kılmaktadır."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "oil refinery and solar panels",
+            "notes": "Dünya genelinde enerji politikaları köklü bir değişim sürecinden geçiyor. Eskiden sadece çevresel bir tercih olan yenilenebilir enerji, artık ekonomik bir zorunluluk haline geldi. Fosil yakıtların fiyat volatilitesi, şirketleri uzun vadeli istikrar için alternatiflere yöneltiyor. Şimdi bu teknolojilerin nasıl şekillendiğine yakından bakalım."
+          },
+          {
+            "title": "Güneş Enerjisi ile Sınırsız Potansiyel",
+            "layout": "cards",
+            "bullets": [
+              "Fotovoltaik panellerde verimlilik oranları son on yılda ciddi oranda yükseldi.",
+              "Üretim maliyetleri ölçek ekonomisi sayesinde tarihi düşük seviyelerine gerilemiş durumdadır.",
+              "Yerinde üretim modelleri, şebeke kayıplarını azaltarak toplam verimliliği optimize etmektedir."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "solar farm rows",
+            "notes": "Güneş enerjisi, modern enerji dönüşümünün en hızlı büyüyen oyuncusu konumunda. Teknoloji geliştikçe panellerin birim başına ürettiği enerji miktarı artarken, yatırım maliyetleri dramatik şekilde düştü. Bu durum, güneş enerjisini hem endüstriyel hem de bireysel ölçekte en erişilebilir kaynak haline getiriyor."
+          },
+          {
+            "title": "Rüzgar Enerjisinde Modern Mühendislik Çözümleri",
+            "layout": "comparison",
+            "bullets": [],
+            "columns": [
+              {
+                "title": "Kıyı Üstü Rüzgar",
+                "bullets": [
+                  "Kurulum ve bakım süreçleri daha kolaydır.",
+                  "Altyapı maliyetleri açık denize göre düşüktür.",
+                  "Yerel enerji ihtiyacını doğrudan karşılayabilir."
+                ]
+              },
+              {
+                "title": "Açık Deniz Rüzgar",
+                "bullets": [
+                  "Daha istikrarlı ve güçlü rüzgarlar yakalanır.",
+                  "Türbin kapasiteleri devasa ölçeklere ulaşabilir.",
+                  "Arazi kullanım kısıtlamalarına maruz kalmaz."
+                ]
+              }
+            ],
+            "highlight": "",
+            "image_query": "offshore wind turbines",
+            "notes": "Rüzgar enerjisi, mühendislik harikalarıyla sınırları zorlamaya devam ediyor. Kıyı üstü projeler hızlı çözüm sunarken, açık deniz tesisleri çok daha yüksek verim kapasitesine sahip. İki yöntemin stratejik kullanımı, enerji arzında kesintisiz bir akış sağlamak için kritik öneme sahip."
+          },
+          {
+            "title": "Depolama Teknolojileri Kesintisiz Enerji Sağlıyor",
+            "layout": "image",
+            "bullets": [
+              "Lityum-iyon bataryalar, güneş ve rüzgarın değişken üretimini şebeke için kararlı hale getirir.",
+              "Enerji depolama sistemleri, yoğun saatlerdeki talebi karşılayarak şebeke yükünü dengede tutmaktadır.",
+              "Akıllı yönetim yazılımları, depolanan enerjinin ihtiyaç anında milisaniyeler içinde aktarılmasını sağlar."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "large scale battery storage",
+            "notes": "Yenilenebilir enerjinin en büyük zorluğu olan değişkenlik, gelişmiş depolama sistemleriyle aşılıyor. Bataryalar artık sadece küçük cihazlar için değil, şehirlerin enerji ihtiyacını karşılayacak ölçekte kullanılıyor. Bu teknoloji, güneşin batmadığı veya rüzgarın durmadığı durumlarda bile sistemin ayakta kalmasını sağlıyor."
+          },
+          {
+            "title": "Yeşil Hidrojen ve Sanayi Dönüşümü",
+            "layout": "highlight",
+            "bullets": [],
+            "columns": [],
+            "highlight": "Yeşil hidrojen, çelik ve kimya gibi ağır sanayinin karbonsuzlaşmasında kilit rol oynamaktadır.",
+            "image_query": "hydrogen fuel cell plant",
+            "notes": "Elektrikle çalışması zor olan ağır endüstriyel süreçler için yeşil hidrojen en büyük umudumuz. Yenilenebilir kaynaklardan elde edilen elektrikle üretilen hidrojen, sıfır emisyonlu bir hammadde görevi görüyor. Bu, sanayideki büyük emisyon kaynaklarını temizlemek için stratejik bir teknolojik sıçramadır."
+          },
+          {
+            "title": "Sürdürülebilir Ekonomi İçin Stratejik Yatırım",
+            "layout": "cards",
+            "bullets": [
+              "Yeşil enerjiye yatırım yapan şirketler, uzun vadeli operasyonel maliyetlerini azaltmaktadır.",
+              "Karbonsuzlaşma hedefleri, uluslararası pazarlarda rekabet avantajı ve marka değeri sağlamaktadır.",
+              "Yenilenebilir altyapı, enerji bağımsızlığını güçlendirerek ekonomik direnci artırmaktadır."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "green energy investment graphs",
+            "notes": "Sonuç olarak, yenilenebilir enerjiye geçiş sadece çevreci bir adım değil, aynı zamanda ekonomik bir zorunluluktur. Bugün bu alana yapılan yatırımlar, yarının rekabetçi dünyasında ayakta kalmanın temelini oluşturuyor. Geleceği bugünden planlayanlar, sürdürülebilir büyümenin kazananları olacaktır."
+          }
+        ],
+        "takeaways": [
+          "Yenilenebilir enerji artık fosil yakıtlara karşı ekonomik olarak daha rekabetçidir.",
+          "Depolama teknolojileri, yenilenebilir kaynakların kesintisiz kullanımını mümkün kılmaktadır.",
+          "Yeşil enerjiye geçiş, uzun vadeli operasyonel maliyetleri düşüren stratejik bir yatırımdır."
+        ]
+      },
+      "photos_found": 0,
+      "photo_places": 0,
+      "timings": {
+        "plan": 1.79,
+        "content": 7.32,
+        "pptx": 0.08
+      },
+      "seconds": 9.19,
+      "models_used": [
+        "gemini-3.1-flash-lite"
+      ],
+      "input_tokens": 1522,
+      "output_tokens": 1935,
+      "cost_usd": 0.003283
+    },
+    {
+      "topic": "İklim değişikliğinin tarıma etkileri",
+      "audience": "Ziraat fakültesi öğrencileri",
+      "tone": "Akademik",
+      "slide_count": 7,
+      "success": true,
+      "checks": {
+        "Slayt sayısı istenenle aynı": true,
+        "Madde sayıları düzene uygun": true,
+        "Maddelerin %90'ı en fazla 16 kelime": true,
+        "Slayt başlıkları en fazla 9 kelime": true,
+        "Seçilen düzenler uygulanabilir": true,
+        "En fazla 1 vurgu slaytı": true,
+        "Art arda aynı düzen yok": true,
+        "Notlar en az 2 cümle ve 25 kelime": false,
+        "Tam 3 önemli çıkarım": true,
+        "İçerik Türkçe": true
+      },
+      "quality": 0.9,
+      "title": "İklim Değişiminin Tarımsal Üretim Dinamikleri",
+      "layouts": [
+        "image",
+        "cards",
+        "comparison",
+        "image",
+        "highlight",
+        "cards",
+        "image"
+      ],
+      "presentation": {
+        "title": "İklim Değişiminin Tarımsal Üretim Dinamikleri",
+        "subtitle": "Küresel ısınmanın ekosistemler ve gıda güvenliği üzerindeki doğrudan etkileri.",
+        "image_query": "wheat field drought",
+        "slides": [
+          {
+            "title": "Fenolojik Değişimler ve Ürün Gelişimi",
+            "layout": "image",
+            "bullets": [
+              "Artan sıcaklıklar bitkilerin çiçeklenme dönemlerini öne çekerek tozlaşma sürecini kritik eşiklerin dışına taşımaktadır.",
+              "Kısalan büyüme süreleri, bitkinin fotosentez ile elde ettiği karbonhidrat birikimini sınırlayarak tane dolum oranını düşürür.",
+              "Erken olgunlaşma döngüleri, bitkileri bahar donları gibi beklenmedik iklimsel risklere karşı daha savunmasız bırakmaktadır."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "wheat plant flowering stage",
+            "notes": "Bitkilerin biyolojik saatleri, çevresel ısınma ile uyumsuz hale geliyor. Bu fenolojik kaymalar, özellikle tahıllarda verim potansiyelini doğrudan kısıtlıyor. Şimdi bu biyolojik kısıtlamaların su kaynaklarıyla nasıl birleştiğine bakalım."
+          },
+          {
+            "title": "Su Stresi ve Sulama İhtiyacı",
+            "layout": "cards",
+            "bullets": [
+              "Düzensiz yağışlar toprak nemini kritik seviyelerin altına düşürerek bitki kök gelişimini kısıtlar.",
+              "Buharlaşma oranındaki artış, mevcut sulama altyapısının verimliliğini düşürerek su kaybını ciddi oranda artırır.",
+              "Yeraltı sularının aşırı kullanımı, uzun vadeli su güvenliği için tarımsal sürdürülebilirliği tehdit eden unsurdur."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "cracked dry farmland soil",
+            "notes": "Kuraklık sadece yağış azlığı değil, aynı zamanda buharlaşma hızındaki artıştır. Toprak nemi dengesi bozulduğunda, bitkilerin su stresine girmesi kaçınılmaz oluyor. Bu durum bizi zararlı organizmaların yeni yayılım alanlarını konuşmaya itiyor."
+          },
+          {
+            "title": "Zararlı Organizma ve Hastalık Yayılımı",
+            "layout": "comparison",
+            "bullets": [],
+            "columns": [
+              {
+                "title": "Sıcaklık ve Yayılım",
+                "bullets": [
+                  "Yüksek kış sıcaklıkları zararlıların hayatta kalmasını sağlar.",
+                  "Böcek popülasyonları kuzey bölgelere doğru hızla genişler.",
+                  "Yeni hastalık etmenleri ekosisteme daha kolay yerleşir."
+                ]
+              },
+              {
+                "title": "Biyolojik Riskler",
+                "bullets": [
+                  "Vektör böceklerin üreme döngüsü daha kısa sürede tamamlanır.",
+                  "Bitki patojenlerinin kışlama kapasitesi ciddi oranda artar.",
+                  "İlaçlama takvimleri değişen salgın dönemlerine uyum sağlamalıdır."
+                ]
+              }
+            ],
+            "highlight": "",
+            "image_query": "pest damaged crop leaves",
+            "notes": "İklim değişimi, zararlıların geleneksel yaşam alanlarını genişletiyor. Eskiden soğuk nedeniyle var olamayan türler şimdi tarım alanlarını istila ediyor. Bu biyolojik tehditleri yönetmek için toprak sağlığının da korunması gerekiyor."
+          },
+          {
+            "title": "Toprak Verimliliği ve Karbon Dengesi",
+            "layout": "image",
+            "bullets": [
+              "Yüksek sıcaklıklar toprak mikroorganizmalarının organik madde ayrıştırma hızını artırarak humus kaybına neden olur.",
+              "Toprak solunumu hızlandıkça karbon tutma kapasitesi azalır ve atmosfere sera gazı salınımı gerçekleşir.",
+              "Besin döngüsündeki bu bozulma, toprağın uzun vadeli verimliliğini düşürerek gübre ihtiyacını daha da artırır."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "soil fertility test agriculture",
+            "notes": "Toprak yaşayan bir ekosistemdir ve sıcaklık artışı bu sistemin metabolizmasını bozuyor. Karbon dengesinin bozulması, tarımsal verimliliği düşüren gizli bir süreçtir. Şimdi bitkilerin bu değişimlere metabolik tepkilerini inceleyelim."
+          },
+          {
+            "title": "Bitki Besleme ve Metabolik Tepkiler",
+            "layout": "highlight",
+            "bullets": [],
+            "columns": [],
+            "highlight": "Atmosferik CO2 artışı fotosentezi tetiklese de, bitkisel ürünlerin besin değerinde niteliksel kayıplara yol açmaktadır.",
+            "image_query": "greenhouse plant experiment",
+            "notes": "CO2 gübreleme etkisi bir yere kadar verimi artırsa da, bitkinin mineral içeriği seyrelmektedir. Bu durum gıda kalitesi açısından ciddi bir risk oluşturuyor. Bu zorlukları aşmak için genetik çözümlere odaklanmalıyız."
+          },
+          {
+            "title": "Adaptasyon ve Islah Stratejileri",
+            "layout": "cards",
+            "bullets": [
+              "Isı stresine toleranslı genotiplerin tespiti, geleceğin tarımında verimlilik kaybını minimize edecektir.",
+              "Kuraklığa dayanıklı çeşit geliştirme çalışmaları, su tasarrufu sağlayan en temel biyoteknolojik çözümdür.",
+              "Geleneksel ıslah yöntemleri ile gen düzenleme teknolojilerinin entegrasyonu süreci oldukça hızlandırmaktadır."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "laboratory plant breeding research",
+            "notes": "Islah çalışmaları, iklim dirençli tarımın temel taşıdır. Sadece verim değil, stres yönetimi odaklı genotipler seçmeliyiz. Bu genetik potansiyeli sahada verimli kullanmak için teknolojiye ihtiyacımız var."
+          },
+          {
+            "title": "Hassas Tarım Teknolojileriyle Müdahale",
+            "layout": "image",
+            "bullets": [
+              "Uzaktan algılama sistemleri, bitkilerin su stresini henüz gözle görülmeden tespit ederek erken müdahale imkanı sunar.",
+              "Akıllı sulama otomasyonları, değişken oranlı su dağıtımı ile kaynak kullanım verimliliğini maksimuma çıkarmaktadır.",
+              "Veri analitiği, iklimsel risk modelleri oluşturarak üreticilerin karar alma mekanizmalarını güçlendiren stratejik bilgiler üretir."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "drone flying over farm",
+            "notes": "Teknoloji, iklim değişikliğinin belirsizliklerini yönetmemizi sağlar. Hassas tarım, kaynakları en verimli şekilde kullanmanın tek yoludur. Geleceğin ziraat mühendisleri olarak bu araçları etkin kullanmalısınız."
+          }
+        ],
+        "takeaways": [
+          "İklim değişikliği ürün fenolojisini ve verim kapasitesini doğrudan kısıtlamaktadır.",
+          "Toprak ve su yönetimi, iklim direncini artırmada en kritik faktörlerdir.",
+          "Hassas tarım ve ıslah teknolojileri gelecekteki gıda güvenliğinin anahtarıdır."
+        ]
+      },
+      "photos_found": 0,
+      "photo_places": 0,
+      "timings": {
+        "plan": 2.26,
+        "content": 5.97,
+        "pptx": 0.09
+      },
+      "seconds": 8.32,
+      "models_used": [
+        "gemini-3.1-flash-lite"
+      ],
+      "input_tokens": 1666,
+      "output_tokens": 2265,
+      "cost_usd": 0.003814
+    },
+    {
+      "topic": "Siber güvenliğe giriş",
+      "audience": "Lise öğrencileri",
+      "tone": "Eğitici",
+      "slide_count": 5,
+      "success": true,
+      "checks": {
+        "Slayt sayısı istenenle aynı": true,
+        "Madde sayıları düzene uygun": true,
+        "Maddelerin %90'ı en fazla 16 kelime": true,
+        "Slayt başlıkları en fazla 9 kelime": true,
+        "Seçilen düzenler uygulanabilir": true,
+        "En fazla 1 vurgu slaytı": true,
+        "Art arda aynı düzen yok": true,
+        "Notlar en az 2 cümle ve 25 kelime": true,
+        "Tam 3 önemli çıkarım": true,
+        "İçerik Türkçe": true
+      },
+      "quality": 1.0,
+      "title": "Dijital Dünyada Kendi Kaleni Koru",
+      "layouts": [
+        "image",
+        "cards",
+        "comparison",
+        "image",
+        "highlight"
+      ],
+      "presentation": {
+        "title": "Dijital Dünyada Kendi Kaleni Koru",
+        "subtitle": "Siber güvenlik temel kavramlarını öğrenerek internetteki kişisel verilerini güvence altına al.",
+        "image_query": "hacker typing laptop keyboard",
+        "slides": [
+          {
+            "title": "Siber Güvenlik Neden Hayatidir?",
+            "layout": "image",
+            "bullets": [
+              "Dijital ayak iziniz, gelecekteki iş başvurularınızda veya okul kayıtlarınızda incelenen kalıcı bir geçmiş oluşturur.",
+              "Kişisel verilerinizin çalınması, kimlik hırsızlığına yol açarak banka hesaplarınızın veya sosyal medya kimliklerinizin ele geçirilmesine neden olabilir.",
+              "Siber saldırılar sadece bilgisayarları değil, akıllı telefonlar üzerinden tüm özel yaşamınızı ve konum bilgilerinizi hedef alabilir."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "person using smartphone cafe",
+            "notes": "İnternet dünyasında attığınız her adım bir iz bırakır, tıpkı kumsalda yürümek gibi. Bu izlerin kötü niyetli kişiler tarafından takip edilmesini engellemek, aslında kendi evinizin kapısını kilitlemek kadar doğaldır. Şimdi, bu kapıyı nasıl daha sağlam kilitleriz, gelin birlikte bakalım."
+          },
+          {
+            "title": "Parola Yerine Güçlü Parola Cümleleri",
+            "layout": "cards",
+            "bullets": [
+              "En az 12 karakter kullanın ve büyük küçük harf ile sayıları karıştırın.",
+              "Özel isim veya doğum tarihi gibi kolay tahmin edilebilir kişisel bilgileri asla kullanmayın.",
+              "Parola cümlesi yöntemiyle, akılda kalıcı ama tahmin edilmesi zor uzun ifadeler oluşturun.",
+              "Her platform için benzersiz şifreler belirleyerek bir hesabın çalınması durumunda diğerlerini koruma altına alın."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "keyboard with lock icon",
+            "notes": "Basit bir '123456' veya 'şifre123' gibi parolalar saniyeler içinde kırılabilir. Bunun yerine, 'MaviBisikletimleHergünOkulaGiderim2024' gibi bir cümle kurmak, karmaşık şifreleri hatırlamanızı kolaylaştırır. Unutmayın, en güçlü şifre sizin bile unutacağınız kadar karmaşık olandır."
+          },
+          {
+            "title": "Oltalama Saldırılarını Nasıl Tanırsın?",
+            "layout": "comparison",
+            "bullets": [],
+            "columns": [
+              {
+                "title": "Güvenilir Mesaj",
+                "bullets": [
+                  "Resmi kurumun gerçek web adresi",
+                  "Yazım hatası içermeyen kurumsal dil",
+                  "Beklenen ve mantıklı bir bildirim"
+                ]
+              },
+              {
+                "title": "Oltalama Girişimi",
+                "bullets": [
+                  "Hatalı veya sahte URL bağlantısı",
+                  "Acele ettiren korkutucu ifadeler",
+                  "Tanımadığınız kişilerden gelen dosya"
+                ]
+              }
+            ],
+            "highlight": "",
+            "image_query": "phishing email laptop screen",
+            "notes": "Oltalama saldırıları, size bir ödül kazanmışsınız gibi davranarak tıklamanızı bekleyen dijital tuzaklardır. Bir mesajda aciliyet duygusu yaratılıyorsa veya 'şimdi tıkla' gibi zorlayıcı ifadeler varsa hemen durup düşünmelisiniz. Bağlantıların üzerine tıklamadan önce gerçek adresini kontrol etmek sizi büyük bir dertten kurtarır."
+          },
+          {
+            "title": "İki Faktörlü Doğrulama Nedir?",
+            "layout": "image",
+            "bullets": [
+              "Sadece şifre bilmek, hesabınızın güvenliğini sağlamak için tek başına maalesef yeterli değildir.",
+              "İkinci bir doğrulama katmanı, şifreniz çalınsa bile saldırganın hesabınıza girmesini imkansız hale getirir.",
+              "Telefonunuza gelen SMS kodu veya doğrulama uygulamaları, hesabınızın size ait olduğunu kesinleştirir."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "two factor authentication mobile",
+            "notes": "İki faktörlü doğrulama, kapınıza hem kilit takmak hem de bir güvenlik görevlisi dikmek gibidir. Şifreniz ele geçirilse bile, saldırgan telefonunuza erişemediği için hesabınıza giremez. Bu basit adımı aktif etmek, dijital güvenliğinizi yüzde doksan oranında artıracaktır."
+          },
+          {
+            "title": "Dijital Güvenlik Bir Yaşam Tarzıdır",
+            "layout": "highlight",
+            "bullets": [],
+            "columns": [],
+            "highlight": "Güvenliğiniz, sadece bir kez değil, her gün güncellenen bilinçli dijital alışkanlıklarla korunur.",
+            "image_query": "cyber security concept shield",
+            "notes": "Siber güvenlik bir varış noktası değil, sürekli devam eden bir yolculuktur. Yazılımlarınızı güncel tutmak ve şüpheci yaklaşmak, dijital dünyada özgürce hareket etmenizi sağlar. Bugün öğrendiğiniz bu temel kuralları hayatınızın bir parçası haline getirerek kendinizi korumaya başlayın."
+          }
+        ],
+        "takeaways": [
+          "Güçlü parola cümleleri kullanarak hesaplarınızı saldırılara karşı koruyun.",
+          "Şüpheli bağlantıları kontrol etmeden tıklamaktan her zaman kaçının.",
+          "İki faktörlü doğrulamayı tüm hesaplarınızda mutlaka aktif hale getirin."
+        ]
+      },
+      "photos_found": 0,
+      "photo_places": 0,
+      "timings": {
+        "plan": 2.45,
+        "content": 5.89,
+        "pptx": 0.08
+      },
+      "seconds": 8.42,
+      "models_used": [
+        "gemini-3.1-flash-lite"
+      ],
+      "input_tokens": 1475,
+      "output_tokens": 1660,
+      "cost_usd": 0.002859
+    },
+    {
+      "topic": "Uzaktan çalışmanın verimliliğe etkisi",
+      "audience": "Şirket yöneticileri",
+      "tone": "Profesyonel",
+      "slide_count": 6,
+      "success": true,
+      "checks": {
+        "Slayt sayısı istenenle aynı": true,
+        "Madde sayıları düzene uygun": true,
+        "Maddelerin %90'ı en fazla 16 kelime": true,
+        "Slayt başlıkları en fazla 9 kelime": true,
+        "Seçilen düzenler uygulanabilir": true,
+        "En fazla 1 vurgu slaytı": true,
+        "Art arda aynı düzen yok": true,
+        "Notlar en az 2 cümle ve 25 kelime": true,
+        "Tam 3 önemli çıkarım": true,
+        "İçerik Türkçe": true
+      },
+      "quality": 1.0,
+      "title": "Uzaktan Çalışma ve Verimlilik Dengesi",
+      "layouts": [
+        "image",
+        "cards",
+        "comparison",
+        "image",
+        "cards",
+        "highlight"
+      ],
+      "presentation": {
+        "title": "Uzaktan Çalışma ve Verimlilik Dengesi",
+        "subtitle": "Esnek çalışma modellerinin şirket performansına olan somut etkilerini analiz ediyoruz.",
+        "image_query": "modern home office desk",
+        "slides": [
+          {
+            "title": "Zaman ve Mekan Sınırları Kalkıyor",
+            "layout": "image",
+            "bullets": [
+              "İşe gidiş geliş sürelerinin ortadan kalkmasıyla çalışanların günlük verimli çalışma saatleri doğrudan artıyor.",
+              "Ofis kira ve operasyonel giderlerinde sağlanan tasarruf, şirketin Ar-Ge yatırımlarına kaynak aktarmasını kolaylaştırıyor.",
+              "Coğrafi kısıtlamaların kalkması, şirketin dünyanın her yerinden en yetenekli uzmanları bünyesine katmasına olanak tanıyor."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "empty office desk with laptop",
+            "notes": "Uzaktan çalışma artık bir yan hak değil, stratejik bir verimlilik aracıdır. Zaman kaybını azaltarak çalışanların enerjisini asıl işlerine odaklıyoruz. Bu durum hem maliyetleri düşürüyor hem de yetenek havuzumuzu genişletiyor. Şimdi, bireysel verimliliğin ofis dışı ortamda nasıl değiştiğine bakalım."
+          },
+          {
+            "title": "Odaklanma Süresi ve Derin Çalışma",
+            "layout": "cards",
+            "bullets": [
+              "Ofis içi gürültü ve ani kesintilerin azalması derin çalışma süresini uzatıyor.",
+              "Kişiselleştirilmiş çalışma alanları, çalışanların motivasyonunu ve odaklanma kapasitesini doğrudan destekliyor.",
+              "Asenkron iletişim, çalışanların kesintisiz şekilde karmaşık problemleri çözmesine imkan tanıyor."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "person working focused on laptop",
+            "notes": "Ofis ortamındaki sürekli kesintiler, zihinsel odaklanmayı zorlaştıran en büyük engellerden biridir. Uzaktan çalışma, çalışanlara kendi ritimlerini belirleme özgürlüğü sunuyor. Bu özgürlük, daha kaliteli ve derin işlerin ortaya çıkmasını sağlıyor. Peki, bu süreci nasıl takip ediyoruz?"
+          },
+          {
+            "title": "Dijital Araçlarla Verimlilik Takibi",
+            "layout": "comparison",
+            "bullets": [],
+            "columns": [
+              {
+                "title": "Geleneksel Ofis Yönetimi",
+                "bullets": [
+                  "Gözlem ve fiziksel varlık takibi",
+                  "Sürekli toplantılarla ilerleme kontrolü",
+                  "Manuel raporlama süreçleri"
+                ]
+              },
+              {
+                "title": "Dijital Çıktı Yönetimi",
+                "bullets": [
+                  "Proje bazlı şeffaf görev takibi",
+                  "Dijital panolarla anlık ilerleme görünürlüğü",
+                  "Otomatik metriklerle performans analizi"
+                ]
+              }
+            ],
+            "highlight": "",
+            "image_query": "dashboard on tablet screen",
+            "notes": "Yöneticiler olarak en büyük endişemiz çalışanların ne yaptığıdır. Geleneksel yöntemler yerine dijital araçlar kullandığımızda, süreçler şeffaflaşır. Artık saat doldurmaya değil, tamamlanan işin kalitesine odaklanabiliyoruz. Ancak bu dijitalleşme süreci beraberinde yeni iletişim zorluklarını da getiriyor."
+          },
+          {
+            "title": "İletişim ve İşbirliği Zorlukları",
+            "layout": "image",
+            "bullets": [
+              "Bilgi silolarının oluşmasını engellemek için dokümantasyon kültürünü kurum genelinde yaygınlaştırmamız gerekiyor.",
+              "Anlık mesajlaşma yerine proje yönetim araçlarını kullanmak, bilgi kirliliğini ve kopukluğu minimize ediyor.",
+              "Düzenli ancak kısa süreli video toplantıları, ekip içindeki aidiyet duygusunu canlı tutmak için kritik."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "team video conference meeting",
+            "notes": "Fiziksel ortamda kahve molasında çözülen birçok konu, uzaktan çalışmada unutulabiliyor. Bunu aşmanın yolu ise iletişimi disipline etmektir. Yazılı kültür, bilginin herkes için erişilebilir kalmasını sağlar. İletişimdeki bu dengeyi kurduğumuzda, hibrit modele geçiş için zeminimiz hazır olur."
+          },
+          {
+            "title": "Hibrit Model: Orta Yol Çözümü",
+            "layout": "cards",
+            "bullets": [
+              "Ofis günleri, yaratıcı beyin fırtınası ve stratejik ekip planlamaları için kullanılıyor.",
+              "Evden çalışma günleri, bireysel odaklanma gerektiren derin işlerin tamamlanmasına ayrılıyor.",
+              "Esnek yapı, çalışan memnuniyetini artırırken şirket kültürünün korunmasını sağlıyor."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "modern office lounge area",
+            "notes": "Hibrit model, her iki dünyanın avantajlarını bir araya getiren bir sentezdir. Ofisi bir zorunluluk değil, bir işbirliği merkezi olarak yeniden tanımlıyoruz. Bu esneklik, çalışanlarımıza güven duyduğumuzun da bir göstergesidir. Şimdi, bu dönüşümün temelindeki felsefeye bakalım."
+          },
+          {
+            "title": "Geleceğin Çalışma Kültürünü İnşa Etmek",
+            "layout": "highlight",
+            "bullets": [],
+            "columns": [],
+            "highlight": "Uzaktan çalışma başarısı, denetim odaklı yönetimden güvene dayalı sonuç odaklı yönetime geçişte saklıdır.",
+            "image_query": "business partners shaking hands",
+            "notes": "Sonuç olarak, teknoloji sadece bir araçtır; asıl değişim zihniyettedir. Çalışanlarınıza güvendiğinizde ve onlara net hedefler verdiğinizde, verimlilik kendiliğinden artacaktır. Geleceğin başarılı şirketleri, bu güven kültürünü dijital yetkinliklerle harmanlayanlar olacaktır. Dinlediğiniz için teşekkür ederim."
+          }
+        ],
+        "takeaways": [
+          "Uzaktan çalışma, operasyonel maliyetleri azaltıp yetenek havuzunu genişletir.",
+          "Dijital araçlar, şeffaf ve çıktı odaklı yönetim anlayışını destekler.",
+          "Başarının anahtarı, denetim yerine güvene dayalı esnek kültürdür."
+        ]
+      },
+      "photos_found": 0,
+      "photo_places": 0,
+      "timings": {
+        "plan": 1.76,
+        "content": 4.77,
+        "pptx": 0.04
+      },
+      "seconds": 6.57,
+      "models_used": [
+        "gemini-3.1-flash-lite"
+      ],
+      "input_tokens": 1531,
+      "output_tokens": 1901,
+      "cost_usd": 0.003234
+    },
+    {
+      "topic": "Osmanlı Devleti'nin kuruluş dönemi",
+      "audience": "Lise öğrencileri",
+      "tone": "Eğitici",
+      "slide_count": 6,
+      "success": true,
+      "checks": {
+        "Slayt sayısı istenenle aynı": true,
+        "Madde sayıları düzene uygun": true,
+        "Maddelerin %90'ı en fazla 16 kelime": true,
+        "Slayt başlıkları en fazla 9 kelime": true,
+        "Seçilen düzenler uygulanabilir": true,
+        "En fazla 1 vurgu slaytı": true,
+        "Art arda aynı düzen yok": true,
+        "Notlar en az 2 cümle ve 25 kelime": true,
+        "Tam 3 önemli çıkarım": true,
+        "İçerik Türkçe": true
+      },
+      "quality": 1.0,
+      "title": "Uç Beyliğinden Dünya İmparatorluğuna",
+      "layouts": [
+        "image",
+        "cards",
+        "comparison",
+        "image",
+        "highlight",
+        "cards"
+      ],
+      "presentation": {
+        "title": "Uç Beyliğinden Dünya İmparatorluğuna",
+        "subtitle": "Osmanlı Devleti'nin küçük bir beylikten nasıl küresel bir güce dönüştüğünü keşfedin.",
+        "image_query": "medieval ottoman architecture ruins",
+        "slides": [
+          {
+            "title": "Coğrafi Avantaj ve Stratejik Konum",
+            "layout": "image",
+            "bullets": [
+              "Söğüt ve Domaniç bölgesi, Bizans sınırında olmasıyla gaziler için cazip bir merkezdi.",
+              "Anadolu'daki diğer beyliklerden uzak olması, Osmanlı'nın büyüme alanını genişletti.",
+              "İpek Yolu'nun geçiş güzergahlarına yakınlık, devletin ekonomik olarak güçlenmesine zemin hazırladı.",
+              "Bizans'ın iç karışıklık yaşaması, bölgede yeni devletin hızla toprak kazanmasını kolaylaştırdı."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "balkan mountain landscape",
+            "notes": "Osmanlı'nın başarısını sadece askeri güce bağlamak büyük bir hata olur. Coğrafya, bir devletin kaderini belirleyen en önemli unsurdur. Bizans sınırında olmak, onlara hem ganimet hem de fetih hedefi sundu. Şimdi bu stratejik konumu nasıl bir vizyonla birleştirdiklerine bakalım."
+          },
+          {
+            "title": "Osman Bey ve Gaza Anlayışı",
+            "layout": "cards",
+            "bullets": [
+              "Gaza ruhu, Türkmen boylarını ortak bir hedef etrafında topladı.",
+              "Fetihler sadece toprak kazanımı değil, inanç yayma amacı taşıyordu.",
+              "Osman Bey, beylerin desteğini alarak devletin kurumsal temelini güçlendirdi.",
+              "Adaletli yönetim anlayışı, fethedilen bölgedeki halkın güvenini kazandırdı."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "old turkish sword",
+            "notes": "Gaza anlayışı, Osmanlı'yı sıradan bir aşiretten devlete dönüştüren harçtır. İnsanlar sadece toprak için değil, bir ideal için savaştıklarında daha dirençli olurlar. Osman Bey'in bu vizyoner yaklaşımı, beyliklerin birleşmesini sağladı. Peki, bu topraklar nasıl yönetildi?"
+          },
+          {
+            "title": "İskan ve İstimalet Politikası",
+            "layout": "comparison",
+            "bullets": [],
+            "columns": [
+              {
+                "title": "İskan Politikası",
+                "bullets": [
+                  "Göçebe Türkmenler fethedilen yerlere yerleştirildi.",
+                  "Bölgenin Türk ve Müslüman nüfusu artırıldı.",
+                  "Tarım arazileri verimli şekilde işlenmeye başlandı."
+                ]
+              },
+              {
+                "title": "İstimalet Politikası",
+                "bullets": [
+                  "Yerel halkın inançlarına ve geleneklerine saygı duyuldu.",
+                  "Adil vergi düzeniyle halkın devlete bağlılığı sağlandı.",
+                  "Hoşgörü ile toplumsal huzur ve istikrar korundu."
+                ]
+              }
+            ],
+            "highlight": "",
+            "image_query": "medieval village market",
+            "notes": "Fethin kalıcı olması için sadece kılıç yeterli değildir; gönülleri fethetmek gerekir. İskan politikasıyla bölgeyi kalıcı hale getirirken, istimalet ile halkı mutlu ettiler. Bu denge, Osmanlı'nın yüzyıllarca hüküm sürmesinin anahtarıdır. Şimdi bu düzeni korumak için orduyu nasıl yapılandırdıklarına bakalım."
+          },
+          {
+            "title": "Ordu ve Teşkilatlanma Adımları",
+            "layout": "image",
+            "bullets": [
+              "Yaya ve Müsellem ordusunun kurulmasıyla düzenli askeri sisteme geçiş yapıldı.",
+              "Merkezi otoritenin güçlendirilmesi, devletin farklı bölgelerde aynı kurallarla yönetilmesini sağladı.",
+              "Divan teşkilatı ile devlet kararları istişare edilerek profesyonelce alınmaya başlandı.",
+              "Tımar sistemi, hem ordunun ihtiyaçlarını karşıladı hem de üretimi teşvik etti."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "ancient castle fortifications",
+            "notes": "Düzensiz birliklerle büyük fetihler yapılamazdı. Düzenli orduya geçiş, Osmanlı'nın profesyonel bir devlete dönüşümünün ilanıdır. Devletin kalıcı olması için vergi sisteminden orduya kadar her şeyin kurallara bağlanması gerekiyordu. Bu disiplin, onları Balkanlar'a taşıdı."
+          },
+          {
+            "title": "Balkanlar'da Hızlı İlerleme",
+            "layout": "highlight",
+            "bullets": [],
+            "columns": [],
+            "highlight": "Çimpe Kalesi'nin alınması, Osmanlı'nın Avrupa topraklarında kalıcı bir üs kurmasını sağlamıştır.",
+            "image_query": "ruined stone fortress",
+            "notes": "Çimpe Kalesi, küçük bir adım gibi görünse de aslında bir imparatorluğun Avrupa kapılarını açan anahtardır. Rumeli'ye geçiş, Osmanlı'nın sadece Anadolu'da kalan bir beylik olmadığını gösterdi. Bu stratejik hamle, sonraki yüzyıllarda Viyana'ya kadar uzanan yolun başlangıcıydı."
+          },
+          {
+            "title": "Kuruluşun Mirası ve Gelecek",
+            "layout": "cards",
+            "bullets": [
+              "Disiplinli yönetim yapısı, imparatorluğun uzun yıllar yıkılmadan kalmasını sağladı.",
+              "Kuruluş dönemindeki liyakat esaslı sistem, devlet kademelerini güçlendirdi.",
+              "Hoşgörü kültürü, farklı milletlerin bir arada yaşama pratiğini geliştirdi.",
+              "Stratejik planlama becerisi, devletin her yeni dönemde kendini yenilemesine yardımcı oldu."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "old historical manuscript",
+            "notes": "Bugün Osmanlı'yı incelediğimizde gördüğümüz şey, bir beyliğin nasıl bir dünya gücüne dönüştüğünün dersidir. Kuruluş dönemindeki disiplin, liyakat ve hoşgörü, imparatorluğun temel taşlarıdır. Bu miras, tarih boyunca birçok devlete örnek olmaya devam etmiştir."
+          }
+        ],
+        "takeaways": [
+          "Osmanlı, stratejik konumu ve gaza anlayışıyla hızla büyümüştür.",
+          "İskan ve istimalet politikaları fetihlerin kalıcı olmasını sağlamıştır.",
+          "Düzenli ordu ve merkeziyetçi yönetim devletin temellerini güçlendirmiştir."
+        ]
+      },
+      "photos_found": 0,
+      "photo_places": 0,
+      "timings": {
+        "plan": 15.85,
+        "content": 6.96,
+        "pptx": 0.09
+      },
+      "seconds": 22.9,
+      "models_used": [
+        "gemini-3.1-flash-lite"
+      ],
+      "input_tokens": 1527,
+      "output_tokens": 1973,
+      "cost_usd": 0.003341
+    }
+  ]
+}

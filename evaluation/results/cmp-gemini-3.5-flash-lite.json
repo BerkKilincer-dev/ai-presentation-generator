@@ -1,0 +1,229 @@
+{
+  "name": "cmp-gemini-3.5-flash-lite",
+  "model": "gemini-3.5-flash-lite",
+  "fallbacks": false,
+  "images": false,
+  "date": "2026-11-05T21:19:59",
+  "cases": [
+    {
+      "topic": "Yapay zekânın eğitimdeki rolü",
+      "audience": "Öğretmenler",
+      "tone": "Eğitici",
+      "slide_count": 6,
+      "success": false,
+      "error": "Tüm modeller şu an çok yoğun, lütfen biraz sonra tekrar deneyin. (gemini-3.5-flash-lite: 503 UNAVAILABLE)",
+      "timings": {},
+      "seconds": 0,
+      "models_used": [],
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cost_usd": 0
+    },
+    {
+      "topic": "Yenilenebilir enerji kaynakları",
+      "audience": "Genel izleyici",
+      "tone": "Profesyonel",
+      "slide_count": 6,
+      "success": true,
+      "checks": {
+        "Slayt sayısı istenenle aynı": true,
+        "Madde sayıları düzene uygun": true,
+        "Maddelerin %90'ı en fazla 16 kelime": true,
+        "Slayt başlıkları en fazla 9 kelime": true,
+        "Seçilen düzenler uygulanabilir": true,
+        "En fazla 1 vurgu slaytı": true,
+        "Art arda aynı düzen yok": true,
+        "Notlar en az 2 cümle ve 25 kelime": true,
+        "Tam 3 önemli çıkarım": true,
+        "İçerik Türkçe": true
+      },
+      "quality": 1.0,
+      "title": "Geleceğin Enerjisi: Yenilenebilir Kaynaklar",
+      "layouts": [
+        "image",
+        "cards",
+        "comparison",
+        "image",
+        "highlight",
+        "image"
+      ],
+      "presentation": {
+        "title": "Geleceğin Enerjisi: Yenilenebilir Kaynaklar",
+        "subtitle": "Fosil yakıtlardan temiz enerjiye geçişin ekonomik ve ekolojik dinamikleri.",
+        "image_query": "solar panels field",
+        "slides": [
+          {
+            "title": "Fosil Yakıtların Azalan Ekonomik Ömrü",
+            "layout": "image",
+            "bullets": [
+              "Kömür ve petrol rezervlerinin azalması, hammadde maliyetlerinde kalıcı artışlara neden oluyor.",
+              "Artan karbon vergileri, fosil yakıta dayalı üretim yapan şirketlerin kârlılığını baskılıyor.",
+              "Finans kuruluşları, yüksek emisyonlu projelere kredi sağlama konusunda artık çok daha temkinli."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "coal power plant",
+            "notes": "Geleneksel enerji kaynaklarının maliyet avantajı hızla ortadan kalkıyor. Artan karbon vergileri ve azalan rezervler, şirketleri alternatif arayışına itiyor. Finans sektörünün de bu alandan desteğini çekmesi dönüşümü zorunlu kılıyor. Şimdi, bu dönüşümün en önemli ayağı olan güneş teknolojilerine bakalım. Sizi güneş enerjisindeki verimlilik devrimine davet ediyorum."
+          },
+          {
+            "title": "Güneş Enerjisinde Verimlilik Devrimi",
+            "layout": "cards",
+            "bullets": [
+              "Fotovoltaik hücre maliyetleri son on yılda ciddi oranda geriledi.",
+              "Yeni nesil paneller düşük ışık koşullarında dahi elektrik üretebiliyor.",
+              "Evsel ve endüstriyel çatı GES projeleri, amortisman süresini kısalttı."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "solar panels roof",
+            "notes": "Güneş enerjisi artık sadece çevreci bir alternatif değil, aynı zamanda rasyonel bir yatırım aracı haline geldi. Fotovoltaik hücre teknolojisindeki maliyet düşüşleri, geri dönüş sürelerini birkaç yıla kadar indirdi. Üstelik verimlilik oranlarının artması endüstriyel tesislerin kendi enerjisini üretmesini kolaylaştırıyor. Sırada coğrafi potansiyelimizi en iyi şekilde kullanan rüzgar enerjisi var. Rüzgar türbinlerinin elektrik arzındaki payını inceleyelim."
+          },
+          {
+            "title": "Rüzgar Türbinleri ve Coğrafi Potansiyel",
+            "layout": "comparison",
+            "bullets": [],
+            "columns": [
+              {
+                "title": "Karasal Rüzgar",
+                "bullets": [
+                  "Yatırım maliyetleri deniz üstüne göre daha düşüktür.",
+                  "Kurulum süreçleri coğrafi koşullara göre hızla tamamlanır.",
+                  "Geniş arazi varlığı yüksek kapasite sağlar."
+                ]
+              },
+              {
+                "title": "Açık Deniz Rüzgar",
+                "bullets": [
+                  "Kesintisiz ve yüksek hızlı rüzgar akımı yakalar.",
+                  "Metropollerin yakınındaki enerji talebini doğrudan karşılar.",
+                  "Türbin boyutları karasal modellere göre çok daha büyüktür."
+                ]
+              }
+            ],
+            "highlight": "",
+            "image_query": "offshore wind turbines",
+            "notes": "Rüzgar enerjisi, karasal ve açık deniz projeleriyle portföyü çeşitlendiriyor. Karasal santraller hızlı kurulum avantajı sağlarken, deniz üzerindeki dev türbinler çok daha yüksek kapasite sunuyor. Ülkelerin kıyı şeritleri bu alanda devasa bir ekonomik potansiyel barındırıyor. Ancak bu üretimin sürekliliği için depolama teknolojileri şart. Enerji depolamada kritik çözümlere odaklanalım."
+          },
+          {
+            "title": "Enerji Depolamada Kritik Çözümler",
+            "layout": "image",
+            "bullets": [
+              "Lityum-iyon batarya sistemleri, şebekedeki anlık dalgalanmaları başarılı şekilde dengeliyor.",
+              "Yeşil hidrojen depolaması, ağır sanayi ve ulaşımda fosil yakıtın yerini alıyor.",
+              "Batarya depolama maliyetlerindeki düşüş, kesintili üretimin dezavantajını ortadan kaldırıyor."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "battery storage facility",
+            "notes": "Yenilenebilir kaynakların en büyük dezavantajı olan kesintililik sorunu depolama sistemleriyle aşılıyor. Lityum-iyon bataryalar şebeke güvenliğini sağlarken, hidrojen teknolojileri ağır sanayinin elektrifikasyonuna imkan tanıyor. Bu teknolojiler arz güvenliğini garanti altına alıyor. Üretilen enerjinin doğru yönetilmesi ise akıllı şebekelerle mümkün. Şimdi akıllı şebekelerin optimizasyon gücüne geçelim."
+          },
+          {
+            "title": "Akıllı Şebekeler ve Tüketim Optimizasyonu",
+            "layout": "highlight",
+            "bullets": [],
+            "columns": [],
+            "highlight": "IoT tabanlı akıllı şebekeler, enerji dağıtım kayıplarını minimize ederek verimliliği en üst düzeye çıkarır.",
+            "image_query": "smart grid control room",
+            "notes": "Enerjiyi üretmek kadar onu kayıpsız iletmek ve tüketimi optimize etmek de kritik önem taşıyor. Yapay zeka ve nesnelerin interneti tabanlı akıllı şebekeler, talep tahminlemesi yaparak kayıpları sıfıra yakın bir seviyeye indiriyor. Bu sistemler enerji maliyetlerini optimize ederek işletmelere rekabet avantajı kazandırıyor. Bütün bu adımlar bizi nihai hedefe, yani sıfır karbon ekonomisine taşıyor. Son olarak sıfır karbon yol haritasına bakalım."
+          },
+          {
+            "title": "Sıfır Karbon Hedefine Giden Yol Haritası",
+            "layout": "image",
+            "bullets": [
+              "Paris İklim Anlaşması ve ulusal düzenlemeler, sanayi yatırımlarını yeşil enerjiye yönlendiriyor.",
+              "Karbon sınırlandırma mekanizmaları, ihracatçı şirketlerin yeşil dönüşümünü zorunlu kılıyor.",
+              "Sürdürülebilirlik kriterleri, şirketlerin küresel pazarlardaki rekabet gücünü doğrudan belirliyor."
+            ],
+            "columns": [],
+            "highlight": "",
+            "image_query": "green city skyline",
+            "notes": "Artık sıfır karbon hedefi bir tercih değil, küresel ticaretin kurallarını belirleyen resmi bir zorunluluktur. Ulusal düzenlemeler ve uluslararası anlaşmalar, sanayi yatırımlarını bu eksende yeniden şekillendiriyor. Bu dönüşüme ayak uyduran şirketler geleceğin pazar liderleri olacak. Değerli vaktiniz için teşekkür eder, sorularınızı memnuniyetle yanıtlarım."
+          }
+        ],
+        "takeaways": [
+          "Fosil yakıtların ekonomik maliyeti artıyor.",
+          "Depolama teknolojileri şebeke kararlılığını güvenceye alıyor.",
+          "Sıfır karbon hedefi küresel rekabet için zorunluluktur."
+        ]
+      },
+      "photos_found": 0,
+      "photo_places": 0,
+      "timings": {
+        "plan": 2.49,
+        "content": 12.18,
+        "pptx": 0.1
+      },
+      "seconds": 14.77,
+      "models_used": [
+        "gemini-3.5-flash-lite"
+      ],
+      "input_tokens": 1503,
+      "output_tokens": 2056,
+      "cost_usd": 0.005591
+    },
+    {
+      "topic": "İklim değişikliğinin tarıma etkileri",
+      "audience": "Ziraat fakültesi öğrencileri",
+      "tone": "Akademik",
+      "slide_count": 7,
+      "success": false,
+      "error": "Tüm modeller şu an çok yoğun, lütfen biraz sonra tekrar deneyin. (gemini-3.5-flash-lite: 503 UNAVAILABLE)",
+      "timings": {
+        "plan": 3.47
+      },
+      "seconds": 3.47,
+      "models_used": [
+        "gemini-3.5-flash-lite"
+      ],
+      "input_tokens": 409,
+      "output_tokens": 471,
+      "cost_usd": 0.0013
+    },
+    {
+      "topic": "Siber güvenliğe giriş",
+      "audience": "Lise öğrencileri",
+      "tone": "Eğitici",
+      "slide_count": 5,
+      "success": false,
+      "error": "Tüm modeller şu an çok yoğun, lütfen biraz sonra tekrar deneyin. (gemini-3.5-flash-lite: 503 UNAVAILABLE)",
+      "timings": {
+        "plan": 19.64
+      },
+      "seconds": 19.64,
+      "models_used": [
+        "gemini-3.5-flash-lite"
+      ],
+      "input_tokens": 396,
+      "output_tokens": 314,
+      "cost_usd": 0.000904
+    },
+    {
+      "topic": "Uzaktan çalışmanın verimliliğe etkisi",
+      "audience": "Şirket yöneticileri",
+      "tone": "Profesyonel",
+      "slide_count": 6,
+      "success": false,
+      "error": "Tüm modeller şu an çok yoğun, lütfen biraz sonra tekrar deneyin. (gemini-3.5-flash-lite: 503 UNAVAILABLE)",
+      "timings": {},
+      "seconds": 0,
+      "models_used": [],
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cost_usd": 0
+    },
+    {
+      "topic": "Osmanlı Devleti'nin kuruluş dönemi",
+      "audience": "Lise öğrencileri",
+      "tone": "Eğitici",
+      "slide_count": 6,
+      "success": false,
+      "error": "Tüm modeller şu an çok yoğun, lütfen biraz sonra tekrar deneyin. (gemini-3.5-flash-lite: 503 UNAVAILABLE)",
+      "timings": {},
+      "seconds": 0,
+      "models_used": [],
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cost_usd": 0
+    }
+  ]
+}
