@@ -22,7 +22,7 @@ uygulama da bunu fotoğraflı, temalı ve indirilebilir bir PowerPoint (`.pptx`)
 
 | Başarı oranı | Kalite puanı | Medyan gecikme | Sunum başına maliyet |
 |---|---|---|---|
-| **%100** (24/24) | **%99,2** | **10,9 sn** | **$0,0031** |
+| **%100** (24/24) | **%99,6** | **12,2 sn** | **$0,0031** |
 
 Ayrıntılar, model karşılaştırması ve elle inceleme bulguları [raporda](evaluation/RAPOR.md).
 
@@ -37,7 +37,9 @@ Ayrıntılar, model karşılaştırması ve elle inceleme bulguları [raporda](e
 1. **Plan:** LLM; konu, hedef kitle ve anlatım tonuna göre sunumun başlığını ve slaytların sırasını çıkarır.
 2. **İçerik:** LLM her slayt için maddeleri ve konuşmacı notunu yazar, bir **düzen** seçer,
    fotoğraf için İngilizce bir **arama sorgusu** ve sunumun **önemli çıkarımlarını** üretir.
-3. **Fotoğraflar:** Sorgular Pixabay'de aynı anda (paralel) aranır; aynı fotoğraf iki slayta konmaz.
+3. **Fotoğraflar:** Sorgular Pixabay'de aynı anda (paralel) aranır. Her sorgu için 30 aday içinden
+   etiketleri sorguyla en çok örtüşen fotoğraf seçilir; uygun aday yoksa sunumun genel konusuna
+   uyan bir fotoğraf kullanılır. Aynı fotoğraf iki slayta konmaz.
 4. **PPTX:** Slaytlar seçilen temayla çizilir; konuşmacı notları PowerPoint'in not bölümüne eklenir.
 
 Bir sunum için sadece **2 LLM çağrısı** yapılır. Tema LLM'i etkilemediği için

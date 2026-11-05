@@ -120,10 +120,18 @@ Prompt, uygulama gerçek konularla denendikçe adım adım geliştirildi:
 | Tüm slaytlar aynı görünüyor | Düzen menüsü + çeşitlilik kuralı | Bir sunumda 3-4 farklı düzen |
 | Notlar maddeleri tekrar ediyor | "Tekrar etme, bağlam ekle, geçişi hazırla" | Notlar slayta bilgi ekliyor |
 | Karşılaştırma ve vurgu slaytlarında model maddeleri boş bırakıyor | Maddeler sadece `image` ve `cards` için isteniyor | Gereksiz token üretimi azaldı, kontroller düzene göre yapılıyor |
-| Değerlendirme (v1): kart maddeleri sık sık 10 kelimeyi aşıyor, kartlardan taşıyor | Kural netleştirildi: "EN FAZLA 10 kelime; kartlar dar, uzun cümle sığmaz" | Kurala uyan sunum oranı %67 → %92 (24 örnek, v2) |
+| Fotoğraf sorguları birden fazla kavramı karıştırıyor ya da çok teknik ("healthy food plate school", "laboratory cryogenic refrigerator") | "Tek ana sahne, 2-3 kelime, nadir nesne yerine genel karşılığı" kuralı | Stok sitelerde karşılığı olan sorgular |
+| Değerlendirme (v1): kart maddeleri sık sık 10 kelimeyi aşıyor, kartlardan taşıyor | Kural netleştirildi: "EN FAZLA 10 kelime; kartlar dar, uzun cümle sığmaz" | Kurala uyan sunum oranı %67 → %100 (24 örnek, v2) |
 
 Prompt'la çözülmeyen ya da çözülmemesi gereken sorunlar kodda çözüldü:
 
+- **Alakasız fotoğraflar:** Pixabay sonuçları popülerliğe göre sıralıyor ve sorgunun tek bir
+  kelimesi eşleşse bile fotoğraf döndürüyor; ilk sonucu almak "student holding apple" için
+  elmalı turta, "creative lesson plan" için keman çalan bir kız getirdi. Artık 30 aday alınıyor,
+  etiketleri sorgu kelimeleriyle en çok örtüşen fotoğraf seçiliyor (`images.relevance`). Slaytın
+  kendi sorgusuna en az 2 kelimesi uyan fotoğraf yoksa, sunumun genel konusunun (kapak
+  sorgusunun) adaylarından biri kullanılıyor. Böylece slaytlar fotoğrafsız kalmıyor ve konulan
+  fotoğraf her zaman sunumun konusuyla ilgili oluyor. Yeni arama yapılmadığı için ek maliyet yok.
 - **Aynı fotoğraf iki slaytta:** Model aynı sorguyu iki kez yazabiliyor. Fotoğraflar sorguya
   değil yere göre eşleniyor ve kullanılan fotoğraf tekrar seçilmiyor (`images.py`).
 - **Seçilen düzen uygulanamıyor** (ör. karşılaştırmada iki sütun yok, fotoğraf bulunamadı):
@@ -166,7 +174,7 @@ sürümüyle). Kalite puanı, prompt kurallarını denetleyen 11 otomatik kontro
 | `gemini-3.8-flash` | 0/6 (429: ücretsiz kota doldu) | — | — | — | — |
 
 Seçilen model, iyileştirilmiş prompt'la 24 örneklik ana değerlendirmede **24/24 başarı,
-%99,2 kalite, medyan 10,9 sn ve sunum başına $0,0031** sonucunu verdi.
+%99,6 kalite, medyan 12,2 sn ve sunum başına $0,0031** sonucunu verdi.
 
 `gemini-2.5-flash`, aynı gün yapılan ilk ölçüm turunda (prompt'un bir önceki sürümüyle)
 6/6 başarılıydı; ortalama **31 sn** sürdü, sunum başına **$0,0154** tuttu. Çıktı token'ının

@@ -6,13 +6,14 @@
   açıldı ve istenen slayt sayısı tuttu. Yapılandırılmış çıktı (Pydantic şeması) sayesinde
   ayrıştırma hatası hiç görülmedi; sınır durumları (tek kelimelik konu, 10 slayt, İngilizce
   konu) da sorunsuz geçti. İngilizce konu verildiğinde içerik yine Türkçe üretildi.
-- **Gecikme:** Medyan süre ~11 sn. İkinci turda 3 örnekte içerik adımı 30-50 sn sürdü; bu
+- **Gecikme:** Medyan süre ~12 sn. Son turda 2 örnekte bir LLM adımı 26-51 sn sürdü; bu
   örneklerde token sayıları diğerleriyle aynı olduğu için sebep prompt değil, Gemini API
   tarafındaki anlık yavaşlık ve otomatik yeniden denemeler. Bu yüzden ortalama yerine
   medyan, kullanıcı deneyimini daha iyi temsil ediyor; p95 ise en kötü durumu gösteriyor.
 - **Maliyet:** Sunum başına ~$0,003 (yaklaşık 1.500 girdi + 1.850 çıktı token). 1.000 sunum
   ~3 dolar tutuyor. Uygulama ücretsiz katmanda çalıştığı için gerçek maliyet 0.
-- **Fotoğraflar:** İkinci turda 97 fotoğraf yerinin hepsine farklı bir fotoğraf bulundu.
+- **Fotoğraflar:** 97 fotoğraf yerinin hepsine farklı bir fotoğraf kondu (aşağıda "Fotoğrafların
+  alakası" bölümüne bakın).
 
 ### Değerlendirmenin bulduğu sorun ve düzeltmesi
 
@@ -24,7 +25,24 @@ Kontroller bunu yakalayamıyordu çünkü kelime sınırını tüm maddeler içi
    sunumun 8'i bu kontrolden kaldı.
 2. Prompt'taki kart kuralı netleştirildi ("EN FAZLA 10 kelime; kartlar dar, uzun cümle sığmaz").
 3. Kod tarafına güvenlik ağı eklendi: kart maddeleri uzunsa punto otomatik küçülüyor.
-4. Aynı 24 örnek yeniden çalıştırıldı (v2): kontrolden kalan sunum sayısı 8'den 2'ye düştü.
+4. Aynı 24 örnek yeniden çalıştırıldı (v2): kontrolden kalan sunum sayısı 8'den 0'a düştü.
+
+### Fotoğrafların alakası
+
+Kullanıcı testinde fotoğrafların bir kısmının konuyla alakasız olduğu fark edildi. Sorgular ve
+Pixabay'in döndürdüğü ilk sonuçlar incelendiğinde sorunun büyük ölçüde seçim yönteminden
+kaynaklandığı görüldü: Pixabay sonuçları popülerliğe göre sıralıyor ve sorgunun tek bir kelimesi
+eşleşse bile fotoğraf döndürüyor ("student holding apple" → elmalı turta, "creative lesson plan"
+→ keman çalan kız; aynı popüler ofis fotoğrafı 4 farklı sorguda ilk sıradaydı).
+
+- **Seçim:** İlk sonuç yerine 30 aday alınıyor; etiketleri sorgu kelimeleriyle en çok örtüşen seçiliyor.
+- **Yedek:** Slayta uyan fotoğraf yoksa sunumun genel konusunun adaylarından biri kullanılıyor;
+  slaytlar fotoğrafsız kalmıyor. Yeni arama yapılmadığı için ek maliyet yok.
+- **Prompt:** Fotoğraf sorgusu "tek ana sahne, 2-3 kelime, stok sitelerde bulunabilecek nesne" olarak sınırlandı.
+
+24 sorguluk örneklemde elle bakıldığında alakasız fotoğrafların çoğu doğru olanlarla değişti; saklanan
+24 sunumdaki 96 fotoğraf yerinin hepsi doldu. Fotoğraf alakası otomatik ölçülmedi; bu, elle yapılan
+bir incelemedir.
 
 ### Otomatik kontrollerin sınırları: elle inceleme
 

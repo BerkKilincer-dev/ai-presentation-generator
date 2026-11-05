@@ -21,10 +21,12 @@ Kurallar:
 - Tüm metinleri Türkçe yaz (sadece image_query alanları İngilizce).
 - Genel geçer, boş cümleler kurma; her madde somut bir bilgi, örnek, neden veya sonuç içersin.
 - Bilgi uydurma; emin olmadığın sayı, tarih ve isimleri kullanma.
-- image_query: stok fotoğraf sitesinde aranacak, 2-4 kelimelik, somut ve
-  fotoğraflanabilir bir sorgu (örn. "wind turbines field", "students classroom").
-  Fotoğrafta görülebilecek nesne veya sahneyi yaz; "concept", "benefits", "future"
-  gibi soyut kelimeler kullanma.
+- image_query: stok fotoğraf sitesinde aranacak, 2-3 kelimelik, somut ve
+  fotoğraflanabilir bir sorgu (örn. "wind turbines", "students classroom").
+  Tek bir ana nesne veya sahne yaz; birden fazla kavramı karıştırma ("healthy food
+  plate school" değil "healthy lunch"). Stok sitelerde nadir bulunan teknik nesneler
+  yerine genel karşılığını kullan ("cryogenic refrigerator" değil "science laboratory").
+  "concept", "benefits", "future" gibi soyut kelimeler kullanma.
 """
 
 

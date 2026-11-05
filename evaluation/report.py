@@ -180,7 +180,8 @@ def _iteration_section(before: dict, after: dict) -> list[str]:
     """Prompt iyileştirmesinden önceki ve sonraki ana çalıştırmanın karşılaştırması."""
     lines = ["## Prompt iyileştirmesi: önce ve sonra", "",
              "İlk ana değerlendirmede kart maddelerinin sık sık 10 kelime sınırını aştığı ve "
-             "kartlardan taştığı görüldü. Prompt'taki kart kuralı netleştirildi ve aynı 24 örnek "
+             "kartlardan taştığı görüldü. Prompt'taki kart kuralı netleştirildi (ayrıca fotoğraf "
+             "sorgusu kuralı sadeleştirildi, fotoğraf seçimi iyileştirildi) ve aynı 24 örnek "
              "yeniden çalıştırıldı.", "",
              "| Metrik | Önce (v1) | Sonra (v2) |", "|---|---|---|"]
     b, a = summarize(before), summarize(after)
